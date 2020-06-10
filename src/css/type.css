@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Montserrat:wght@400;500;700;800&family=Playfair+Display:ital@0;1&display=swap");
+
+* {
+  color: var(--black);
+  line-height: 150%;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 3.5em;
+  font-size: 3.1em;
   color: var(--black);
   line-height: 140%;
 }
@@ -16,10 +22,11 @@ p {
   line-height: 150%;
 }
 
-.text-link {
+.text-link__italics {
   color: var(--black);
+  cursor: pointer;
 }
 
-.text-link:hover {
+.text-link__italics:hover {
   font-style: oblique;
 }

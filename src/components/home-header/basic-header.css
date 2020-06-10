@@ -1,0 +1,16 @@
+.home-header {
+  position: absolute;
+}
+
+.home-header__title {
+  z-index: 2;
+  display: block;
+  position: fixed;
+  top: 7em;
+  right: -3.3em;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  overflow-y: hidden;
+}

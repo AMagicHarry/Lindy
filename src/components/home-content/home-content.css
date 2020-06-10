@@ -1,12 +1,40 @@
-.home-content__hero {
+.home-content {
+}
+
+.home-content > div {
   position: relative;
+}
+
+.home-content > div > * {
+  position: absolute;
+}
+
+/*--------------------- 
+Home content hero
+----------------------*/
+
+.home-content__hero {
   widows: 100vw;
   height: 160em;
+  overflow: hidden;
 }
+
+.home-content__hero__explainer {
+  display: block;
+  position: absolute;
+  top: 19em;
+  right: -2.5em;
+  width: 28em;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
 .home-content__hero__echo-img {
   position: absolute;
   display: block;
-  width: 40vw;
+  width: 45vw;
 }
 
 .echo-img__1 {
@@ -31,7 +59,7 @@
 
 .echo-img__3 {
   left: 60vw;
-  top: 70em;
+  top: 75em;
   transform: rotate(9deg);
   -webkit-transform: rotate(9deg);
   -moz-transform: rotate(9deg);
@@ -41,7 +69,7 @@
 
 .echo-img__4 {
   left: 0vw;
-  top: 90em;
+  top: 95em;
   transform: rotate(38deg);
   -webkit-transform: rotate(38deg);
   -moz-transform: rotate(38deg);
@@ -51,7 +79,7 @@
 
 .echo-img__5 {
   left: 45vw;
-  top: 105em;
+  top: 110em;
   transform: rotate(-7deg);
   -webkit-transform: rotate(-7deg);
   -moz-transform: rotate(-7deg);
@@ -59,11 +87,17 @@
   transform: rotate(-7deg);
 }
 
+/*--------------------- 
+Home content 1: J's story
+----------------------*/
+
 .home-content__1 {
-  position: relative;
+  height: 80em;
 }
 
 .home-content__1__timeline-img {
+  overflow: visible;
+
   position: absolute;
   left: -9vw;
   width: 118vw;
@@ -75,9 +109,11 @@
 }
 
 .home-content__1__bonnie-img {
+  overflow: visible;
+
   position: absolute;
   width: 40vw;
-  top: 30em;
+  top: 25em;
   left: 30vw;
   transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
@@ -87,16 +123,318 @@
 }
 
 .home-content__1__text {
-  position: absolute;
   font-family: "Playfair Display", serif;
   line-height: 150%;
   font-size: 1.3em;
   width: 30vw;
-  top: 36em;
-  right: 13vw;
+  top: 28em;
+  right: 12vw;
   transform: rotate(-32deg);
   -webkit-transform: rotate(-32deg);
   -moz-transform: rotate(-32deg);
   -o-transform: rotate(-32deg);
   transform: rotate(-32eg);
+}
+
+/*--------------------- 
+Home content 2: voice assistant snippets
+----------------------*/
+
+.home-content__2 {
+  height: 50em;
+}
+
+.home-content___2__text-1 {
+  left: 2em;
+}
+
+.home-content___2__text-1 p {
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.home-content__2__text-2 {
+  position: absolute;
+  top: 11em;
+  right: 4em;
+  transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  -o-transform: rotate(6deg);
+  transform: rotate(6deg);
+}
+
+.home-content__2__text-2 p {
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.1em;
+}
+
+/*--------------------- 
+Home content 3: Ursonate
+----------------------*/
+
+.home-content__3 {
+  height: 40em;
+}
+
+.home-content__3 > p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8em;
+}
+
+.home-content__3__video {
+  display: inline;
+  width: 35vw;
+  left: 32vw;
+  transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+.home-content__3__text-1 {
+  top: 1em;
+  left: 18vw;
+  -webkit-transform: rotate(-17deg);
+  -moz-transform: rotate(-17deg);
+  -o-transform: rotate(-17deg);
+  transform: rotate(-17deg);
+}
+
+.home-content__3__text-2 {
+  top: 0em;
+  left: 70vw;
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
+
+.home-content__3__text-3 {
+  top: 8em;
+  left: 22vw;
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  transform: rotate(8deg);
+}
+
+.home-content__3__text-4 {
+  top: 8em;
+  left: 50vw;
+}
+
+/*--------------------- 
+Home content 4: wonderful hair
+----------------------*/
+
+.home-content__4 {
+  height: 30em;
+}
+
+.home-content__4__img {
+  position: absolute;
+  width: 35vw;
+  left: 55vw;
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+/*--------------------- 
+Home content 5: audio data
+----------------------*/
+.home-content__5 {
+  height: 80em;
+}
+
+.home-content__5__img {
+  width: 100vw;
+}
+
+/*--------------------- 
+Home content 6: measuring tape
+----------------------*/
+.home-content__6 {
+  height: 40em;
+}
+
+.home-content__6__img {
+  position: absolute;
+  width: 48vw;
+  left: 12vw;
+  transform: rotate(-20deg);
+  -webkit-transform: rotate(-22deg);
+  -moz-transform: rotate(-22deg);
+  -o-transform: rotate(-22deg);
+}
+
+/*--------------------- 
+Home content 7: set alarm: arms moving
+----------------------*/
+.home-content__7 {
+  height: 33em;
+}
+
+.home-content__7__img {
+  position: absolute;
+  width: 60vw;
+  left: 43vw;
+}
+
+/*--------------------- 
+Home content 8: set alarm: arms moving
+----------------------*/
+.home-content__8 {
+  height: 60em;
+}
+
+.home-content__8__img {
+  position: absolute;
+  width: 40vw;
+  left: 5vw;
+  transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+}
+
+/*--------------------- 
+Home content 9: wearable
+----------------------*/
+.home-content__9 {
+  height: 80em;
+}
+
+.home-content__9 > p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6em;
+}
+
+.home-content__9__text-1 {
+  left: 55vw;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+
+.home-content__9__text-2 {
+  left: 40vw;
+  top: 7em;
+  transform: rotate(-47deg);
+  -webkit-transform: rotate(-47deg);
+  -moz-transform: rotate(-47deg);
+  -o-transform: rotate(-47deg);
+}
+
+.home-content__9__text-3 {
+  left: 63vw;
+  top: 7em;
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+}
+
+.home-content__9__text-4 {
+  left: 75vw;
+  top: 15em;
+}
+
+.home-content__9__text-5 {
+  left: 55vw;
+  top: 24em;
+  transform: rotate(-9deg);
+  -webkit-transform: rotate(-9deg);
+  -moz-transform: rotate(-9deg);
+  -o-transform: rotate(-9deg);
+}
+
+.home-content__9__img {
+  position: absolute;
+  width: 28vw;
+  left: 38vw;
+  top: 6em;
+  z-index: -1;
+}
+
+/*--------------------- 
+Home content 10: clay pot echo
+----------------------*/
+.home-content__10 {
+  height: 30em;
+}
+
+.home-content__10__img {
+  display: flex;
+  margin: auto;
+  width: 100vw;
+  justify-content: center;
+}
+
+.home-content__10__img > img {
+  display: flex;
+  width: 13vw;
+}
+
+/*--------------------- 
+Home content 11: clay pot echo
+----------------------*/
+.home-content__11 {
+  height: 80em;
+}
+
+.home-content__11 > p {
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12em;
+}
+
+.home-content__11__text-1 {
+  left: 5vw;
+  top: 0.4em;
+}
+
+.home-content__11__text-2 {
+  left: 78vw;
+}
+
+.home-content__11__text-3 {
+  left: 35vw;
+  top: 1em;
+}
+
+.home-content__11__text-4 {
+  left: 50vw;
+  top: 2em;
+}
+
+.home-content__11__text-5 {
+  left: 9vw;
+  top: 3.2em;
+}
+
+/*--------------------- 
+Home content 12: audio data
+----------------------*/
+.home-content__12 {
+  position: relative;
+}
+
+.home-content__12__img {
+  position: relative;
+  width: 130vw;
+  left: -14vw;
 }
