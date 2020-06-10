@@ -1,4 +1,5 @@
 .home-content {
+  overflow-x: hidden;
 }
 
 .home-content > div {
@@ -22,7 +23,7 @@ Home content hero
 .home-content__hero__explainer {
   display: block;
   position: absolute;
-  top: 19em;
+  top: 20em;
   right: -2.5em;
   width: 28em;
   -webkit-transform: rotate(90deg);

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "voices-and-voids",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Explorations around how we might reclaim, transcode, and embody voice assistant interactions and data.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Amanda Yeh <ayeh01@mica.edu>",
   "dependencies": {
     "gatsby": "^2.21.22",
     "gatsby-image": "^2.4.3",
@@ -34,6 +34,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

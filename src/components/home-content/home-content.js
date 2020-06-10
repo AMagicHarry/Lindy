@@ -29,7 +29,7 @@ class HomeContent extends Component {
           <div className="home-content__hero">
             <p className="home-content__hero__explainer">
               Explorations around how we might reclaim, transcode, and embody
-              voice assitant interactions and data
+              voice assistant interactions and data
             </p>
             <Link to="/">
               <img
