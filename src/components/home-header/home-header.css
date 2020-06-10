@@ -1,0 +1,23 @@
+.home-header__title {
+  z-index: 2;
+  display: block;
+  position: fixed;
+  top: 7em;
+  right: -3em;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.home-header__explainer {
+  display: block;
+  position: absolute;
+  width: 28em;
+  top: 20em;
+  right: -1em;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}

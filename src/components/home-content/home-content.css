@@ -1,0 +1,102 @@
+.home-content__hero {
+  position: relative;
+  widows: 100vw;
+  height: 160em;
+}
+.home-content__hero__echo-img {
+  position: absolute;
+  display: block;
+  width: 40vw;
+}
+
+.echo-img__1 {
+  left: 8vw;
+  top: 15em;
+  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  transform: rotate(-6deg);
+}
+
+.echo-img__2 {
+  left: 17vw;
+  top: 55em;
+  transform: rotate(-19deg);
+  -webkit-transform: rotate(-19deg);
+  -moz-transform: rotate(-19deg);
+  -o-transform: rotate(-19deg);
+  transform: rotate(-19deg);
+}
+
+.echo-img__3 {
+  left: 60vw;
+  top: 70em;
+  transform: rotate(9deg);
+  -webkit-transform: rotate(9deg);
+  -moz-transform: rotate(9deg);
+  -o-transform: rotate(9deg);
+  transform: rotate(9deg);
+}
+
+.echo-img__4 {
+  left: 0vw;
+  top: 90em;
+  transform: rotate(38deg);
+  -webkit-transform: rotate(38deg);
+  -moz-transform: rotate(38deg);
+  -o-transform: rotate(38deg);
+  transform: rotate(38deg);
+}
+
+.echo-img__5 {
+  left: 45vw;
+  top: 105em;
+  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+
+.home-content__1 {
+  position: relative;
+}
+
+.home-content__1__timeline-img {
+  position: absolute;
+  left: -9vw;
+  width: 118vw;
+  transform: rotate(14deg);
+  -webkit-transform: rotate(14deg);
+  -moz-transform: rotate(14deg);
+  -o-transform: rotate(14deg);
+  transform: rotate(-14eg);
+}
+
+.home-content__1__bonnie-img {
+  position: absolute;
+  width: 40vw;
+  top: 30em;
+  left: 30vw;
+  transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10eg);
+}
+
+.home-content__1__text {
+  position: absolute;
+  font-family: "Playfair Display", serif;
+  line-height: 150%;
+  font-size: 1.3em;
+  width: 30vw;
+  top: 36em;
+  right: 13vw;
+  transform: rotate(-32deg);
+  -webkit-transform: rotate(-32deg);
+  -moz-transform: rotate(-32deg);
+  -o-transform: rotate(-32deg);
+  transform: rotate(-32eg);
+}
