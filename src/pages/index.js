@@ -7,14 +7,14 @@ import BasicHeader from "../components/home-header/basic-header"
 
 import HomeContent from "../components/home-content/home-content"
 
-const IndexPage = () => (
-  <div>
-    <SEO title="Voices and Voides" />
-    <Fade>
-      <BasicHeader headerTitle="voices and voids" />
-    </Fade>
-    <HomeContent />
-  </div>
-)
+function IndexPage(props) {
+  return (
+    <div>
+      <SEO title="Voices and Voides" />
+      <HomeContent />
+      <BasicHeader headerTitle={"Voices and Voids"} />
+    </div>
+  )
+}
 
 export default IndexPage

@@ -1,5 +1,5 @@
 .home-content {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .home-content > div {
@@ -33,6 +33,8 @@ Home content hero
 }
 
 .home-content__hero__echo-img {
+  overflow: hidden;
+
   position: absolute;
   display: block;
   width: 45vw;
@@ -432,6 +434,7 @@ Home content 12: audio data
 ----------------------*/
 .home-content__12 {
   position: relative;
+  height: 100vw;
 }
 
 .home-content__12__img {
