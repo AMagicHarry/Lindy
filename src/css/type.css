@@ -14,12 +14,28 @@ h1 {
   line-height: 140%;
 }
 
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: var(--black);
+  line-height: 140%;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 0.9em;
   color: var(--black);
   line-height: 150%;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.extra-bold {
+  font-weight: 800;
 }
 
 .text-link__italics {

@@ -1,0 +1,41 @@
+.ursonate-cotent__hero-text {
+  transform: translate(0, -3em);
+  width: 100em;
+}
+.ursonate-cotent__hero-text > p {
+  font-family: "Playfair Display", serif;
+  line-height: 130%;
+  font-size: 6.5em;
+}
+
+.ursonate-content__poem {
+  width: 100;
+  padding-top: 30em;
+  padding-bottom: 30em;
+  background-color: var(--black);
+  transform: translateY(-6em);
+}
+
+.ursonate-content__poem__text {
+  color: var(--white);
+  width: 40%;
+  margin: auto;
+}
+
+.ursonate-content__poem__text > p {
+  color: var(--white);
+  font-family: "Playfair Display", serif;
+  line-height: 150%;
+  font-size: 1.4em;
+}
+
+.ursonate-content__ending-text {
+  transform: translate(0, -11em);
+  width: 1000em;
+}
+
+.ursonate-content__ending-text > p {
+  font-family: "Playfair Display", serif;
+  line-height: 130%;
+  font-size: 6.5em;
+}

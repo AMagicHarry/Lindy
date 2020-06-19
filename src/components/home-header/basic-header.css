@@ -4,11 +4,14 @@
 }
 
 .home-header__title {
+  width: 14em;
+  height: 4em;
   z-index: 2;
   display: block;
   position: fixed;
-  top: 7em;
-  right: -2.9em;
+  top: 7.2em;
+  right: -3.5em;
+  transform-origin: 100%, 100%;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);

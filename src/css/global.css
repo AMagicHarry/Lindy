@@ -2,4 +2,9 @@
   /* Color Variables */
   --black: #000000;
   --red: #ff0000;
+  --white: white;
+}
+
+.black-background {
+  background-color: var(--black);
 }

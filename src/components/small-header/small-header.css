@@ -1,0 +1,71 @@
+/* .small-header > h4 {
+  color: green;
+} */
+
+.small-header__title {
+  width: 24em;
+  height: 2em;
+  z-index: 2;
+  display: block;
+  position: fixed;
+  top: 17em;
+  right: -8em;
+  transform-origin: 100%, 100%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  overflow-y: hidden;
+}
+
+.small-header__info {
+  position: absolute;
+  background-color: var(--black);
+  width: 160px;
+  height: 340px;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 40px;
+  right: 7em;
+  top: 7em;
+}
+
+.small-header__info > * {
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.small-header__info__title {
+  padding-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.small-header__info > * {
+  color: white;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: initial;
+}
+
+/* Headers on dark mode */
+
+.small-header__title__on-dark {
+  color: var(--white);
+}
+
+.small-header__info__on-dark {
+  background-color: var(--white);
+}
+
+.small-header__info__title__on-dark {
+  color: var(--black);
+}
+
+.small-header__info__content__on-dark {
+  color: var(--black);
+}

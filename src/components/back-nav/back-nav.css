@@ -1,0 +1,23 @@
+.back-nav {
+  width: 100vw;
+  height: 500px;
+  stroke: var(--white);
+}
+
+.back-nav > svg {
+  stroke: var(--white);
+}
+
+.back-nav__img {
+  margin-left: 80px;
+  margin-top: 300px;
+  stroke: var(--white);
+}
+
+.back-nav__on-dark-stroke {
+  stroke: var(--white);
+}
+
+.back-nav__on-light-stroke {
+  stroke: var(--black);
+}

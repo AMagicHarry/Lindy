@@ -10,7 +10,7 @@ import HomeContent from "../components/home-content/home-content"
 function IndexPage(props) {
   return (
     <div>
-      <SEO title="Voices and Voides" />
+      <SEO title="Voices and Voids" />
       <HomeContent />
       <BasicHeader headerTitle={"Voices and Voids"} />
     </div>
