@@ -9,6 +9,7 @@ import "../../css/type.css"
 
 function showInfo() {
   let info = document.getElementsByClassName("small-header__info")[0]
+  info.classList.remove("invisible")
   info.classList.add("visible")
 }
 
@@ -20,7 +21,7 @@ function hideInfo() {
 
 class SmallHeader extends Component {
   getSmallHeaderTitleClassName() {
-    if (this.props.colorMode == "on-dark") {
+    if (this.props.colorMode == "small-header__on-dark") {
       return "small-header__title small-header__title__on-dark"
     } else {
       return "small-header__title small-header__title__on-light"
@@ -28,23 +29,23 @@ class SmallHeader extends Component {
   }
 
   getSmallHeaderInfoClassName() {
-    if (this.props.colorMode == "on-dark") {
-      return "small-header__info semi-bold small-header__info__on-dark invisible"
+    if (this.props.colorMode == "small-header__on-dark") {
+      return "small-header__info semi-bold small-header__info__on-dark "
     } else {
       return "small-header__info semi-bold small-header__info__on-light invisible"
     }
   }
 
   getSmallHeaderInfoTitleClassName() {
-    if (this.props.colorMode == "on-dark") {
+    if (this.props.colorMode == "small-header__on-dark") {
       return "small-header__info__title semi-bold small-header__info__title__on-dark"
     } else {
-      return "small-header__info__title semi-bold small-header__info__title__-on-light"
+      return "small-header__info__title semi-bold small-header__info__title__on-light"
     }
   }
 
   getSmallHeaderInfoContentClassName() {
-    if (this.props.colorMode == "on-dark") {
+    if (this.props.colorMode == "small-header__on-dark") {
       return "small-header__info_content small-header__info__content__on-dark"
     } else {
       return "small-header__info_content small-header__info__content__on-light"

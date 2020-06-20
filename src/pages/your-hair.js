@@ -18,7 +18,7 @@ function YourHair(props) {
       <SEO title="Your hair is very wonderful" />
 
       <SmallHeader
-        colorMode={"on-dark"}
+        colorMode={"small-header__on-dark"}
         headerTitle={"Your hair is very wonderful"}
         infoTitle={"Your hair is very wonderful"}
         infoContent={
