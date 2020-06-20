@@ -64,3 +64,7 @@
 .small-header__info__content__on-light {
   color: var(--white);
 }
+
+.small-header__info__title__on-light {
+  color: var(--white);
+}

@@ -17,7 +17,7 @@ function Training(props) {
 
       <SmallHeader
         headerTitle={"Training a voice assistant"}
-        infoTitle={"Training a voice assistant"}
+        infoTitle={"Training"}
         infoContent={
           "As if we were training a  voice assistant to understand human ways of saying things, we said utterances as they appeared on screen. These utterances were created using the neural net trained on real voice assistant data, at different temperatures (leading to more or less non-sensical utterances). Composed by Danny Clay Neural Net by Gabrielle Benabdallah"
         }

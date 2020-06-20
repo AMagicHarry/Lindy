@@ -264,7 +264,7 @@ function handeMouseDown() {
     trainingTitle.classList.remove("invisible")
 
     trainingTitle.classList.add("visible")
-    trainingTitle.innerHTML = titleText[1]
+    trainingTitle.innerHTML = titleText[2]
   }
 }
 
