@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 
 import Back from "../back-nav/back-nav"
+import Fade from "react-reveal/Fade"
 
 import "./content-training.css"
 import "../../css/global.css"
@@ -65,11 +66,6 @@ import glow from "../../sound/training/temp-1.0/Glow referend closest stimullan.
 import free from "../../sound/training/temp-1.0/Oroice free.wav"
 import cock from "../../sound/training/temp-1.0/battlefield 5 pottic cock.wav"
 import chareds from "../../sound/training/temp-1.0/Show non chareds illector.wav"
-
-let pageClick = 0
-let trainingText = "eee"
-let audioSrc = eee
-let titleName
 
 let text = [
   "eee",
@@ -181,128 +177,142 @@ let audio = [
 
 let titleText = ["temperature 0.5", "temperature 0.7", "temperature 1.0"]
 
-function handeMouseDown() {
-  //remove small header small-header__info
-
-  if (pageClick == 1) {
-    document
-      .getElementsByClassName("small-header")[0]
-      .classList.add("invisible")
-    document
-      .getElementsByClassName("small-header__info")[0]
-      .classList.add("invisible")
-  }
-
-  //replace text and play audio
-  if (pageClick < text.length) {
-    // replace text
-    document.getElementsByClassName("content-training__text")[0].innerHTML =
-      text[pageClick]
-
-    //replace audio
-    let audioSrc = audio[pageClick]
-
-    let audioEl = document.getElementsByClassName("audio-element")[0]
-
-    document.getElementsByClassName("audio-element")[0].src = audio[pageClick]
-
-    if (audioEl.paused) {
-      audioEl.muted = false
-      audioEl.play()
-    } else {
-      audioEl.pause()
-      audioEl.currentTime = 0
-      audioEl.play()
-    }
-    pageClick++
-  }
-
-  //change style
-  if (pageClick == 7) {
-    document
-      .getElementsByClassName("content-training")[0]
-      .classList.add("content-training__temperature-05")
-  }
-
-  if (pageClick == 22) {
-    document
-      .getElementsByClassName("content-training")[0]
-      .classList.add("content-training__temperature-07")
-  }
-
-  if (pageClick == 35) {
-    document
-      .getElementsByClassName("content-training")[0]
-      .classList.add("content-training__temperature-1")
-  }
-
-  //add title text
-  if (pageClick == 7) {
-    let trainingTitle = document.getElementsByClassName(
-      "content-training__temp__title"
-    )[0]
-    trainingTitle.classList.remove("invisible")
-
-    trainingTitle.classList.add("visible")
-    trainingTitle.innerHTML = titleText[0]
-  }
-
-  if (pageClick == 22) {
-    let trainingTitle = document.getElementsByClassName(
-      "content-training__temp__title"
-    )[0]
-    trainingTitle.classList.remove("invisible")
-
-    trainingTitle.classList.add("visible")
-    trainingTitle.innerHTML = titleText[1]
-  }
-
-  if (pageClick == 35) {
-    let trainingTitle = document.getElementsByClassName(
-      "content-training__temp__title"
-    )[0]
-    trainingTitle.classList.remove("invisible")
-
-    trainingTitle.classList.add("visible")
-    trainingTitle.innerHTML = titleText[2]
-  }
-}
-
-//add back button
-
 class ContentTraining extends Component {
-  // addBackButton() {
-  //   if (
-  //     document.getElementsByClassName("content-training__text")[0].innerHTML ==
-  //     "aaa"
-  //   ) {
-  //     console.log("state")
-  //     return (
-  //       <Back
-  //         positionMode={"absolute"}
-  //         className="invisible content-training__back"
-  //       />
-  //     )
-  //   } else {
-  //     return undefined
-  //   }
-  // }
+  constructor(props) {
+    super(props)
+    this.state = {
+      pageClick: 0,
+    }
+  }
+
+  incrementClicks(e) {
+    this.setState({
+      pageClick: this.state.pageClick + 1,
+    })
+  }
+
+  fillPage() {
+    if (this.state.pageClick >= 1) {
+      let currentWord = this.state.pageClick - 1
+
+      //replace text
+      document.getElementsByClassName("content-training__text")[0].innerHTML =
+        text[currentWord]
+
+      //rerplace audio
+      let audioEl = document.getElementsByClassName("audio-element")[0]
+
+      document.getElementsByClassName("audio-element")[0].src =
+        audio[currentWord]
+
+      if (audioEl.paused) {
+        audioEl.muted = false
+        audioEl.play()
+      } else {
+        audioEl.pause()
+        audioEl.currentTime = 0
+        audioEl.play()
+      }
+
+      //change style
+      if (currentWord == 7) {
+        document
+          .getElementsByClassName("content-training")[0]
+          .classList.add("content-training__temperature-05")
+      }
+
+      if (currentWord == 22) {
+        document
+          .getElementsByClassName("content-training")[0]
+          .classList.add("content-training__temperature-07")
+      }
+
+      if (currentWord == 35) {
+        document
+          .getElementsByClassName("content-training")[0]
+          .classList.add("content-training__temperature-1")
+      }
+
+      //change temperature title
+      if (currentWord == 7) {
+        let trainingTitle = document.getElementsByClassName(
+          "content-training__temp__title"
+        )[0]
+        trainingTitle.classList.remove("invisible")
+
+        trainingTitle.classList.add("visible")
+        trainingTitle.innerHTML = titleText[0]
+      }
+
+      if (currentWord == 22) {
+        let trainingTitle = document.getElementsByClassName(
+          "content-training__temp__title"
+        )[0]
+        trainingTitle.classList.remove("invisible")
+
+        trainingTitle.classList.add("visible")
+        trainingTitle.innerHTML = titleText[1]
+      }
+
+      if (currentWord == 35) {
+        let trainingTitle = document.getElementsByClassName(
+          "content-training__temp__title"
+        )[0]
+        trainingTitle.classList.remove("invisible")
+
+        trainingTitle.classList.add("visible")
+        trainingTitle.innerHTML = titleText[2]
+      }
+
+      //remove small heading
+      if (currentWord == 1) {
+        document
+          .getElementsByClassName("small-header")[0]
+          .classList.add("invisible")
+        document
+          .getElementsByClassName("small-header__info")[0]
+          .classList.add("invisible")
+      }
+
+      //add back button
+      if (currentWord == 10) {
+        return (
+          <Fade duration={1000}>
+            <Back
+              positionMode={"absolute"}
+              colorMode={"on-dark"}
+              className="visible content-training__back"
+            />
+          </Fade>
+        )
+      }
+    }
+  }
+
+  handleKeyPress = event => {
+    if (event.key === "Enter") {
+      console.log("enter press here!")
+    }
+  }
 
   render() {
     return (
       <div>
-        <div className="content-training" onMouseDown={handeMouseDown}>
-          <p className="content-training__text">{trainingText}</p>
+        {document.getElementsByTagName("div")[0].focus()}
+        <div
+          className="content-training"
+          onClick={e => this.incrementClicks(e)}
+          onFocus={e => this.incrementClicks(e)}
+          tabIndex="1"
+        >
+          <p className="content-training__text">eee</p>
           <audio className="audio-element" muted>
-            <source src={audioSrc}></source>
+            <source src={eee}></source>
           </audio>
         </div>
         <p className="content-training__temp__title invisible "></p>
-        {/* <Back
-          positionMode={"absolute"}
-          className="invisible content-training__back"
-        /> */}
-        {/* {addBackButton()} */}
+
+        {this.fillPage()}
       </div>
     )
   }

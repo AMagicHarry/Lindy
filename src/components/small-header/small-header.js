@@ -60,6 +60,7 @@ class SmallHeader extends Component {
             className={this.getSmallHeaderTitleClassName()}
             onMouseOver={showInfo}
             onMouseOut={hideInfo}
+            aria-label={this.props.infoContent}
           >
             {this.props.headerTitle}
           </h4>

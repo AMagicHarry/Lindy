@@ -5,6 +5,10 @@
   --white: white;
 }
 
+* {
+  transition-duration: 0.3s;
+}
+
 .black-background {
   background-color: var(--black);
 }
@@ -16,9 +20,15 @@
 
 .invisible > * {
   opacity: 0;
+  transition-duration: 0.3s;
 }
 
 .visible {
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
+.visible > * {
   opacity: 1;
   transition-duration: 0.3s;
 }
