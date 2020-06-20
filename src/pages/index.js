@@ -5,13 +5,13 @@ import Fade from "react-reveal/Fade"
 
 import BasicHeader from "../components/home-header/basic-header"
 
-import HomeContent from "../components/home-content/home-content"
+import ContentHome from "../components/content-home/content-home"
 
 function IndexPage(props) {
   return (
     <div>
       <SEO title="Voices and Voids" />
-      <HomeContent />
+      <ContentHome />
       <BasicHeader headerTitle={"Voices and Voids"} />
     </div>
   )

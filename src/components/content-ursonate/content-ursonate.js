@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Back from "../back-nav/back-nav"
 
-import "./ursonate-content.css"
+import "./content-ursonate.css"
 import "../../css/global.css"
 import "../../css/reset.css"
 import "../../css/type.css"

@@ -11,6 +11,14 @@ import "../../css/type.css"
 import backBlack from "../../images/back-black.svg"
 
 class BackNav extends Component {
+  getBackNavClass() {
+    if (this.props.positionMode == "absolute") {
+      return "back-nav__absolute"
+    } else {
+      return "back-nav"
+    }
+  }
+
   getStrokeClassName() {
     if (this.props.colorMode == "on-dark") {
       return "back-nav__on-dark-stroke "
@@ -21,7 +29,7 @@ class BackNav extends Component {
 
   render() {
     return (
-      <div className="back-nav">
+      <div className={this.getBackNavClass()}>
         <Link to="/">
           <svg
             width="55"

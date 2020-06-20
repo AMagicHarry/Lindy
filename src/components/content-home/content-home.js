@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 
 import ScrollTrigger from "react-scroll-trigger"
 
-import "./home-content.css"
+import "./content-home.css"
 import "../../css/global.css"
 import "../../css/reset.css"
 import "../../css/type.css"
@@ -21,7 +21,7 @@ import AIYWearable from "../../images/index/AIY-wearable.gif"
 import clayPot from "../../images/index/clay-pot.gif"
 import concrete from "../../images/index/concrete.png"
 
-class HomeContent extends Component {
+class ContentHome extends Component {
   render() {
     return (
       <main className="home-content">
@@ -307,27 +307,27 @@ class HomeContent extends Component {
 
         <div className="home-content__11">
           <p className="home-content__11__text-1">
-            <Link to="/" className="text-link__italics">
+            <Link to="/training" className="text-link__italics">
               ehh
             </Link>
           </p>
           <p className="home-content__11__text-2">
-            <Link to="/" className="text-link__italics">
+            <Link to="/training" className="text-link__italics">
               ooo
             </Link>
           </p>
           <p className="home-content__11__text-3">
-            <Link to="/" className="text-link__italics">
+            <Link to="/training" className="text-link__italics">
               eee
             </Link>
           </p>
           <p className="home-content__11__text-4">
-            <Link to="/" className="text-link__italics">
+            <Link to="/training" className="text-link__italics">
               ohh
             </Link>
           </p>
           <p className="home-content__11__text-5">
-            <Link to="/" className="text-link__italics">
+            <Link to="/training" className="text-link__italics">
               stop
             </Link>
           </p>
@@ -344,4 +344,4 @@ class HomeContent extends Component {
     )
   }
 }
-export default HomeContent
+export default ContentHome

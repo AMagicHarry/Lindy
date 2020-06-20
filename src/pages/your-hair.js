@@ -16,7 +16,7 @@ function YourHair(props) {
   return (
     <div className="black-background">
       <SEO title="Your hair is very wonderful" />
-      {/* <div className="small-header__on-dark"> */}
+
       <SmallHeader
         colorMode={"on-dark"}
         headerTitle={"Your hair is very wonderful"}
@@ -25,7 +25,6 @@ function YourHair(props) {
           "Sonic interpretations of a series of 6 consecutive statements from google voice assistant data log."
         }
       />
-      {/* </div> */}
 
       <VideoFull videoLink="https://player.vimeo.com/video/420202270?portrait=0" />
 

@@ -1,11 +1,13 @@
 .back-nav {
   width: 100vw;
   height: 500px;
-  stroke: var(--white);
 }
 
-.back-nav > svg {
-  stroke: var(--white);
+.back-nav__absolute {
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 500px;
 }
 
 .back-nav__img {

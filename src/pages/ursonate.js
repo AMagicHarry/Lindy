@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade"
 
 import SmallHeader from "../components/small-header/small-header"
 
-import UrsonateContent from "../components/ursonate-content/ursonate-content"
+import ContentUrsonate from "../components/content-ursonate/content-ursonate"
 
 function Ursonate(props) {
   return (
@@ -13,7 +13,6 @@ function Ursonate(props) {
       <SEO title="Ursonate" />
 
       <SmallHeader
-        className="small-header__title"
         headerTitle={"Ursonate"}
         infoTitle={"Ursonate"}
         infoContent={
@@ -21,7 +20,7 @@ function Ursonate(props) {
         }
       />
 
-      <UrsonateContent />
+      <ContentUrsonate />
     </div>
   )
 }

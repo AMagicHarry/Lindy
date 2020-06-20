@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade"
 
 import SmallHeader from "../components/small-header/small-header"
 
-import ChitChatContent from "../components/chit-chat-content/chit-chat-content"
+import ChitChatContent from "../components/content-chit-chat/content-chit-chat"
 
 function ChitChat(props) {
   return (

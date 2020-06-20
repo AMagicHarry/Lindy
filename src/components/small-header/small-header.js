@@ -63,10 +63,7 @@ class SmallHeader extends Component {
             {this.props.headerTitle}
           </h4>
         </header>
-        <div
-          className={this.getSmallHeaderInfoClassName()}
-          onMouseEnter={showInfo}
-        >
+        <div className={this.getSmallHeaderInfoClassName()}>
           <p className={this.getSmallHeaderInfoTitleClassName()}>
             {this.props.infoTitle}
           </p>
