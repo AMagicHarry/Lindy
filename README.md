@@ -1,16 +1,18 @@
 
 <h1 align="center">Voices and Voids</h1>
 
+<a href="https://amandayehh.github.io/voices-and-voids/" >
  <p align="center">
   <img src="https://i.imgur.com/aYDKbjR.gif" alt="echo speaking to each other" width="500px" >
   </p>
+</a>
   
 <a href="https://amandayehh.github.io/voices-and-voids/" >
   <p align="center">
 <img src="https://i.imgur.com/LHupK4E.png" alt="visit site" width="120px" >
-
   </p>
 </a>
+
 <p></br></p>
 
 
