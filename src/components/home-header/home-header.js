@@ -33,6 +33,8 @@ class HomeHeader extends Component {
             className="home-header__title"
             onMouseEnter={this.addAbout}
             onMouseLeave={this.removeAbout}
+            tabIndex="1"
+            aria-label="learn about this site"
           >
             Voices and Voids
           </h1>
