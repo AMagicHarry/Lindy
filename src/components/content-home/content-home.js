@@ -191,9 +191,8 @@ class ContentHome extends Component {
 
           <div className="home-content__3__video">
             <iframe
+              className="home-content__3__video__frame"
               src="https://player.vimeo.com/video/420202270?portrait=0"
-              width="100%"
-              height="338"
               frameBorder="0"
               allowFullScreen
             ></iframe>

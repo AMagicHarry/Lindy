@@ -16,7 +16,7 @@ Home content hero
 
 .home-content__hero {
   widows: 100vw;
-  height: 160em;
+  height: 160vw;
   overflow: hidden;
 }
 
@@ -42,7 +42,7 @@ Home content hero
 
 .echo-img__1 {
   left: 8vw;
-  top: 15em;
+  top: 15vw;
   transform: rotate(-6deg);
   -webkit-transform: rotate(-6deg);
   -moz-transform: rotate(-6deg);
@@ -52,7 +52,7 @@ Home content hero
 
 .echo-img__2 {
   left: 17vw;
-  top: 55em;
+  top: 55vw;
   transform: rotate(-19deg);
   -webkit-transform: rotate(-19deg);
   -moz-transform: rotate(-19deg);
@@ -62,7 +62,7 @@ Home content hero
 
 .echo-img__3 {
   left: 60vw;
-  top: 75em;
+  top: 75vw;
   transform: rotate(9deg);
   -webkit-transform: rotate(9deg);
   -moz-transform: rotate(9deg);
@@ -72,7 +72,7 @@ Home content hero
 
 .echo-img__4 {
   left: 0vw;
-  top: 95em;
+  top: 95vw;
   transform: rotate(38deg);
   -webkit-transform: rotate(38deg);
   -moz-transform: rotate(38deg);
@@ -82,7 +82,7 @@ Home content hero
 
 .echo-img__5 {
   left: 45vw;
-  top: 110em;
+  top: 110vw;
   transform: rotate(-7deg);
   -webkit-transform: rotate(-7deg);
   -moz-transform: rotate(-7deg);
@@ -95,7 +95,7 @@ Home content 1: J's story
 ----------------------*/
 
 .home-content__1 {
-  height: 80em;
+  height: 80vw;
 }
 
 .home-content__1__timeline-img {
@@ -116,7 +116,7 @@ Home content 1: J's story
 
   position: absolute;
   width: 40vw;
-  top: 25em;
+  top: 25vw;
   left: 30vw;
   transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
@@ -128,9 +128,9 @@ Home content 1: J's story
 .home-content__1__text {
   font-family: "Playfair Display", serif;
   line-height: 150%;
-  font-size: 1.3em;
+  font-size: 1.3vw;
   width: 30vw;
-  top: 28em;
+  top: 40vw;
   right: 12vw;
   transform: rotate(-32deg);
   -webkit-transform: rotate(-32deg);
@@ -144,24 +144,24 @@ Home content 2: voice assistant snippets
 ----------------------*/
 
 .home-content__2 {
-  height: 50em;
+  height: 50vw;
 }
 
 .home-content___2__text-1 {
-  left: 2em;
+  left: 2vw;
 }
 
 .home-content___2__text-1 p {
   font-family: IBM Plex Mono;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2vw;
 }
 
 .home-content__2__text-2 {
   position: absolute;
-  top: 11em;
-  right: 4em;
+  top: 11vw;
+  right: 4vw;
   transform: rotate(6deg);
   -webkit-transform: rotate(6deg);
   -moz-transform: rotate(6deg);
@@ -173,7 +173,7 @@ Home content 2: voice assistant snippets
   font-family: IBM Plex Mono;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.1em;
+  font-size: 2.1vw;
 }
 
 /*--------------------- 
@@ -181,20 +181,20 @@ Home content 3: Ursonate
 ----------------------*/
 
 .home-content__3 {
-  height: 40em;
+  height: 40vw;
 }
 
 .home-content__3 > p {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 2.4vw;
 }
 
 .home-content__3__video {
   display: inline;
-  width: 35vw;
-  left: 32vw;
+
+  left: 26vw;
   transform: rotate(3deg);
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
@@ -202,9 +202,14 @@ Home content 3: Ursonate
   transform: rotate(3deg);
 }
 
+.home-content__3__video__frame {
+  width: 36vw;
+  height: 24vw;
+}
+
 .home-content__3__text-1 {
-  top: 1em;
-  left: 18vw;
+  top: 2vw;
+  left: 10vw;
   -webkit-transform: rotate(-17deg);
   -moz-transform: rotate(-17deg);
   -o-transform: rotate(-17deg);
@@ -212,8 +217,8 @@ Home content 3: Ursonate
 }
 
 .home-content__3__text-2 {
-  top: 0em;
-  left: 70vw;
+  top: 0vw;
+  left: 64vw;
   -webkit-transform: rotate(-40deg);
   -moz-transform: rotate(-40deg);
   -o-transform: rotate(-40deg);
@@ -221,8 +226,8 @@ Home content 3: Ursonate
 }
 
 .home-content__3__text-3 {
-  top: 8em;
-  left: 22vw;
+  top: 18vw;
+  left: 16vw;
   -webkit-transform: rotate(8deg);
   -moz-transform: rotate(8deg);
   -o-transform: rotate(8deg);
@@ -231,7 +236,7 @@ Home content 3: Ursonate
 
 .home-content__3__text-4 {
   top: 8em;
-  left: 50vw;
+  left: 45vw;
 }
 
 /*--------------------- 
@@ -239,7 +244,7 @@ Home content 4: wonderful hair
 ----------------------*/
 
 .home-content__4 {
-  height: 30em;
+  height: 30vw;
 }
 
 .home-content__4__img {
@@ -256,7 +261,7 @@ Home content 4: wonderful hair
 Home content 5: audio data
 ----------------------*/
 .home-content__5 {
-  height: 80em;
+  height: 80vw;
 }
 
 .home-content__5__img {
@@ -267,7 +272,7 @@ Home content 5: audio data
 Home content 6: measuring tape
 ----------------------*/
 .home-content__6 {
-  height: 40em;
+  height: 40vw;
 }
 
 .home-content__6__img {
@@ -284,7 +289,7 @@ Home content 6: measuring tape
 Home content 7: set alarm: arms moving
 ----------------------*/
 .home-content__7 {
-  height: 33em;
+  height: 33vw;
 }
 
 .home-content__7__img {
@@ -297,7 +302,7 @@ Home content 7: set alarm: arms moving
 Home content 8: set alarm: arms moving
 ----------------------*/
 .home-content__8 {
-  height: 60em;
+  height: 60vw;
 }
 
 .home-content__8__img {
@@ -314,14 +319,14 @@ Home content 8: set alarm: arms moving
 Home content 9: wearable
 ----------------------*/
 .home-content__9 {
-  height: 80em;
+  height: 80vw;
 }
 
 .home-content__9 > p {
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.6em;
+  font-size: 1.6vw;
 }
 
 .home-content__9__text-1 {
@@ -334,7 +339,7 @@ Home content 9: wearable
 
 .home-content__9__text-2 {
   left: 40vw;
-  top: 7em;
+  top: 11vw;
   transform: rotate(-47deg);
   -webkit-transform: rotate(-47deg);
   -moz-transform: rotate(-47deg);
@@ -342,8 +347,8 @@ Home content 9: wearable
 }
 
 .home-content__9__text-3 {
-  left: 63vw;
-  top: 7em;
+  left: 60vw;
+  top: 11vw;
   transform: rotate(-15deg);
   -webkit-transform: rotate(-15deg);
   -moz-transform: rotate(-15deg);
@@ -351,13 +356,13 @@ Home content 9: wearable
 }
 
 .home-content__9__text-4 {
-  left: 75vw;
-  top: 15em;
+  left: 70vw;
+  top: 25vw;
 }
 
 .home-content__9__text-5 {
   left: 55vw;
-  top: 24em;
+  top: 27em;
   transform: rotate(-9deg);
   -webkit-transform: rotate(-9deg);
   -moz-transform: rotate(-9deg);
@@ -368,7 +373,7 @@ Home content 9: wearable
   position: absolute;
   width: 28vw;
   left: 38vw;
-  top: 6em;
+  top: 6vw;
   z-index: -1;
 }
 
@@ -376,7 +381,7 @@ Home content 9: wearable
 Home content 10: clay pot echo
 ----------------------*/
 .home-content__10 {
-  height: 30em;
+  height: 30vw;
 }
 
 .home-content__10__img {
@@ -395,14 +400,14 @@ Home content 10: clay pot echo
 Home content 11: clay pot echo
 ----------------------*/
 .home-content__11 {
-  height: 80em;
+  height: 80vw;
 }
 
 .home-content__11 > p {
   font-family: IBM Plex Mono;
   font-style: normal;
   font-weight: normal;
-  font-size: 12em;
+  font-size: 12vw;
 }
 
 .home-content__11__text-1 {
