@@ -30,7 +30,7 @@ class SmallHeader extends Component {
 
   getSmallHeaderInfoClassName() {
     if (this.props.colorMode == "small-header__on-dark") {
-      return "small-header__info semi-bold small-header__info__on-dark "
+      return "small-header__info semi-bold small-header__info__on-dark invisible"
     } else {
       return "small-header__info semi-bold small-header__info__on-light invisible"
     }

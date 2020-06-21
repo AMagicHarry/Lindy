@@ -209,7 +209,7 @@ class ContentHome extends Component {
           </Link>
         </div>
         <div className="home-content__5">
-          <Link to="/">
+          <Link to="/poetry">
             <img
               src={audioData}
               alt="lists of data audio files"

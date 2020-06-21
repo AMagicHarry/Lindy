@@ -1,0 +1,44 @@
+.content-poetry {
+  padding-top: 44em;
+}
+.content-poetry p {
+  color: var(--white);
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8em;
+}
+
+.content-poetry__text-1 {
+  margin-left: 4vw;
+}
+
+.content-poetry__text-2 {
+  margin-left: 25vw;
+}
+
+.content-poetry__text-3 {
+  margin-top: 14em;
+  margin-left: 10vw;
+}
+
+.content-poetry__text-4 {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15em;
+  margin-left: 28vw;
+}
+
+.content-poetry__text-4__left {
+  margin-top: 40.3em;
+}
+
+.content-poetry__text-4__right {
+  margin-left: 6vw;
+  width: 200vw;
+}
+
+.content-poetry__text-5 {
+  margin-top: 15em;
+  margin-left: 22vw;
+}

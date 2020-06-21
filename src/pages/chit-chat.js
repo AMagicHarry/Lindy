@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade"
 import SmallHeader from "../components/small-header/small-header"
 import Back from "../components/back-nav/back-nav"
 
-import ChitChatContent from "../components/content-chit-chat/content-chit-chat"
+import ContentChitChat from "../components/content-chit-chat/content-chit-chat"
 
 function ChitChat(props) {
   return (
@@ -21,7 +21,7 @@ function ChitChat(props) {
           "This texttovoice.io script is spoken by one voice assistant for other voices assistants to respond with very limited human intervention. "
         }
       />
-      <ChitChatContent />
+      <ContentChitChat />
       <Back />
     </div>
   )

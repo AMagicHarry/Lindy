@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 
 import Back from "../back-nav/back-nav"
-import Fade from "react-reveal/Fade"
 
 import "./content-training.css"
 import "../../css/global.css"
@@ -277,13 +276,11 @@ class ContentTraining extends Component {
       //add back button
       if (currentWord == 50) {
         return (
-          <Fade duration={1000}>
-            <Back
-              positionMode={"absolute"}
-              colorMode={"on-dark"}
-              className="visible content-training__back"
-            />
-          </Fade>
+          <Back
+            positionMode={"absolute"}
+            colorMode={"on-dark"}
+            className="visible content-training__back"
+          />
         )
       }
     }
