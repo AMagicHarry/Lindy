@@ -1,7 +1,6 @@
-# Voices and Voids Website
 
+<h1 align="center">Voices and Voids</h1>
 
-    
  <p align="center">
   <img src="https://i.imgur.com/aYDKbjR.gif" alt="echo speaking to each other" width="500px" >
   </p>
@@ -9,8 +8,11 @@
 <a href="https://amandayehh.github.io/voices-and-voids/" >
   <p align="center">
 <img src="https://i.imgur.com/LHupK4E.png" alt="visit site" width="120px" >
+
   </p>
 </a>
+<p></br></p>
+
 
 ## Explorations around how we might reclaim, transcode, and embody voice assistant interactions and data
 Responding to current concerns about the ubiquity of voice assistants, this artistic research focuses on building a series of performative artifacts that aim to challenge AI and ML technologies, and to examine automation through the prism of “ghost work” that constantly support these systems. By allowing AI agents to listen to our most private conversations, we become receptive to this mediated care, while forgetting or ignoring how much these automated interactions have been pre-scripted. While these interactions cultivate a sense of familiarization with the non-human, they also corroborate the impact of Late Capitalism and the Anthropocene. Within these contradictions, we see an opportunity to reclaim, examine, and ultimately transcode this data through an interdisciplinary performance project, by developing embodied experiments using a combination of design, data-driven art, cyber crafts, found-object, and traditional percussion instruments, spoken word, and movement.
