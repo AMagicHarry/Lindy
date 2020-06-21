@@ -214,26 +214,26 @@ class ContentTraining extends Component {
       }
 
       //change style
-      if (currentWord == 7) {
+      if (currentWord == 6) {
         document
           .getElementsByClassName("content-training")[0]
           .classList.add("content-training__temperature-05")
       }
 
-      if (currentWord == 22) {
+      if (currentWord == 21) {
         document
           .getElementsByClassName("content-training")[0]
           .classList.add("content-training__temperature-07")
       }
 
-      if (currentWord == 35) {
+      if (currentWord == 34) {
         document
           .getElementsByClassName("content-training")[0]
           .classList.add("content-training__temperature-1")
       }
 
       //change temperature title
-      if (currentWord == 7) {
+      if (currentWord == 6) {
         let trainingTitle = document.getElementsByClassName(
           "content-training__temp__title"
         )[0]
@@ -243,7 +243,7 @@ class ContentTraining extends Component {
         trainingTitle.innerHTML = titleText[0]
       }
 
-      if (currentWord == 22) {
+      if (currentWord == 21) {
         let trainingTitle = document.getElementsByClassName(
           "content-training__temp__title"
         )[0]
@@ -253,7 +253,7 @@ class ContentTraining extends Component {
         trainingTitle.innerHTML = titleText[1]
       }
 
-      if (currentWord == 35) {
+      if (currentWord == 34) {
         let trainingTitle = document.getElementsByClassName(
           "content-training__temp__title"
         )[0]
