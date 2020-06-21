@@ -298,7 +298,6 @@ class ContentTraining extends Component {
   render() {
     return (
       <div>
-        {document.getElementsByTagName("div")[0].focus()}
         <div
           className="content-training"
           onClick={e => this.incrementClicks(e)}
