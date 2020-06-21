@@ -5,12 +5,12 @@
 
 .home-header__title {
   width: 14em;
-  height: 4em;
+  height: 1.5em;
   z-index: 2;
   display: block;
   position: fixed;
-  top: 7.2em;
-  right: -3.5em;
+  top: 8.4em;
+  right: -4.8em;
   transform-origin: 100%, 100%;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);

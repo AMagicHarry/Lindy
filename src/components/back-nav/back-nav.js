@@ -22,13 +22,7 @@ class BackNav extends Component {
   getStrokeClassName() {
     if (this.props.colorMode == "on-dark") {
       return "back-nav__on-dark-stroke "
-    } else {
-      return "back-nav__on-light-stroke"
-    }
-  }
-
-  getStrokeClassName() {
-    if (this.props.colorMode == "is-red") {
+    } else if (this.props.colorMode == "is-red") {
       return "back-nav__red-stroke"
     } else {
       return "back-nav__on-light-stroke"

@@ -192,7 +192,7 @@ class ContentTraining extends Component {
   }
 
   fillPage() {
-    if (this.state.pageClick >= 1) {
+    if (this.state.pageClick >= 1 && this.state.pageClick < 52) {
       let currentWord = this.state.pageClick - 1
 
       //replace text
@@ -275,7 +275,7 @@ class ContentTraining extends Component {
       }
 
       //add back button
-      if (currentWord == 10) {
+      if (currentWord == 50) {
         return (
           <Fade duration={1000}>
             <Back
