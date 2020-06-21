@@ -17,4 +17,5 @@
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
   overflow-y: hidden;
+  cursor: pointer;
 }

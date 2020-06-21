@@ -23,3 +23,7 @@
 .back-nav__on-light-stroke {
   stroke: var(--black);
 }
+
+.back-nav__red-stroke {
+  stroke: var(--red);
+}

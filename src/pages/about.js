@@ -3,15 +3,15 @@ import SEO from "../components/seo"
 import Fade from "react-reveal/Fade"
 
 import BasicHeader from "../components/home-header/home-header"
-
-import ContentHome from "../components/content-home/content-home"
+import ContentAbout from "../components/content-about/content-about"
+import Back from "../components/back-nav/back-nav"
 
 function IndexPage(props) {
   return (
     <div>
       <SEO title="Voices and Voids" />
-      <ContentHome />
-      <BasicHeader />
+      <ContentAbout />
+      <Back colorMode={"is-red"} />
     </div>
   )
 }

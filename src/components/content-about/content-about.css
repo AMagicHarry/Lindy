@@ -1,0 +1,30 @@
+.content-about {
+  width: 30em;
+  margin-top: 16em;
+  margin-left: 19em;
+}
+
+.content-about * {
+  color: var(--red);
+}
+
+.content-about__intro-1 {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+
+.content-about__intro-2 {
+  margin-bottom: 2em;
+}
+
+.content-about__credits__lead {
+  margin-top: 1em;
+}
+
+.content-about__img {
+  width: 88vw;
+  position: absolute;
+  top: 48em;
+  right: 0em;
+  z-index: -1;
+}
