@@ -8,6 +8,7 @@
 * {
   transition-duration: 0.3s;
   outline: none;
+  overflow-x: hidden;
 }
 
 .black-background {
