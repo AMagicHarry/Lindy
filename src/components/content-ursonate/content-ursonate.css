@@ -6,6 +6,7 @@
   font-family: "Playfair Display", serif;
   line-height: 130%;
   font-size: 6.5em;
+  overflow: hidden;
 }
 
 .ursonate-content__poem {
@@ -27,15 +28,18 @@
   font-family: "Playfair Display", serif;
   line-height: 150%;
   font-size: 1.4em;
+  overflow: hidden;
 }
 
 .ursonate-content__ending-text {
   transform: translate(0, -11em);
   width: 1000em;
+  overflow: hidden;
 }
 
 .ursonate-content__ending-text > p {
   font-family: "Playfair Display", serif;
   line-height: 130%;
   font-size: 6.5em;
+  overflow: hidden;
 }

@@ -1,5 +1,6 @@
 .home-content {
   overflow: hidden;
+  position: relative;
 }
 
 .home-content > div {
@@ -7,7 +8,7 @@
 }
 
 .home-content > div > * {
-  position: absolute;
+  /* position: absolute; */
 }
 
 /*--------------------- 
@@ -18,6 +19,7 @@ Home content hero
   widows: 100vw;
   height: 160vw;
   overflow: hidden;
+  position: relative;
 }
 
 .home-content__hero__explainer {
@@ -34,9 +36,8 @@ Home content hero
 
 .home-content__hero__echo-img {
   overflow: hidden;
-
   position: absolute;
-  display: block;
+  /* display: block; */
   width: 45vw;
 }
 
@@ -95,13 +96,14 @@ Home content 1: J's story
 ----------------------*/
 
 .home-content__1 {
-  height: 80vw;
+  height: 100vw;
+  overflow: hidden;
 }
 
 .home-content__1__timeline-img {
   overflow: visible;
-
   position: absolute;
+  top: 11vw;
   left: -9vw;
   width: 118vw;
   transform: rotate(14deg);
@@ -113,10 +115,9 @@ Home content 1: J's story
 
 .home-content__1__bonnie-img {
   overflow: visible;
-
   position: absolute;
   width: 40vw;
-  top: 25vw;
+  top: 40vw;
   left: 30vw;
   transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
@@ -126,11 +127,12 @@ Home content 1: J's story
 }
 
 .home-content__1__text {
+  position: absolute;
   font-family: "Playfair Display", serif;
   line-height: 150%;
   font-size: 1.3vw;
-  width: 30vw;
-  top: 40vw;
+  width: 28vw;
+  top: 55vw;
   right: 12vw;
   transform: rotate(-32deg);
   -webkit-transform: rotate(-32deg);
@@ -145,6 +147,7 @@ Home content 2: voice assistant snippets
 
 .home-content__2 {
   height: 50vw;
+  overflow: hidden;
 }
 
 .home-content___2__text-1 {
@@ -181,10 +184,12 @@ Home content 3: Ursonate
 ----------------------*/
 
 .home-content__3 {
-  height: 40vw;
+  height: 36vw;
+  overflow: hidden;
 }
 
 .home-content__3 > p {
+  position: absolute;
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
@@ -192,8 +197,9 @@ Home content 3: Ursonate
 }
 
 .home-content__3__video {
+  position: absolute;
   display: inline;
-
+  top: 3vw;
   left: 26vw;
   transform: rotate(3deg);
   -webkit-transform: rotate(3deg);
@@ -208,7 +214,7 @@ Home content 3: Ursonate
 }
 
 .home-content__3__text-1 {
-  top: 2vw;
+  top: 4vw;
   left: 10vw;
   -webkit-transform: rotate(-17deg);
   -moz-transform: rotate(-17deg);
@@ -217,7 +223,7 @@ Home content 3: Ursonate
 }
 
 .home-content__3__text-2 {
-  top: 0vw;
+  top: 5vw;
   left: 64vw;
   -webkit-transform: rotate(-40deg);
   -moz-transform: rotate(-40deg);
@@ -226,7 +232,7 @@ Home content 3: Ursonate
 }
 
 .home-content__3__text-3 {
-  top: 18vw;
+  top: 22vw;
   left: 16vw;
   -webkit-transform: rotate(8deg);
   -moz-transform: rotate(8deg);
@@ -235,7 +241,7 @@ Home content 3: Ursonate
 }
 
 .home-content__3__text-4 {
-  top: 8em;
+  top: 23vw;
   left: 45vw;
 }
 
@@ -244,13 +250,15 @@ Home content 4: wonderful hair
 ----------------------*/
 
 .home-content__4 {
-  height: 30vw;
+  height: 40vw;
+  overflow: hidden;
 }
 
 .home-content__4__img {
   position: absolute;
   width: 35vw;
   left: 55vw;
+  top: 10vw;
   -webkit-transform: rotate(-20deg);
   -moz-transform: rotate(-20deg);
   -o-transform: rotate(-20deg);
@@ -261,7 +269,8 @@ Home content 4: wonderful hair
 Home content 5: audio data
 ----------------------*/
 .home-content__5 {
-  height: 80vw;
+  height: 100vw;
+  overflow: hidden;
 }
 
 .home-content__5__img {
@@ -272,12 +281,13 @@ Home content 5: audio data
 Home content 6: measuring tape
 ----------------------*/
 .home-content__6 {
-  height: 40vw;
+  height: 45vw;
+  overflow: hidden;
 }
 
 .home-content__6__img {
   position: absolute;
-  width: 48vw;
+  width: 44vw;
   left: 12vw;
   transform: rotate(-20deg);
   -webkit-transform: rotate(-22deg);
@@ -289,7 +299,8 @@ Home content 6: measuring tape
 Home content 7: set alarm: arms moving
 ----------------------*/
 .home-content__7 {
-  height: 33vw;
+  height: 36vw;
+  overflow: hidden;
 }
 
 .home-content__7__img {
@@ -303,6 +314,7 @@ Home content 8: set alarm: arms moving
 ----------------------*/
 .home-content__8 {
   height: 60vw;
+  overflow: hidden;
 }
 
 .home-content__8__img {
@@ -320,6 +332,7 @@ Home content 9: wearable
 ----------------------*/
 .home-content__9 {
   height: 80vw;
+  overflow: hidden;
 }
 
 .home-content__9 > p {
@@ -327,10 +340,12 @@ Home content 9: wearable
   font-style: normal;
   font-weight: normal;
   font-size: 1.6vw;
+  position: absolute;
 }
 
 .home-content__9__text-1 {
   left: 55vw;
+  top: 2vw;
   transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -382,6 +397,7 @@ Home content 10: clay pot echo
 ----------------------*/
 .home-content__10 {
   height: 30vw;
+  overflow: hidden;
 }
 
 .home-content__10__img {
@@ -397,13 +413,15 @@ Home content 10: clay pot echo
 }
 
 /*--------------------- 
-Home content 11: clay pot echo
+Home content 11: training
 ----------------------*/
 .home-content__11 {
   height: 80vw;
+  overflow: hidden;
 }
 
 .home-content__11 > p {
+  position: absolute;
   font-family: IBM Plex Mono;
   font-style: normal;
   font-weight: normal;
@@ -435,11 +453,12 @@ Home content 11: clay pot echo
 }
 
 /*--------------------- 
-Home content 12: audio data
+Home content 12: concrete
 ----------------------*/
 .home-content__12 {
   position: relative;
-  height: 100vw;
+  overflow: hidden;
+  height: 98vw;
 }
 
 .home-content__12__img {

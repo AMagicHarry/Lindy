@@ -30,6 +30,7 @@ class ContentHome extends Component {
             Explorations around how we might reclaim, transcode, and embody
             voice assistant interactions and data
           </p>
+
           <Link to="/chit-chat">
             <img
               src={echo}
