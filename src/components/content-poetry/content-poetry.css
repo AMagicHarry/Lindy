@@ -31,6 +31,8 @@
 
 .content-poetry__text-4__left {
   margin-top: 40.3em;
+  display: inline-block;
+  width: 4em;
 }
 
 .content-poetry__text-4__right {

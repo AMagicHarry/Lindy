@@ -68,14 +68,14 @@ class ContentHome extends Component {
           </Link>
         </div>
         <div className="home-content__1">
-          <Link to="/">
+          <Link to="/j-story">
             <img
               src={timeline}
               alt="animated timeline for j story"
               className="home-content__1__timeline-img"
             />
           </Link>
-          <Link to="/">
+          <Link to="/j-story">
             <img
               src={bonnie}
               alt="bonnie in red shirt hitting the snare"
@@ -84,7 +84,7 @@ class ContentHome extends Component {
           </Link>
 
           <div className="home-content__1__text">
-            <Link to="/" className="text-link__italics">
+            <Link to="/j-story" className="text-link__italics">
               What time is it what time is it what time is it what time is it
               what time is it what time is it what time is it what time is it
               what time is it what time is it what time is it what time is it
@@ -193,7 +193,8 @@ class ContentHome extends Component {
           <div className="home-content__3__video">
             <iframe
               className="home-content__3__video__frame"
-              src="https://player.vimeo.com/video/420202270?portrait=0"
+              title="Ursonate"
+              src="https://player.vimeo.com/video/431883467?title=0&byline=0&portrait=0"
               frameBorder="0"
               allowFullScreen
             ></iframe>
@@ -219,7 +220,7 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__6">
-          <Link to="/">
+          <Link to="/fingernail">
             <img
               src={measureTape}
               alt="animated measuring tape"
@@ -239,7 +240,7 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__8">
-          <Link to="/">
+          <Link to="/playback">
             <img
               src={disassembledEcho}
               alt="parts of a disassembled echo"
@@ -250,31 +251,31 @@ class ContentHome extends Component {
 
         <div className="home-content__9">
           <p className="home-content__9__text-1">
-            <Link to="/" className="text-link__italics">
+            <Link to="/improv" className="text-link__italics">
               Being
             </Link>
           </p>
           <p className="home-content__9__text-2">
-            <Link to="/" className="text-link__italics">
+            <Link to="/improv" className="text-link__italics">
               Body
             </Link>
           </p>
           <p className="home-content__9__text-3">
-            <Link to="/" className="text-link__italics">
+            <Link to="/improv" className="text-link__italics">
               Feeling
             </Link>
           </p>
           <p className="home-content__9__text-4">
-            <Link to="/" className="text-link__italics">
+            <Link to="/improv" className="text-link__italics">
               Care
             </Link>
           </p>
           <p className="home-content__9__text-5">
-            <Link to="/" className="text-link__italics">
+            <Link to="/improv" className="text-link__italics">
               Intelligence
             </Link>
           </p>
-          <Link to="/">
+          <Link to="/improv">
             <img
               src={AIYWearable}
               alt="silhouette of a person wearing the AIY wearable"

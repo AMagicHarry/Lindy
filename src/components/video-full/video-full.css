@@ -1,4 +1,7 @@
+.video-full {
+  width: 100vw;
+}
 .video-full__vimeo {
   width: 100vw;
-  height: 50vw;
+  height: 56vw;
 }

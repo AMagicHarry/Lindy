@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import SEO from "../components/seo"
-import Fade from "react-reveal/Fade"
 
 import "../css/global.css"
 import "../css/reset.css"
@@ -12,23 +10,23 @@ import VideoFull from "../components/video-full/video-full"
 
 import Back from "../components/back-nav/back-nav"
 
-function YourHair(props) {
+function JStory(props) {
   return (
     <div className="black-background">
-      <SEO title="Your hair is very wonderful" />
+      <SEO title="J's Story" />
 
       <SmallHeader
         colorMode={"small-header__on-dark"}
-        headerTitle={"Your hair is very wonderful"}
-        infoTitle={"Your hair is very wonderful"}
+        headerTitle={"J’s story"}
+        infoTitle={"J’s story"}
         infoContent={
-          "Sonic interpretations of a series of 6 consecutive statements from google voice assistant data log."
+          "Interpretation of J's google assistant data log. Interpretation of J's google assistant data log. Composers: Yvonne Wu and Danny Clay"
         }
       />
 
       <VideoFull
         videoSrc="https://player.vimeo.com/video/431882372?title=0&byline=0&portrait=0"
-        title="Your hair is very wonderful"
+        title="J's Story"
       />
 
       <Back colorMode={"on-dark"} />
@@ -36,4 +34,4 @@ function YourHair(props) {
   )
 }
 
-export default YourHair
+export default JStory

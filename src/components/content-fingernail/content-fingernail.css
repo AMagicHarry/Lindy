@@ -1,0 +1,15 @@
+.content-fingernail {
+  margin-top: 24vw;
+}
+
+.content-fingernail__text {
+  padding-left: 55vw;
+}
+
+.content-fingernail__text > p {
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  color: var(--red);
+}

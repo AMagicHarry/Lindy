@@ -13,7 +13,8 @@ class VideoFull extends Component {
       <div>
         <div className="video-full">
           <iframe
-            src={this.props.videoLink}
+            src={this.props.videoSrc}
+            title={this.props.title}
             frameBorder="0"
             className="video-full__vimeo"
             allowFullScreen

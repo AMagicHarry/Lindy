@@ -22,12 +22,12 @@
   position: fixed;
   z-index: 2;
   background-color: var(--black);
-  width: 160px;
+  width: 180px;
   height: 340px;
   padding-top: 60px;
   padding-left: 100px;
   padding-right: 40px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   right: 7em;
   top: 7em;
 }
