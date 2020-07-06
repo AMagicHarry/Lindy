@@ -41,6 +41,9 @@ class BackNav extends Component {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               className="back-nav__img"
+              role="navigation"
+              aria-label="back to homepage"
+              alt="back to homepage"
             >
               <path
                 className={this.getStrokeClassName()}

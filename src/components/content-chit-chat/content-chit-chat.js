@@ -16,30 +16,30 @@ class ContentChitChat extends Component {
   constructor(props) {
     super(props)
     this.onEnterViewport = this.onEnterViewport.bind(this)
-    this.playSound = this.playSound.bind(this)
+    // this.playSound = this.playSound.bind(this)
 
     this.scrolledOnce = false
   }
 
-  playSound() {
-    if (this.audioEl == undefined) {
-      this.audioEl = document.getElementsByClassName("audio-element")[0]
-      this.audioEl.muted = false
-      this.audioEl.play()
-    }
-    if (this.audioEl != undefined) {
-      this.scrolledOnce = true
-      if (this.audioEl.paused) {
-        this.audioEl.muted = false
-        this.audioEl.play()
-      }
-      // } else {
-      //   this.audioEl.pause()
-      //   this.audioEl.currentTime = 0
-      //   this.audioEl.play()
-      // }
-    }
-  }
+  // playSound() {
+  //   if (this.audioEl == undefined) {
+  //     this.audioEl = document.getElementsByClassName("audio-element")[0]
+  //     this.audioEl.muted = false
+  //     this.audioEl.play()
+  //   }
+  //   if (this.audioEl != undefined) {
+  //     this.scrolledOnce = true
+  //     if (this.audioEl.paused) {
+  //       this.audioEl.muted = false
+  //       this.audioEl.play()
+  //     }
+  //     // } else {
+  //     //   this.audioEl.pause()
+  //     //   this.audioEl.currentTime = 0
+  //     //   this.audioEl.play()
+  //     // }
+  //   }
+  // }
 
   onEnterViewport() {
     console.log(this.audioEl)
