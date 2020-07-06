@@ -410,6 +410,7 @@ Home content 10: clay pot echo
 .home-content__10__img > img {
   display: flex;
   width: 13vw;
+  height: 100%;
 }
 
 /*--------------------- 

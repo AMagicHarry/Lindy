@@ -1,6 +1,6 @@
 .home-header {
   z-index: 2;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .home-header__title {
@@ -11,7 +11,6 @@
   position: fixed;
   top: 8.4em;
   right: -4.8em;
-  transform-origin: 100%, 100%;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);

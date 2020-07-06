@@ -299,7 +299,7 @@ class ContentTraining extends Component {
           className="content-training"
           onClick={e => this.incrementClicks(e)}
           onFocus={e => this.incrementClicks(e)}
-          tabIndex="1"
+          tabIndex="0"
         >
           <p className="content-training__text">eee</p>
           <audio className="audio-element" muted>
