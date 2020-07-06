@@ -6,7 +6,7 @@
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 .content-poetry__text-1 {
@@ -26,17 +26,17 @@
   display: flex;
   align-items: flex-start;
   margin-top: 15em;
-  margin-left: 28vw;
+  margin-left: 22vw;
 }
 
 .content-poetry__text-4__left {
   margin-top: 40.3em;
   display: inline-block;
-  width: 4em;
+  width: 16em;
 }
 
 .content-poetry__text-4__right {
-  margin-left: 6vw;
+  margin-left: 7vw;
   width: 200vw;
 }
 

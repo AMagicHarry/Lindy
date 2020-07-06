@@ -389,6 +389,7 @@ Home content 9: wearable
   width: 28vw;
   left: 38vw;
   top: 6vw;
+  z-index: -1;
 }
 
 /*--------------------- 

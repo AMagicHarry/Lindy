@@ -1,18 +1,73 @@
 import React, { Component } from "react"
+import ScrollTrigger from "react-scroll-trigger"
 
 import "./content-chit-chat.css"
 import "../../css/global.css"
 import "../../css/reset.css"
 import "../../css/type.css"
 
+import silence from "../../sound/silence.mp3"
+
+import amazonAudio from "../../sound/Mellon_pres_noClap.pt1.mp3"
+
 import chitChat from "../../images/chit-chat/echos appearing with chit chat text.gif"
 
 class ContentChitChat extends Component {
+  constructor(props) {
+    super(props)
+    this.onEnterViewport = this.onEnterViewport.bind(this)
+    this.playSound = this.playSound.bind(this)
+
+    this.scrolledOnce = false
+  }
+
+  playSound() {
+    if (this.audioEl == undefined) {
+      this.audioEl = document.getElementsByClassName("audio-element")[0]
+      this.audioEl.muted = false
+      this.audioEl.play()
+    }
+    if (this.audioEl != undefined) {
+      this.scrolledOnce = true
+      if (this.audioEl.paused) {
+        this.audioEl.muted = false
+        this.audioEl.play()
+      }
+      // } else {
+      //   this.audioEl.pause()
+      //   this.audioEl.currentTime = 0
+      //   this.audioEl.play()
+      // }
+    }
+  }
+
+  onEnterViewport() {
+    console.log(this.audioEl)
+    if (this.audioEl == undefined) {
+      this.audioEl = document.getElementsByClassName("audio-element")[0]
+      this.audioEl.muted = false
+      this.audioEl.play()
+    }
+    if (this.audioEl != undefined) {
+      this.scrolledOnce = true
+      if (this.audioEl.paused) {
+        this.audioEl.muted = false
+        this.audioEl.play()
+      }
+      // } else {
+      //   this.audioEl.pause()
+      //   this.audioEl.currentTime = 0
+      //   this.audioEl.play()
+      // }
+    }
+  }
   render() {
     return (
       <div>
         <div className="content-chit-chat__text">
-          <p>hi turkers hi amazon hi echo ok google</p>
+          <p onMouseEnter={this.playSound}>
+            hi turkers hi amazon hi echo ok google
+          </p>
           <p>
             <span>&nbsp;</span>
           </p>
@@ -31,10 +86,21 @@ class ContentChitChat extends Component {
           <p>
             <span>&nbsp;</span>
           </p>
-          <p>
-            Amazon, &lt;break time=&quot;1s&quot;/&gt; where are you &lt;break
-            time=&quot;5s&quot;/&gt;
-          </p>
+
+          <ScrollTrigger onEnter={this.onEnterViewport}>
+            <p>
+              Amazon, &lt;break time=&quot;1s&quot;/&gt; where are you &lt;break
+              time=&quot;5s&quot;/&gt;
+            </p>
+          </ScrollTrigger>
+          <audio
+            className="audio-element"
+            autoPlay="true"
+            allow="autoplay"
+            muted="muted"
+          >
+            <source src={amazonAudio}></source>
+          </audio>
           <p>
             <span>&nbsp;</span>
           </p>

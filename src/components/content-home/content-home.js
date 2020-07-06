@@ -230,7 +230,7 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__7">
-          <Link to="/">
+          <Link to="/alarm">
             <img
               src={armsMoving}
               alt="Set an alarm trio - arms moving"

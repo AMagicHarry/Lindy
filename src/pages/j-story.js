@@ -25,7 +25,7 @@ function JStory(props) {
       />
 
       <VideoFull
-        videoSrc="https://player.vimeo.com/video/431882372?title=0&byline=0&portrait=0"
+        videoSrc="https://player.vimeo.com/video/435822685?title=0&byline=0&portrait=0"
         title="J's Story"
       />
 
