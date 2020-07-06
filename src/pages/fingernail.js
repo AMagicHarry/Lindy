@@ -14,7 +14,7 @@ import Back from "../components/back-nav/back-nav"
 function Fingernail(props) {
   return (
     <div>
-      <SEO title="J's Story" />
+      <SEO title="How wide is the average fingernail" />
 
       <SmallHeader
         colorMode={"small-header__on-dark"}
