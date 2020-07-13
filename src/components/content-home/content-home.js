@@ -11,7 +11,8 @@ import "../../css/type.css"
 
 import echo from "../../images/index/echo-voices.gif"
 import timeline from "../../images/index/timeline.gif"
-import bonnie from "../../images/index/bonnie-snare.png"
+import bonnie from "../../images/index/j-story-screenshot.png"
+import ursonate from "../../images/index/bonnie-ursonate.png"
 import hairWonder from "../../images/index/hair-wonderful.png"
 import audioData from "../../images/index/audio-data.png"
 import measureTape from "../../images/index/measuring-tape.gif"
@@ -30,6 +31,7 @@ class ContentHome extends Component {
             Explorations around how we might reclaim, transcode, and embody
             voice assistant interactions and data
           </p>
+          <a id="chit-chat"></a>
 
           <Link to="/chit-chat">
             <img
@@ -68,6 +70,7 @@ class ContentHome extends Component {
           </Link>
         </div>
         <div className="home-content__1">
+          <a id="j-story"></a>
           <Link to="/j-story">
             <img
               src={timeline}
@@ -166,6 +169,7 @@ class ContentHome extends Component {
           </div>
         </div>
         <div className="home-content__3">
+          <a id="ursonate"></a>
           <p className="home-content__3__text-1">
             <Link to="/ursonate" className="text-link__italics">
               Fuümms bö wö tää{" "}
@@ -190,17 +194,16 @@ class ContentHome extends Component {
             </Link>
           </p>
 
-          <div className="home-content__3__video">
-            <iframe
-              className="home-content__3__video__frame"
-              title="Ursonate"
-              src="https://player.vimeo.com/video/431883467?title=0&byline=0&portrait=0"
-              frameBorder="0"
-              allowFullScreen
-            ></iframe>
-          </div>
+          <Link to="/ursonate-performance">
+            <img
+              src={ursonate}
+              alt="bonnie performing ursonate"
+              className="home-content__3__img"
+            />
+          </Link>
         </div>
         <div className="home-content__4">
+          <a id="your-hair"></a>
           <Link to="/your-hair">
             <img
               src={hairWonder}
@@ -209,6 +212,8 @@ class ContentHome extends Component {
             />
           </Link>
         </div>
+
+        <a id="poetry"></a>
         <div className="home-content__5">
           <Link to="/poetry">
             <img
@@ -220,6 +225,7 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__6">
+          <a id="fingernail"></a>
           <Link to="/fingernail">
             <img
               src={measureTape}
@@ -230,6 +236,7 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__7">
+          <a id="alarm"></a>
           <Link to="/alarm">
             <img
               src={armsMoving}
@@ -240,6 +247,7 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__8">
+          <a id="playback"></a>
           <Link to="/playback">
             <img
               src={disassembledEcho}
@@ -249,6 +257,7 @@ class ContentHome extends Component {
           </Link>
         </div>
 
+        <a id="improv"></a>
         <div className="home-content__9">
           <p className="home-content__9__text-1">
             <Link to="/improv" className="text-link__italics">
@@ -307,6 +316,7 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__11">
+          <a id="traning"></a>
           <p className="home-content__11__text-1">
             <Link to="/training" className="text-link__italics">
               ehh

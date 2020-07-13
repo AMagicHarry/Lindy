@@ -1,4 +1,4 @@
-.content-training {
+.content-chit-chat {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -9,7 +9,13 @@
   outline: none;
 }
 
-.content-training__text {
+.content-chit-chat__volume-svg {
+  position: absolute;
+  left: 2vw;
+  top: 2vw;
+}
+
+.content-chit-chat__text {
   display: block;
   font-size: 4em;
   font-family: "IBM Plex Mono", sans-serif;
@@ -19,24 +25,24 @@
   text-align: center;
 }
 
-.content-training__temperature-05 {
+.content-chit-chat__temperature-05 {
   background-color: var(--black);
 }
 
-.content-training__temperature-05 > p {
+.content-chit-chat__temperature-05 > p {
   color: var(--white);
 }
 
-.content-training__temperature-07 {
+.content-chit-chat__temperature-07 {
   background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
     #367cb9;
 }
 
-.content-training__temperature-1 > p {
+.content-chit-chat__temperature-1 > p {
   color: #ff0000;
 }
 
-.content-training__temp__title {
+.content-chit-chat__temp__title {
   color: var(--white);
   position: absolute;
   display: block;
@@ -52,4 +58,20 @@
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
+}
+
+.content-chit-chat__white {
+  fill: white;
+}
+
+.content-chit-chat__blue {
+  fill: #367cb9;
+}
+
+.content-chit-chat__red {
+  fill: var(--red);
+}
+
+.content-chit-chat__black {
+  fill: var(--black);
 }

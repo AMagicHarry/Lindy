@@ -22,7 +22,7 @@ function ChitChat(props) {
         }
       />
       <ContentChitChat />
-      <Back />
+      <Back homeSection="#chit-chat" />
     </div>
   )
 }

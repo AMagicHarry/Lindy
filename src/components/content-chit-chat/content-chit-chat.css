@@ -1,3 +1,8 @@
+.content-chit-chat__volume-svg {
+  position: fixed;
+  left: 2vw;
+  top: 2vw;
+}
 .content-chit-chat__text {
   width: 41em;
   margin-top: 25em;

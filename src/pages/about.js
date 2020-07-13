@@ -11,7 +11,7 @@ function IndexPage(props) {
     <div>
       <SEO title="Voices and Voids" />
       <ContentAbout />
-      <Back colorMode={"is-red"} />
+      <Back colorMode={"is-red"} homeSection="" />
     </div>
   )
 }

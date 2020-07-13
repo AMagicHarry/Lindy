@@ -29,7 +29,7 @@ function JStory(props) {
         title="J's Story"
       />
 
-      <Back colorMode={"on-dark"} />
+      <Back colorMode={"on-dark"} homeSection="#j-story" />
     </div>
   )
 }

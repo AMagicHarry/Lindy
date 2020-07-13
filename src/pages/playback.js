@@ -29,7 +29,7 @@ function Playback(props) {
         title="Kate's dance video "
       />
 
-      <Back colorMode={"on-dark"} />
+      <Back colorMode={"on-dark"} homeSection="#playback" />
     </div>
   )
 }

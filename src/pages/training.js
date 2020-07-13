@@ -8,7 +8,7 @@ import "../css/reset.css"
 import "../css/type.css"
 
 import SmallHeader from "../components/small-header/small-header"
-import ContentTraining from "../components/content-training/content-training"
+import ContentTraining from "../components/content-chit-chat/content-chit-chat"
 
 function Training(props) {
   return (

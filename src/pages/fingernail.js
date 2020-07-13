@@ -32,7 +32,7 @@ function Fingernail(props) {
 
       <ContentFingernail />
 
-      <Back />
+      <Back homeSection="#fingernail" />
     </div>
   )
 }

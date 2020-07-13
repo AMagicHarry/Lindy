@@ -31,7 +31,7 @@ function YourHair(props) {
         title="Your hair is very wonderful"
       />
 
-      <Back colorMode={"on-dark"} />
+      <Back colorMode={"on-dark"} homeSection="#your-hair" />
     </div>
   )
 }

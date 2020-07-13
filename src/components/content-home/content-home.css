@@ -196,16 +196,18 @@ Home content 3: Ursonate
   font-size: 2.4vw;
 }
 
-.home-content__3__video {
+.home-content__3__img {
   position: absolute;
-  display: inline;
-  top: 3vw;
-  left: 26vw;
+  width: 35vw;
+  transform: translate(28vw, 5vw);
+  top: 5vw;
+  left: 28vw;
   transform: rotate(3deg);
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
   -o-transform: rotate(3deg);
   transform: rotate(3deg);
+  z-index: 1;
 }
 
 .home-content__3__video__frame {
@@ -305,8 +307,8 @@ Home content 7: set alarm: arms moving
 
 .home-content__7__img {
   position: absolute;
-  width: 60vw;
-  left: 43vw;
+  width: 50vw;
+  left: 40vw;
 }
 
 /*--------------------- 
@@ -385,10 +387,10 @@ Home content 9: wearable
 }
 
 .home-content__9__img {
-  position: absolute;
+  transform: translate(38vw, 6vw);
   width: 28vw;
-  left: 38vw;
-  top: 6vw;
+  /* left: 38vw;
+  top: 6vw; */
   z-index: -1;
 }
 

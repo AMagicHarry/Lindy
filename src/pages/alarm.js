@@ -29,7 +29,7 @@ function Alarm(props) {
         title="Set an alarm Trio"
       />
 
-      <Back colorMode={"on-dark"} />
+      <Back colorMode={"on-dark"} homeSection="#alarm" />
     </div>
   )
 }

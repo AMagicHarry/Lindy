@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import Fade from "react-reveal/Fade"
 
 import SmallHeader from "../components/small-header/small-header"
-
+import Back from "../components/back-nav/back-nav"
 import ContentUrsonate from "../components/content-ursonate/content-ursonate"
 
 function Ursonate(props) {
@@ -21,6 +21,7 @@ function Ursonate(props) {
       />
 
       <ContentUrsonate />
+      <Back homeSection="#ursonate" />
     </div>
   )
 }

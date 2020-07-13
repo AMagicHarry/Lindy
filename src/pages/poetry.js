@@ -23,7 +23,7 @@ function Poetry(props) {
         }
       />
       <ContentPoetry />
-      <Back colorMode={"on-dark"} />
+      <Back colorMode={"on-dark"} homeSection="#poetry" />
     </div>
   )
 }

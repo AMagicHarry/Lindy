@@ -354,7 +354,6 @@ class UrsonateContent extends Component {
             </p>
           </div>
         </main>
-        <Back className="ursonate__back" />
       </div>
     )
   }

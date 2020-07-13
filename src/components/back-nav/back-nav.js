@@ -33,7 +33,7 @@ class BackNav extends Component {
     return (
       <div className={this.getBackNavClass()}>
         <Fade duration={1500}>
-          <Link to="/">
+          <Link to={"/" + this.props.homeSection}>
             <svg
               width="55"
               height="55"
