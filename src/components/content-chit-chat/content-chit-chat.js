@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import ReactDOM from "react-dom"
 import ScrollTrigger from "react-scroll-trigger"
 
 import "./content-chit-chat.css"
@@ -17,11 +16,11 @@ class ContentChitChat extends Component {
   constructor(props) {
     super(props)
     this.changeVolume = this.changeVolume.bind(this)
-    this.playSound = this.playSound.bind(this)
+    this.componentDidMount = this.componentDidMount.bind(this)
     // this.audioEl = document.getElementsByClassName("audio-element")[0]
-    this.audioRef = React.createRef()
     this.state = {
       volume: false,
+      mounted: false,
     }
   }
 
@@ -62,15 +61,20 @@ class ContentChitChat extends Component {
     }
   }
 
+  componentDidMount() {
+    this.mounted = true
+  }
+
   playSound() {
-    if (document != undefined) {
-      this.audioRef = document.getElementsByClassName("audio-element")[0]
-      if (this.audioRef != undefined) {
+    if (this.mounted == true) {
+      this.audioEl = document.getElementsByClassName("audio-element")[0]
+      if (this.audioEl != undefined) {
+        console.log(this.state.volume)
         if (this.state.volume == true) {
-          this.audioRef.play()
-          this.audioRef.muted = false
+          this.audioEl.play()
+          this.audioEl.muted = false
         } else if (this.state.volume == false) {
-          this.audioRef.muted = true
+          this.audioEl.muted = true
         }
       }
     }
