@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import ReactDOM from "react-dom"
 import ScrollTrigger from "react-scroll-trigger"
 
 import "./content-chit-chat.css"
@@ -15,15 +16,16 @@ import chitChat from "../../images/chit-chat/echos appearing with chit chat text
 class ContentChitChat extends Component {
   constructor(props) {
     super(props)
-    // this.onEnterViewport = this.onEnterViewport.bind(this)
-    // this.scrolledOnce = false
+    this.changeVolume = this.changeVolume.bind(this)
+    this.playSound = this.playSound.bind(this)
+    // this.audioEl = document.getElementsByClassName("audio-element")[0]
+    this.audioRef = React.createRef()
     this.state = {
       volume: false,
     }
   }
 
   changeVolume(e) {
-    let audioEl = document.getElementsByClassName("audio-element")[0]
     if (this.state.volume == true) {
       this.setState({
         volume: false,
@@ -61,13 +63,15 @@ class ContentChitChat extends Component {
   }
 
   playSound() {
-    this.audioEl = document.getElementsByClassName("audio-element")[0]
-    if (this.audioEl != undefined) {
-      if (this.state.volume == true) {
-        this.audioEl.play()
-        this.audioEl.muted = false
-      } else if (this.state.volume == false) {
-        this.audioEl.muted = true
+    if (document != undefined) {
+      this.audioRef = document.getElementsByClassName("audio-element")[0]
+      if (this.audioRef != undefined) {
+        if (this.state.volume == true) {
+          this.audioRef.play()
+          this.audioRef.muted = false
+        } else if (this.state.volume == false) {
+          this.audioRef.muted = true
+        }
       }
     }
   }
@@ -136,6 +140,7 @@ class ContentChitChat extends Component {
             time=&quot;5s&quot;/&gt;
           </p>
           <audio
+            ref={this.audioRef}
             className="audio-element"
             autoPlay={true}
             allow="autoplay"
@@ -143,8 +148,6 @@ class ContentChitChat extends Component {
           >
             <source src={amazonAudio}></source>
           </audio>
-          {this.playSound()}
-
           <p>
             <span>&nbsp;</span>
           </p>
@@ -297,6 +300,7 @@ class ContentChitChat extends Component {
           alt="echos appearing with chit chat text"
           className="content-chit-chat__img"
         />
+        {this.playSound()}
       </div>
     )
   }
