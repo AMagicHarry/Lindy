@@ -19,9 +19,16 @@ function Alarm(props) {
         colorMode={"small-header__on-dark"}
         headerTitle={"Set an alarm"}
         infoTitle={"Set an alarm"}
-        infoContent={
-          "Following a movement score to respond to the voice assistant instructions.Choreography by Kate Sicchio"
-        }
+        infoContent={[
+          "Movement score responding to voice assistant commands. The alarms are extracted from ghost workers' Google Voice Assistant data logs, and then scripted for Alexa using texttovoice.io. Score interpreted at home over zoom during the Covid-19 pandemic.",
+          <br />,
+          <br />,
+          "Collaborator:",
+          <br />,
+          "Kate Sicchio",
+          <br />,
+          "Alexa",
+        ]}
       />
 
       <VideoFull

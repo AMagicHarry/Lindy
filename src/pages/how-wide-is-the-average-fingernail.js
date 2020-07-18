@@ -20,9 +20,14 @@ function Fingernail(props) {
         colorMode={"small-header__on-dark"}
         headerTitle={"How wide is the average fingernail"}
         infoTitle={"How wide is the average fingernail"}
-        infoContent={
-          "Video and sonic interpretations of a series of 6 consecutive statements from google voice assistant data log."
-        }
+        infoContent={[
+          "Sonic and visual responses to 6 consecutive questions from a Google Voice Assistant data log, sourced from an Amazon Mechanical Turk worker.",
+          <br />,
+          <br />,
+          "Collaborator:",
+          <br />,
+          "Danny Clay",
+        ]}
       />
 
       <VideoFull
@@ -32,7 +37,7 @@ function Fingernail(props) {
 
       <ContentFingernail />
 
-      <Back homeSection="#fingernail" />
+      <Back homeSection="#how-wide-is-the-average-fingernail" />
     </div>
   )
 }

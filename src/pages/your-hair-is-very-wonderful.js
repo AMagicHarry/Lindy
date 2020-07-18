@@ -21,9 +21,14 @@ function YourHair(props) {
         colorMode={"small-header__on-dark"}
         headerTitle={"Your hair is very wonderful"}
         infoTitle={"Your hair is very wonderful"}
-        infoContent={
-          "Sonic interpretations of a series of 6 consecutive statements from google voice assistant data log."
-        }
+        infoContent={[
+          "Sonic interpretations of a series of 6 consecutive statements from a Google Voice Assistant data log sourced from an Amazon Mechanical Turk worker, with accompanying text.",
+          <br />,
+          <br />,
+          "Collaborator:",
+          <br />,
+          "Danny Clay",
+        ]}
       />
 
       <VideoFull
@@ -31,7 +36,7 @@ function YourHair(props) {
         title="Your hair is very wonderful"
       />
 
-      <Back colorMode={"on-dark"} homeSection="#your-hair" />
+      <Back colorMode={"on-dark"} homeSection="#your-hair-is-very-wonderful" />
     </div>
   )
 }

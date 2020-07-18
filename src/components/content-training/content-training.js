@@ -348,7 +348,7 @@ class ContentTraining extends Component {
           positionMode={"absolute"}
           colorMode={"on-dark"}
           className="visible content-training__back"
-          homeSection="#traning"
+          homeSection="#training-session"
         />
       )
     }

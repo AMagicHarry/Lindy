@@ -209,8 +209,8 @@ class ContentHome extends Component {
           </Link>
         </div>
         <div className="home-content__4">
-          <a id="your-hair"></a>
-          <Link to="/your-hair">
+          <a id="your-hair-is-very-wonderful"></a>
+          <Link to="/your-hair-is-very-wonderful">
             <img
               src={hairWonder}
               alt="white text on black - your hair is very wonderful - that painting is astounding"
@@ -219,9 +219,9 @@ class ContentHome extends Component {
           </Link>
         </div>
 
-        <a id="poetry"></a>
+        <a id="play-the-Earth"></a>
         <div className="home-content__5">
-          <Link to="/poetry">
+          <Link to="/play-the-earth">
             <img
               src={audioData}
               alt="lists of data audio files"
@@ -231,8 +231,8 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__6">
-          <a id="fingernail"></a>
-          <Link to="/fingernail">
+          <a id="how-wide-is-the-average-fingernail"></a>
+          <Link to="/how-wide-is-the-average-fingernail">
             <img
               src={measureTape}
               alt="animated measuring tape"
@@ -253,8 +253,8 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__8">
-          <a id="playback"></a>
-          <Link to="/playback">
+          <a id="homebodies"></a>
+          <Link to="/homebodies">
             <img
               src={disassembledEcho}
               alt="parts of a disassembled echo"
@@ -263,34 +263,34 @@ class ContentHome extends Component {
           </Link>
         </div>
 
-        <a id="improv"></a>
+        <a id="play-feeling-good-music"></a>
         <div className="home-content__9">
           <p className="home-content__9__text-1">
-            <Link to="/improv" className="text-link__italics">
+            <Link to="/play-feeling-good-music" className="text-link__italics">
               Being
             </Link>
           </p>
           <p className="home-content__9__text-2">
-            <Link to="/improv" className="text-link__italics">
+            <Link to="/play-feeling-good-music" className="text-link__italics">
               Body
             </Link>
           </p>
           <p className="home-content__9__text-3">
-            <Link to="/improv" className="text-link__italics">
+            <Link to="/play-feeling-good-music" className="text-link__italics">
               Feeling
             </Link>
           </p>
           <p className="home-content__9__text-4">
-            <Link to="/improv" className="text-link__italics">
+            <Link to="/play-feeling-good-music" className="text-link__italics">
               Care
             </Link>
           </p>
           <p className="home-content__9__text-5">
-            <Link to="/improv" className="text-link__italics">
+            <Link to="/play-feeling-good-music" className="text-link__italics">
               Intelligence
             </Link>
           </p>
-          <Link to="/improv">
+          <Link to="/play-feeling-good-music">
             <img
               src={AIYWearable}
               alt="silhouette of a person wearing the AIY wearable"
@@ -322,29 +322,29 @@ class ContentHome extends Component {
         </div>
 
         <div className="home-content__11">
-          <a id="traning"></a>
+          <a id="training-session"></a>
           <p className="home-content__11__text-1">
-            <Link to="/training" className="text-link__italics">
+            <Link to="/training-session" className="text-link__italics">
               ehh
             </Link>
           </p>
           <p className="home-content__11__text-2">
-            <Link to="/training" className="text-link__italics">
+            <Link to="/training-session" className="text-link__italics">
               ooo
             </Link>
           </p>
           <p className="home-content__11__text-3">
-            <Link to="/training" className="text-link__italics">
+            <Link to="/training-session" className="text-link__italics">
               eee
             </Link>
           </p>
           <p className="home-content__11__text-4">
-            <Link to="/training" className="text-link__italics">
+            <Link to="/training-session" className="text-link__italics">
               ohh
             </Link>
           </p>
           <p className="home-content__11__text-5">
-            <Link to="/training" className="text-link__italics">
+            <Link to="/training-session" className="text-link__italics">
               stop
             </Link>
           </p>

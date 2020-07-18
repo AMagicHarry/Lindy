@@ -20,10 +20,15 @@ function UrsonatePerformance(props) {
       <SmallHeader
         colorMode={"small-header__on-dark"}
         headerTitle={"UrSonate Performance"}
-        infoTitle={"Ursonate"}
-        infoContent={
-          "A realization of an excerpt from Kurt Schwitters' sound poem 'UrSonate' (1922/32.) This version involves a human recitation of the original poem, as well as a combination of text to voice and voice to text applications that allow the smart speaker to both transcribe and recite versions of the nonsense words. Collaborator: Alexa"
-        }
+        infoTitle={"Ursonate Performance"}
+        infoContent={[
+          "A realization of an excerpt from Kurt Schwitters' sound poem 'UrSonate' (1922/32.) This version involves a human recitation of the original poem, as well as a combination of text to voice and voice to text applications that allow the smart speaker to both transcribe and recite versions of the nonsense words.",
+          <br />,
+          <br />,
+          "Collaborator:",
+          <br />,
+          "Alexa",
+        ]}
       />
 
       <VideoFull

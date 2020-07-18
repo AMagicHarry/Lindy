@@ -15,9 +15,14 @@ function Ursonate(props) {
       <SmallHeader
         headerTitle={"Ursonate"}
         infoTitle={"Ursonate"}
-        infoContent={
-          "This texttovoice.io script is spoken by one voice assistant for other voices assistants to respond with very limited human intervention. "
-        }
+        infoContent={[
+          "A realization of an excerpt from Kurt Schwitters' sound poem 'UrSonate' (1922/32.) This version involves a human recitation of the original poem, as well as a combination of text to voice and voice to text applications that allow the smart speaker to both transcribe and recite versions of the nonsense words.",
+          <br />,
+          <br />,
+          "Collaborator:",
+          <br />,
+          "Alexa",
+        ]}
       />
 
       <ContentUrsonate />

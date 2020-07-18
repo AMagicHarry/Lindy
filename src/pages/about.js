@@ -6,14 +6,14 @@ import BasicHeader from "../components/home-header/home-header"
 import ContentAbout from "../components/content-about/content-about"
 import Back from "../components/back-nav/back-nav"
 
-function IndexPage(props) {
+function About(props) {
   return (
     <div>
-      <SEO title="Voices and Voids" />
+      <SEO title="About" />
       <ContentAbout />
       <Back colorMode={"is-red"} homeSection="" />
     </div>
   )
 }
 
-export default IndexPage
+export default About
