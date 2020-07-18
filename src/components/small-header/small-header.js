@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import ScrollTrigger from "react-scroll-trigger"
 import Fade from "react-reveal/Fade"
 
+import SmallHeaderP from "../small-header-p/small-header-p"
+
 import "./small-header.css"
 import "../../css/global.css"
 import "../../css/reset.css"

@@ -12,12 +12,26 @@
 }
 
 /*--------------------- 
+Home content sliding
+----------------------*/
+.home-content__sliding {
+  height: 60vw;
+  overflow: hidden;
+}
+
+.home-content__sliding__img {
+  display: absolute;
+  transform: translate(-5vw, -5vw);
+  width: 85vw;
+}
+
+/*--------------------- 
 Home content hero
 ----------------------*/
 
 .home-content__hero {
   widows: 100vw;
-  height: 160vw;
+  height: 100vw;
   overflow: hidden;
   position: relative;
 }
@@ -42,8 +56,8 @@ Home content hero
 }
 
 .echo-img__1 {
-  left: 8vw;
-  top: 15vw;
+  left: 15vw;
+  top: 0vw;
   transform: rotate(-6deg);
   -webkit-transform: rotate(-6deg);
   -moz-transform: rotate(-6deg);
@@ -52,18 +66,8 @@ Home content hero
 }
 
 .echo-img__2 {
-  left: 17vw;
-  top: 55vw;
-  transform: rotate(-19deg);
-  -webkit-transform: rotate(-19deg);
-  -moz-transform: rotate(-19deg);
-  -o-transform: rotate(-19deg);
-  transform: rotate(-19deg);
-}
-
-.echo-img__3 {
-  left: 60vw;
-  top: 75vw;
+  left: 58vw;
+  top: 10vw;
   transform: rotate(9deg);
   -webkit-transform: rotate(9deg);
   -moz-transform: rotate(9deg);
@@ -71,24 +75,34 @@ Home content hero
   transform: rotate(9deg);
 }
 
+.echo-img__3 {
+  left: -10vw;
+  top: 32vw;
+  transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
 .echo-img__4 {
-  left: 0vw;
-  top: 95vw;
-  transform: rotate(38deg);
-  -webkit-transform: rotate(38deg);
-  -moz-transform: rotate(38deg);
-  -o-transform: rotate(38deg);
-  transform: rotate(38deg);
+  left: 25vw;
+  top: 42vw;
+  transform: rotate(-23deg);
+  -webkit-transform: rotate(-23deg);
+  -moz-transform: rotate(-23deg);
+  -o-transform: rotate(-23deg);
+  transform: rotate(-23deg);
 }
 
 .echo-img__5 {
-  left: 45vw;
-  top: 110vw;
-  transform: rotate(-7deg);
-  -webkit-transform: rotate(-7deg);
-  -moz-transform: rotate(-7deg);
-  -o-transform: rotate(-7deg);
-  transform: rotate(-7deg);
+  left: 76vw;
+  top: 50vw;
+  transform: rotate(-40deg);
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
 }
 
 /*--------------------- 

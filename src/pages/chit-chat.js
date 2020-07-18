@@ -17,9 +17,22 @@ function ChitChat(props) {
         className="small-header__title"
         headerTitle={"Chit Chat"}
         infoTitle={"Chit Chat"}
-        infoContent={
-          "This texttovoice.io script is spoken by one voice assistant for other voices assistants to respond with very limited human intervention. "
-        }
+        infoContent={[
+          "This texttovoice.io script is spoken by one voice assistant for other voice assistants to respond with very limited human intervention. The audio track is from a January 2020 live performance of this script with 5 Amazon Echos and 3 Google Home Mini.",
+          <br />,
+          <br />,
+          "Collaborators:",
+          <br />,
+          "Laura Devendorf",
+          <br />,
+          "Jordan Wirfs-Brock",
+          <br />,
+          "Cameron Fraser",
+          <br />,
+          "Alexas",
+          <br />,
+          "Google Assistants",
+        ]}
       />
       <ContentChitChat />
       <Back homeSection="#chit-chat" />

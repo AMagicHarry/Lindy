@@ -28,3 +28,7 @@
   right: 0em;
   z-index: -1;
 }
+
+.content-about__credits__name > a:hover {
+  font-style: italic;
+}

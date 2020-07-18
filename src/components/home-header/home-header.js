@@ -19,7 +19,7 @@ class HomeHeader extends Component {
   removeAbout() {
     console.log("leave")
     document.getElementsByClassName("home-header__title")[0].innerHTML =
-      "Voices and voids"
+      "Voices + voids"
     document
       .getElementsByClassName("home-header__title")[0]
       .classList.remove("red")
@@ -36,7 +36,7 @@ class HomeHeader extends Component {
             tabIndex="0"
             aria-label="learn about this site"
           >
-            Voices and Voids
+            Voices + Voids
           </h1>
         </Link>
       </header>

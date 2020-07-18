@@ -9,6 +9,7 @@ import "../../css/global.css"
 import "../../css/reset.css"
 import "../../css/type.css"
 
+import sliding from "../../images/index/sliding.gif"
 import echo from "../../images/index/echo-voices.gif"
 import timeline from "../../images/index/timeline.gif"
 import bonnie from "../../images/index/j-story-screenshot.png"
@@ -26,11 +27,16 @@ class ContentHome extends Component {
   render() {
     return (
       <main className="home-content">
+        <a id="sliding"></a>
+        <div className="home-content__sliding">
+          <img
+            src={sliding}
+            alt="Alexas sliding out of a tube"
+            className="home-content__sliding__img"
+          />
+        </div>
+
         <div className="home-content__hero">
-          <p className="home-content__hero__explainer">
-            Explorations around how we might reclaim, transcode, and embody
-            voice assistant interactions and data
-          </p>
           <a id="chit-chat"></a>
 
           <Link to="/chit-chat">
@@ -172,7 +178,7 @@ class ContentHome extends Component {
           <a id="ursonate"></a>
           <p className="home-content__3__text-1">
             <Link to="/ursonate" className="text-link__italics">
-              Fuümms bö wö tää{" "}
+              Fuümms bö wö tää
             </Link>
           </p>
 

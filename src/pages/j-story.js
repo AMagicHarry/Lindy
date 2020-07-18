@@ -19,9 +19,16 @@ function JStory(props) {
         colorMode={"small-header__on-dark"}
         headerTitle={"J’s story"}
         infoTitle={"J’s story"}
-        infoContent={
-          "Interpretation of J's google assistant data log. Interpretation of J's google assistant data log. Composers: Yvonne Wu and Danny Clay"
-        }
+        infoContent={[
+          "This piece uses voice interaction data from one user’s Google Assistant, with short, unedited excerpts that span four years.",
+          <br />,
+          <br />,
+          "Collaborators:",
+          <br />,
+          "Yiheng Yvonne Wu",
+          <br />,
+          "Danny Clay",
+        ]}
       />
 
       <VideoFull

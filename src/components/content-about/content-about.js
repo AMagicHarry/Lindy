@@ -38,40 +38,114 @@ class ContentAbout extends Component {
         </p>
         <div className="content-about__credits content-about__credits__lead">
           <p className="content-about__credits-category extra-bold">
-            Project leads
+            Project by:
           </p>
-          <p className="content-about__credits__name">Audrey Desjardins</p>
-          <p className="content-about__credits__name">Afroditi Psarra</p>
-          <p className="content-about__credits__name">Bonnie Whiting</p>
+          <p className="content-about__credits__name">
+            <a href="http://www.audreydesjardins.com/" target="_blank">
+              Audrey Desjardins
+            </a>
+          </p>
+
+          <p className="content-about__credits__name">
+            <a href="http://afroditipsarra.com/" target="_blank">
+              Afroditi Psarra
+            </a>
+          </p>
+          <p className="content-about__credits__name">
+            <a href="https://bonniewhitingpercussion.com/" target="_blank">
+              Bonnie Whiting
+            </a>
+          </p>
+        </div>
+
+        <div className="content-about__credits__lead">
+          <p className="content-about__credits-category extra-bold">With:</p>
         </div>
 
         <div className="content-about__credits__lead">
           <p className="content-about__credits-category extra-bold">
             Artists in residence
           </p>
-          <p className="content-about__credits__name">Danny Clay </p>
-          <p className="content-about__credits__name">Laura Devendorf</p>
-          <p className="content-about__credits__name">Kate Sicchio</p>
-          <p className="content-about__credits__name">Jordan Wirfs Brock</p>
-          <p className="content-about__credits__name">Yvonne Wu</p>
-        </div>
-
-        <div className="  content-about__credits__lead ">
-          <p className="content-about__credits-category extra-bold">
-            Web development
+          <p className="content-about__credits__name">
+            <a href="https://www.dclaymusic.com/" target="_blank">
+              Danny Clay
+            </a>
           </p>
-          <p className="content-about__credits__name">Amanda Yeh</p>
+          <p className="content-about__credits__name">
+            <a href="http://artfordorks.com/" target="_blank">
+              Laura Devendorf
+            </a>
+          </p>
+          <p className="content-about__credits__name">
+            <a href="http://www.sicchio.com/" target="_blank">
+              Kate Sicchio
+            </a>
+          </p>
+          <p className="content-about__credits__name">
+            <a
+              href="https://jwirfs-brock.github.io/JWB_website/"
+              target="_blank"
+            >
+              Jordan Wirfs Brock
+            </a>
+          </p>
+          <p className="content-about__credits__name">
+            <a href="https://www.yvonnewu.com/" target="_blank">
+              Yvonne Wu
+            </a>
+          </p>
         </div>
 
         <div className="content-about__credits__lead">
           <p className="content-about__credits-category extra-bold">
             Collaborators
           </p>
-          <p className="content-about__credits__name">Esteban Yosef Agosin</p>
-          <p className="content-about__credits__name">Gabrielle Benabdallah</p>
-          <p className="content-about__credits__name">Darcy Copeland</p>
-          <p className="content-about__credits__name">Jonathan Rodriguez</p>
-          <p className="content-about__credits__name">James Wenlock </p>
+          <p className="content-about__credits__name">
+            <a href="http://www.estebanagosin.cl/" target="_blank">
+              Esteban Yosef Agosin
+            </a>
+          </p>
+          <p className="content-about__credits__name">
+            <a href="http://www.poeticmachine.com/" target="_blank">
+              Gabrielle Benabdallah
+            </a>
+          </p>
+          <p className="content-about__credits__name">
+            <a href="https://www.darcycopeland.com/" target="_blank">
+              Darcy Copeland
+            </a>
+          </p>
+          <p className="content-about__credits__name">
+            <a
+              href="https://music.washington.edu/people/jonathan-rodriguez"
+              target="_blank"
+            >
+              Jonathan Rodriguez
+            </a>
+          </p>
+          <p className="content-about__credits__name">
+            <a href="https://github.com/JamesWenlock" target="_blank">
+              James Wenlock
+            </a>
+          </p>
+        </div>
+
+        <div className="  content-about__credits__lead ">
+          <p className="content-about__credits-category extra-bold">
+            Sound recording and editing
+          </p>
+          <p className="content-about__credits__name">Cameron Fraser</p>
+        </div>
+
+        <div className="  content-about__credits__lead ">
+          <p className="content-about__credits-category extra-bold">
+            Web development
+          </p>
+          <p className="content-about__credits__name">
+            <a href="https://www.amandayeh.com/" target="_blank">
+              Amanda Yeh
+            </a>
+          </p>
         </div>
 
         <div className="content-about__credits__lead">
