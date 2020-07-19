@@ -38,6 +38,16 @@ import earth1 from "../../sound/device/earth/2018-01-13_05_42_57_194_UTC-how big
 import earth2 from "../../sound/device/earth/2018-01-13_05_43_37_708_UTC-whats the price of a Bitcoin currently.mp3"
 import earth3 from "../../sound/device/earth/2018-01-13_05_44_04_144_UTC-whats $14,000 in euros.mp3"
 
+import tech1 from "../../sound/device/tech/2020-05-05_17_19_33_878_UTC-what do you think about the technological singularity.mp3"
+import tech2 from "../../sound/device/tech/2020-05-05_17_19_51_264_UTC-are you trying to take over the world.mp3"
+import tech3 from "../../sound/device/tech/2020-05-05_17_20_00_055_UTC-what would you say your IQ is.mp3"
+import tech4 from "../../sound/device/tech/2020-05-05_17_20_16_480_UTC-what_u0027s the difference between artificial intelligence and biological intelligence.mp3"
+import tech5 from "../../sound/device/tech/2020-05-05_17_20_50_449_UTC-do you know about imagenet.mp3"
+import tech6 from "../../sound/device/tech/2020-05-05_17_21_06_976_UTC-do you use emotes net.mp3"
+import tech7 from "../../sound/device/tech/2020-05-05_17_21_15_163_UTC-do you use the imagenet.mp3"
+import tech8 from "../../sound/device/tech/2020-05-05_17_21_28_424_UTC-do you use natural language processing.mp3"
+import tech9 from "../../sound/device/tech/2020-05-05_17_21_54_941_UTC-do you use natural language processing.mp3"
+
 class ContentDevice extends Component {
   playSound(source) {
     let audioEl = document.getElementsByClassName("audio-element")[0]
@@ -334,33 +344,37 @@ class ContentDevice extends Component {
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
+            <br />
             <p>
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
+            <br />
             <p>
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set timer for 10 minutes&quot;,
             </p>
-            <p></p>
+            <br />
             <p>
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 25 minutes&quot;,
             </p>
+            <br />
             <p>
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
-            <p></p>
+            <br />
             <p>
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
-            <p></p>
+            <br />
             <p>
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
+            <br />
             <p>
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set timer for 12 minutes&quot;,
@@ -376,7 +390,7 @@ class ContentDevice extends Component {
               <span>&nbsp;</span>
             </p>
             <p>
-              <br />
+              <br /> <br />
             </p>
             <p
               className="content-device__text__sound"
@@ -386,12 +400,91 @@ class ContentDevice extends Component {
               &quot;title&quot;: &quot;Said what\u0027s the price of a Bitcoin
               currently&quot;,
             </p>
+            <br />
             <p
               className="content-device__text__sound"
               onClick={source => this.playSound(earth3)}
             >
               <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said what\u0027s $14,000 in euros&quot;,
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__tech">
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech1)}
+            >
+              what do you think about the technological singularity
+            </p>
+            <p class="p2">
+              <br />
+            </p>
+            <p class="p2">
+              <br />
+            </p>
+            <p class="p2">
+              <br />
+            </p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech2)}
+            >
+              are you trying to take over the world
+            </p>
+            <p class="p2">
+              <br />
+            </p>
+            <p class="p2">
+              <br />
+            </p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech3)}
+            >
+              what would you say your IQ is
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech4)}
+            >
+              what\u0027s the difference between artificial intelligence and
+              biological intelligence
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech5)}
+            >
+              do you know about imagenet
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech6)}
+            >
+              do you use emotes net
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech7)}
+            >
+              do you use the imagenet
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech8)}
+            >
+              do you use natural language processing
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(tech9)}
+            >
+              do you use natural language processing
             </p>
           </div>
         </div>

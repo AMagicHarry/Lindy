@@ -6,6 +6,7 @@
 
 .content-device__text * {
   overflow: hidden;
+  display: inline;
 }
 
 .content-device__text__sound {
@@ -37,7 +38,7 @@ Rabbit
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   font-size: 2em;
-  line-height: 150%;
+  line-height: 260%;
 }
 
 /*--------------------- 
@@ -54,7 +55,7 @@ heart rate
   font-style: normal;
   font-weight: bold;
   font-size: 1.6em;
-  line-height: 100%;
+  line-height: 140%;
 }
 
 /*--------------------- 
@@ -62,7 +63,7 @@ fingernail
 ----------------------*/
 
 .content-device__text__group__fingernail {
-  top: 450px;
+  top: 422px;
   left: 53vw;
 }
 
@@ -79,7 +80,7 @@ Snail
 ----------------------*/
 
 .content-device__text__group__snail {
-  top: 840px;
+  top: 766px;
   left: -0.5vw;
   width: 200vw;
 }
@@ -97,7 +98,7 @@ Minutes
 ----------------------*/
 
 .content-device__text__group__minutes {
-  top: 1050px;
+  top: 893px;
   left: 5vw;
   width: 200vw;
 }
@@ -106,8 +107,8 @@ Minutes
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.3em;
-  line-height: 160%;
+  font-size: 1.1em;
+  line-height: 150%;
 }
 
 /*--------------------- 
@@ -115,14 +116,31 @@ Earth
 ----------------------*/
 
 .content-device__text__group__earth {
-  top: 1300px;
-  left: 10vw;
+  top: 1091px;
+  left: 12vw;
   width: 200vw;
 }
 
 .content-device__text__group__earth > p {
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2.2em;
   line-height: 160%;
+}
+
+/*--------------------- 
+Tech
+----------------------*/
+
+.content-device__text__group__tech {
+  top: 1315px;
+  left: 2vw;
+  width: 200vw;
+}
+
+.content-device__text__group__tech > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-size: 2.1em;
+  line-height: 150%;
 }
