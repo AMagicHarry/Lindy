@@ -6,7 +6,7 @@
 
 .content-device__text * {
   overflow: hidden;
-  display: inline;
+  display: inline-block;
 }
 
 .content-device__text__sound {
@@ -19,6 +19,7 @@
 
 .content-device__text__group {
   position: absolute;
+  display: inline-block;
 }
 
 .content-device__text {
@@ -38,7 +39,7 @@ Rabbit
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   font-size: 2em;
-  line-height: 260%;
+  line-height: 200%;
 }
 
 /*--------------------- 
@@ -108,7 +109,7 @@ Minutes
   font-style: normal;
   font-weight: bold;
   font-size: 1.1em;
-  line-height: 150%;
+  line-height: 130%;
 }
 
 /*--------------------- 
@@ -125,7 +126,7 @@ Earth
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   font-size: 2.2em;
-  line-height: 160%;
+  line-height: 130%;
 }
 
 /*--------------------- 
@@ -141,6 +142,43 @@ Tech
 .content-device__text__group__tech > p {
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
-  font-size: 2.1em;
+  font-size: 1.8em;
   line-height: 150%;
+}
+
+/*--------------------- 
+Silly
+----------------------*/
+
+.content-device__text__group__silly {
+  top: 1491px;
+  left: 53vw;
+  width: 200vw;
+  z-index: 1;
+}
+
+.content-device__text__group__silly > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 130%;
+}
+
+/*--------------------- 
+Data
+----------------------*/
+
+.content-device__text__group__data {
+  top: 1857px;
+  left: 2vw;
+  width: 200vw;
+}
+
+.content-device__text__group__data > p {
+  font-family: "Bodoni 72", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 87px;
 }

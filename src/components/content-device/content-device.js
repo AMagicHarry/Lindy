@@ -48,6 +48,20 @@ import tech7 from "../../sound/device/tech/2020-05-05_17_21_15_163_UTC-do you us
 import tech8 from "../../sound/device/tech/2020-05-05_17_21_28_424_UTC-do you use natural language processing.mp3"
 import tech9 from "../../sound/device/tech/2020-05-05_17_21_54_941_UTC-do you use natural language processing.mp3"
 
+import silly1 from "../../sound/device/silly/2018-11-21_17_31_56_905_UTC-you are silly night Google assistant.mp3"
+import silly2 from "../../sound/device/silly/2018-11-21_17_32_05_601_UTC-are you running.mp3"
+import silly3 from "../../sound/device/silly/2018-11-21_17_32_16_648_UTC-I like to kill no no no no no no no n.mp3"
+import silly4 from "../../sound/device/silly/2018-11-21_17_32_30_234_UTC-Im so hungry not restaurant in a restaurant why.mp3"
+import silly5 from "../../sound/device/silly/2018-11-21_17_32_39_409_UTC-are you hungry Im going to make your mac and cheese.mp3"
+import silly6 from "../../sound/device/silly/2018-11-21_17_32_47_037_UTC-Im a chef good.mp3"
+
+import data1 from "../../sound/device/data/2019-01-04_18_54_32_188_UTC-who was Data .mp3"
+import data2 from "../../sound/device/data/2019-01-04_18_54_45_815_UTC-are you an intelligence .mp3"
+import data3 from "../../sound/device/data/2019-01-04_18_54_55_527_UTC-are you feminine or masculine .mp3"
+import data4 from "../../sound/device/data/2019-01-04_18_55_04_051_UTC-what is neutral mean in that context .mp3"
+import data5 from "../../sound/device/data/2019-01-04_18_55_13_377_UTC-what is the answer to life the universe and everything mp3.mp3"
+import data6 from "../../sound/device/data/2019-01-04_18_55_22_255_UTC-what is a neural net.mp3"
+
 class ContentDevice extends Component {
   playSound(source) {
     let audioEl = document.getElementsByClassName("audio-element")[0]
@@ -114,7 +128,7 @@ class ContentDevice extends Component {
               className="content-device__text__sound"
               onClick={source => this.playSound(rabbitLikes)}
             >
-              <span>&nbsp; &nbsp;</span>how do I know when my rabbit likes me
+              how do I know when my rabbit likes me
             </p>
           </div>
           <div className="content-device__text__group content-device__text__group__heart">
@@ -228,107 +242,45 @@ class ContentDevice extends Component {
               className="content-device__text__sound content-device__text__sound__fingernail"
               onClick={source => this.playSound(fingernail2)}
             >
-              <span>&nbsp;&nbsp;</span>
               &quot;time&quot;: &quot;2019-01-19T22:39:59.288Z&quot;,
               <br />
-              <span>&nbsp; &nbsp;</span>how wide is the average fingernail
-              <span>&nbsp;</span>
+              how wide is the average fingernail
             </p>
-
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-
+            <br /> <br /> <br /> <br />
             <p
               className="content-device__text__sound content-device__text__sound__fingernail"
               onClick={source => this.playSound(fingernail2)}
             >
-              <span>&nbsp;&nbsp;</span>
               &quot;time&quot;: &quot;2019-01-19T22:40:07.364Z&quot;,
               <br />
-              <span>&nbsp; &nbsp;</span>how many centimeters in an inch
-              <span>&nbsp;</span>
+              how many centimeters in an inch
             </p>
-
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-
+            <br /> <br /> <br /> <br />
             <p
               className="content-device__text__sound content-device__text__sound__fingernail"
               onClick={source => this.playSound(fingernail3)}
             >
-              <span>&nbsp;&nbsp;</span>
               &quot;time&quot;: &quot;2019-01-19T22:40:46.519Z&quot;,
               <br />
-              <span>&nbsp; &nbsp;</span>how many centimeters in a yard
-              <span>&nbsp;</span>
+              how many centimeters in a yard
             </p>
-
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-
+            <br /> <br /> <br /> <br />
             <p
               className="content-device__text__sound content-device__text__sound__fingernail"
               onClick={source => this.playSound(fingernail4)}
             >
-              <span>&nbsp;&nbsp;</span>
               &quot;time&quot;: &quot;2019-01-19T22:42:47.718Z&quot;,
               <br />
-              <span>&nbsp; &nbsp;</span>how long is a dollar bill
-              <span>&nbsp;</span>
+              how long is a dollar bill
             </p>
-
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              <br />
-            </p>
-
+            <br /> <br /> <br /> <br />
             <p
               className="content-device__text__sound content-device__text__sound__fingernail"
               onClick={source => this.playSound(fingernail5)}
             >
-              <span>&nbsp;&nbsp;</span>
               &quot;time&quot;: &quot;2019-01-19T22:43:31.562Z&quot;,
               <br />
-              <span>&nbsp; &nbsp;</span>how many centimeters long is a dollar
-              bill
+              how many centimeters long is a dollar bill
             </p>
           </div>
           <div className="content-device__text__group content-device__text__group__snail">
@@ -341,71 +293,57 @@ class ContentDevice extends Component {
           </div>
           <div className="content-device__text__group content-device__text__group__minutes">
             <p>
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
             <p>
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;title&quot;: &quot;Said set timer for 10 minutes&quot;,
-            </p>
+            <p>&quot;title&quot;: &quot;Said set timer for 10 minutes&quot;,</p>
             <br />
             <p>
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 25 minutes&quot;,
             </p>
             <br />
             <p>
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
             <p>
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
             <p>
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;title&quot;: &quot;Said set timer for 12 minutes&quot;,
-            </p>
+            <p>&quot;title&quot;: &quot;Said set timer for 12 minutes&quot;,</p>
           </div>
           <div className="content-device__text__group content-device__text__group__earth">
             <p
               className="content-device__text__sound"
               onClick={source => this.playSound(earth1)}
             >
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said how big is Earth&quot;,
-              <span>&nbsp;</span>
             </p>
-            <p>
-              <br /> <br />
-            </p>
+            <br />
+            <br />
+            <br />
+            <br />
             <p
               className="content-device__text__sound"
               onClick={source => this.playSound(earth2)}
             >
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said what\u0027s the price of a Bitcoin
               currently&quot;,
             </p>
             <br />
+
             <p
               className="content-device__text__sound"
               onClick={source => this.playSound(earth3)}
             >
-              <span>&nbsp;&nbsp;</span>
               &quot;title&quot;: &quot;Said what\u0027s $14,000 in euros&quot;,
             </p>
           </div>
@@ -416,27 +354,21 @@ class ContentDevice extends Component {
             >
               what do you think about the technological singularity
             </p>
-            <p class="p2">
-              <br />
-            </p>
-            <p class="p2">
-              <br />
-            </p>
-            <p class="p2">
-              <br />
-            </p>
+
+            <br />
+            <br />
+            <br />
+            <br />
             <p
               className="content-device__text__sound"
               onClick={source => this.playSound(tech2)}
             >
               are you trying to take over the world
             </p>
-            <p class="p2">
-              <br />
-            </p>
-            <p class="p2">
-              <br />
-            </p>
+            <br />
+            <br />
+            <br />
+            <br />
             <p
               className="content-device__text__sound"
               onClick={source => this.playSound(tech3)}
@@ -486,6 +418,158 @@ class ContentDevice extends Component {
             >
               do you use natural language processing
             </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__silly">
+            <p>{",{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(silly1)}
+            >
+              &quot;title&quot;: &quot;Said you are silly night Google
+              assistant&quot;, <br />
+              &quot;time&quot;: &quot;2018-11-21T17:31:56.905Z&quot;, <br />
+              &quot;audioFiles&quot;:
+              [&quot;2018-11-21_17_31_56_905_UTC.mp3&quot;],
+            </p>
+            <br />
+            <p>{"},{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(silly2)}
+            >
+              &quot;title&quot;: &quot;Said are you running&quot;,
+              <br />
+              &quot;time&quot;: &quot;2018-11-21T17:32:05.601Z&quot;, <br />
+              &quot;audioFiles&quot;:
+              [&quot;2018-11-21_17_32_05_601_UTC.mp3&quot;],
+            </p>
+            <br />
+            <p>{"},{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(silly3)}
+            >
+              &quot;title&quot;: &quot;Said I like to kill no no no no no no no{" "}
+              <br />
+              &quot;time&quot;: &quot;2018-11-21T17:32:16.648Z&quot;, no&quot;,{" "}
+              <br />
+              &quot;audioFiles&quot;:
+              [&quot;2018-11-21_17_32_16_648_UTC.mp3&quot;],
+            </p>
+            <br />
+            <p>{"},{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(silly4)}
+            >
+              &quot;title&quot;: &quot;Said I\u0027m so hungry not restaurant in{" "}
+              <br />
+              &quot;time&quot;: &quot;2018-11-21T17:32:30.234Z&quot;, a
+              restaurant why&quot;,
+              <br />
+              &quot;audioFiles&quot;:
+              [&quot;2018-11-21_17_32_30_234_UTC.mp3&quot;],
+            </p>
+            <br />
+            <p>{"},{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(silly5)}
+            >
+              &quot;title&quot;: &quot;Said are you hungry I\u0027m going to
+              make your mac and cheese&quot;,
+              <br />
+              &quot;time&quot;: &quot;2018-11-21T17:32:39.409Z&quot;,
+              <br />
+              &quot;audioFiles&quot;:
+              [&quot;2018-11-21_17_32_39_409_UTC.mp3&quot;],
+            </p>
+            <br />
+            <p>{"},{"}</p>
+            <br />
+
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(silly6)}
+            >
+              &quot;title&quot;: &quot;Said I\u0027m a chef good&quot;, <br />
+              &quot;time&quot;: &quot;2018-11-21T17:32:47.037Z&quot;, <br />
+              &quot;audioFiles&quot;:
+              [&quot;2018-11-21_17_32_47_037_UTC.mp3&quot;],
+            </p>
+
+            <br />
+            <p>{"},{"}</p>
+            <br />
+          </div>
+          <div className="content-device__text__group content-device__text__group__data">
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(data1)}
+            >
+              who was Data
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(data2)}
+            >
+              are you an intelligence
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(data3)}
+            >
+              are you feminine or masculine
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(data4)}
+            >
+              what is neutral mean in that context
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(data5)}
+            >
+              what is the answer to life the universe and everything
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(data6)}
+            >
+              what is a neural net
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__naked">
+            <p>show me naked pictures of Siri</p>
+            <br />
+            <p>have you ever kissed Siri</p>
+            <br />
+            <p>do you love me Google</p>
+            <br />
+            <p>why are you so busy</p>
+            <br />
+            <p>do you love penis</p>
+            <br />
+            <p>why don't you understand</p>
+            <br />
+            <p>you're pretty good at being stupid</p>
+            <br />
+            <p>yeah that's exactly what I'm saying</p>
+            <br />
+            <p>so Google</p>
+            <br />
+            <p>tell me something funny</p>
           </div>
         </div>
       </div>
