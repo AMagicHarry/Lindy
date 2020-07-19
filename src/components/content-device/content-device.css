@@ -1,0 +1,128 @@
+.content-device__volume-svg {
+  position: fixed;
+  left: 2vw;
+  top: 2vw;
+}
+
+.content-device__text * {
+  overflow: hidden;
+}
+
+.content-device__text__sound {
+  cursor: pointer;
+}
+
+.content-device__text__sound:hover {
+  color: var(--red);
+}
+
+.content-device__text__group {
+  position: absolute;
+}
+
+.content-device__text {
+  position: relative;
+  height: 200vw;
+}
+
+/*--------------------- 
+Rabbit
+----------------------*/
+
+.content-device__text__group__rabbit {
+  left: 10vw;
+}
+
+.content-device__text__group__rabbit > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 150%;
+}
+
+/*--------------------- 
+heart rate
+----------------------*/
+
+.content-device__text__group__heart {
+  top: 228px;
+  left: 24vw;
+}
+
+.content-device__text__group__heart > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6em;
+  line-height: 100%;
+}
+
+/*--------------------- 
+fingernail
+----------------------*/
+
+.content-device__text__group__fingernail {
+  top: 450px;
+  left: 53vw;
+}
+
+.content-device__text__group__fingernail > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 150%;
+}
+
+/*--------------------- 
+Snail
+----------------------*/
+
+.content-device__text__group__snail {
+  top: 840px;
+  left: -0.5vw;
+  width: 200vw;
+}
+
+.content-device__text__group__snail > p {
+  font-family: "Bodoni 72", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.5vw;
+  line-height: 150%;
+}
+
+/*--------------------- 
+Minutes
+----------------------*/
+
+.content-device__text__group__minutes {
+  top: 1050px;
+  left: 5vw;
+  width: 200vw;
+}
+
+.content-device__text__group__minutes > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 160%;
+}
+
+/*--------------------- 
+Earth
+----------------------*/
+
+.content-device__text__group__earth {
+  top: 1300px;
+  left: 10vw;
+  width: 200vw;
+}
+
+.content-device__text__group__earth > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 160%;
+}

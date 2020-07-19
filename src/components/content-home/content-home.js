@@ -102,78 +102,87 @@ class ContentHome extends Component {
           </div>
         </div>
         <div className="home-content__2">
-          <div className="home-content___2__text-1">
-            <p>{"},{"}</p>
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;header&quot;: &quot;Assistant&quot;,
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;title&quot;: &quot;Said okie dokie that is very interesting
-              from the snails perspective&quot;,
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;titleUrl&quot;:
-              &quot;https://www.google.com/search?q\u003dokie+dokie+that+is+very+interesting+from+the+snails+perspective&quot;,
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;subtitles&quot;{": [{"}
-            </p>
-            <p>
-              <span>&nbsp; &nbsp;&nbsp;</span>
-              &quot;name&quot;: &quot;Okie dokie, c\u0027est tr&radic;&reg;s
-              int&radic;&copy;ressant du point de vue des escargots.&quot;
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>}],
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;time&quot;: &quot;2019-12-13T00:18:06.283Z&quot;,
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;audioFiles&quot;:
-              [&quot;2019-12-13_00_18_06_944_UTC.mp3&quot;],
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;products&quot;: [&quot;Assistant&quot;],
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>
-              &quot;locationInfos&quot;{": [{"}
-            </p>
-            <p>
-              <span>&nbsp; &nbsp;&nbsp;</span>
-              &quot;name&quot;: &quot;Around this area&quot;,
-            </p>
-            <p>
-              <span>&nbsp; &nbsp;&nbsp;</span>
-              &quot;source&quot;: &quot;From your device&quot;
-            </p>
-            <p>
-              <span>&nbsp;&nbsp;</span>}]
-            </p>
-          </div>
-          <div className="home-content__2__text-2">
-            <p>&quot;time&quot;: &quot;2019-01-19T22:40:07.364Z&quot;,</p>
-            <p>
-              <span>&nbsp; &nbsp;</span>how many centimeters in an inch
-              <span>&nbsp;</span>
-            </p>
-            <br />
-            <br />
-            <p>&quot;time&quot;: &quot;2019-01-19T22:39:59.288Z&quot;,</p>
-            <p>
-              <span>&nbsp; &nbsp;</span>how wide is the average fingernail
-              <span>&nbsp;</span>
-            </p>
-          </div>
+          <Link
+            to="/from-your-device"
+            className="home-content___2__text-1__hover"
+          >
+            <div className="home-content___2__text-1">
+              <p>{"},{"}</p>
+              <p>
+                <span>&nbsp;&nbsp;</span>
+                &quot;header&quot;: &quot;Assistant&quot;,
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>
+                &quot;title&quot;: &quot;Said okie dokie that is very
+                interesting from the snails perspective&quot;,
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>
+                &quot;titleUrl&quot;:
+                &quot;https://www.google.com/search?q\u003dokie+dokie+that+is+very+interesting+from+the+snails+perspective&quot;,
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>
+                &quot;subtitles&quot;{": [{"}
+              </p>
+              <p>
+                <span>&nbsp; &nbsp;&nbsp;</span>
+                &quot;name&quot;: &quot;Okie dokie, c\u0027est tr&radic;&reg;s
+                int&radic;&copy;ressant du point de vue des escargots.&quot;
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>}],
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>
+                &quot;time&quot;: &quot;2019-12-13T00:18:06.283Z&quot;,
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>
+                &quot;audioFiles&quot;:
+                [&quot;2019-12-13_00_18_06_944_UTC.mp3&quot;],
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>
+                &quot;products&quot;: [&quot;Assistant&quot;],
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>
+                &quot;locationInfos&quot;{": [{"}
+              </p>
+              <p>
+                <span>&nbsp; &nbsp;&nbsp;</span>
+                &quot;name&quot;: &quot;Around this area&quot;,
+              </p>
+              <p>
+                <span>&nbsp; &nbsp;&nbsp;</span>
+                &quot;source&quot;: &quot;From your device&quot;
+              </p>
+              <p>
+                <span>&nbsp;&nbsp;</span>}]
+              </p>
+            </div>
+          </Link>
+
+          <Link to="/from-your-device" className="text-link__italics">
+            <div className="home-content__2__text-2">
+              <p>&quot;time&quot;: &quot;2019-01-19T22:40:07.364Z&quot;,</p>
+              <p>
+                <span>&nbsp; &nbsp;</span>how many centimeters in an inch
+                <span>&nbsp;</span>
+              </p>
+              <br />
+              <br />
+              <p>&quot;time&quot;: &quot;2019-01-19T22:39:59.288Z&quot;,</p>
+              <p>
+                <span>&nbsp; &nbsp;</span>how wide is the average fingernail
+                <span>&nbsp;</span>
+              </p>
+            </div>
+          </Link>
         </div>
+
         <div className="home-content__3">
           <a id="ursonate"></a>
           <p className="home-content__3__text-1">

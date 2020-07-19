@@ -19,9 +19,9 @@ class ContentFingernail extends Component {
             <span>&nbsp;</span>
           </p>
           <p>
-            <br></br>{" "}
+            <br />
           </p>
-          <br></br>{" "}
+          <br />
           <p>
             <span>&nbsp;&nbsp;</span>
             &quot;time&quot;: &quot;2019-01-19T22:40:07.364Z&quot;,
@@ -30,7 +30,7 @@ class ContentFingernail extends Component {
             <span>&nbsp; &nbsp;</span>how many centimeters in an inch
             <span>&nbsp;</span>
           </p>
-          <br></br> <br></br>{" "}
+          <br /> <br />
           <p>
             <span>&nbsp;&nbsp;</span>
             &quot;time&quot;: &quot;2019-01-19T22:40:46.519Z&quot;,
@@ -39,7 +39,8 @@ class ContentFingernail extends Component {
             <span>&nbsp; &nbsp;</span>how many centimeters in a yard
             <span>&nbsp;</span>
           </p>
-          <br></br> <br></br>{" "}
+          <br />
+          <br />
           <p>
             <span>&nbsp;&nbsp;</span>
             &quot;time&quot;: &quot;2019-01-19T22:40:58.622Z&quot;,
@@ -48,7 +49,7 @@ class ContentFingernail extends Component {
             <span>&nbsp; &nbsp;</span>how many centimeters in 48 in
             <span>&nbsp;</span>
           </p>
-          <br></br> <br></br>{" "}
+          <br /> <br />
           <p>
             <span>&nbsp;&nbsp;</span>
             &quot;time&quot;: &quot;2019-01-19T22:42:47.718Z&quot;,
@@ -57,7 +58,7 @@ class ContentFingernail extends Component {
             <span>&nbsp; &nbsp;</span>how long is a dollar bill
             <span>&nbsp;</span>
           </p>
-          <br></br> <br></br>{" "}
+          <br /> <br />
           <p>
             <span>&nbsp;&nbsp;</span>
             &quot;time&quot;: &quot;2019-01-19T22:43:31.562Z&quot;,
