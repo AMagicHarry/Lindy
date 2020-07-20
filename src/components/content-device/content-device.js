@@ -34,6 +34,15 @@ import fingernail5 from "../../sound/device/fingernail/2019-01-19_22_43_33_161_U
 
 import snail from "../../sound/device/snail/2019-12-13_00_18_06_944_UTC-   okie dokie that is very interesting from the snails perspective.mp3"
 
+import minutes1 from "../../sound/device/minutes/2019-11-05_04_49_54_070_UTC-set the timer for 5 minutes.mp3"
+import minutes2 from "../../sound/device/minutes/2019-11-05_04_49_54_311_UTC-set the timer for 5 minutes.mp3"
+import minutes3 from "../../sound/device/minutes/2019-11-05_05_04_09_274_UTC-set timer for 10 minutes.mp3"
+import minutes4 from "../../sound/device/minutes/2019-11-06_05_52_56_755_UTC-set the timer for 25 minutes.mp3"
+import minutes5 from "../../sound/device/minutes/2019-11-06_06_49_29_216_UTC-set the timer for 5 minutes.mp3"
+import minutes6 from "../../sound/device/minutes/2019-11-06_17_01_38_379_UTC-set the timer for 5 minutes.mp3"
+import minutes7 from "../../sound/device/minutes/2019-11-07_22_33_39_515_UTC-set the timer for 5 minutes.mp3"
+import minutes8 from "../../sound/device/minutes/2019-11-09_03_20_01_148_UTC-set the timer for 12 minutes.mp3"
+
 import earth1 from "../../sound/device/earth/2018-01-13_05_42_57_194_UTC-how big is Earth.mp3"
 import earth2 from "../../sound/device/earth/2018-01-13_05_43_37_708_UTC-whats the price of a Bitcoin currently.mp3"
 import earth3 from "../../sound/device/earth/2018-01-13_05_44_04_144_UTC-whats $14,000 in euros.mp3"
@@ -340,33 +349,61 @@ class ContentDevice extends Component {
             </p>
           </div>
           <div className="content-device__text__group content-device__text__group__minutes">
-            <p>
+            <p
+              className="content-device__text__sound content-device__text__sound__fingernail"
+              onClick={source => this.playSound(minutes1)}
+            >
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
-            <p>
+            <p
+              className="content-device__text__sound content-device__text__sound__fingernail"
+              onClick={source => this.playSound(minutes2)}
+            >
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
-            <p>&quot;title&quot;: &quot;Said set timer for 10 minutes&quot;,</p>
+            <p
+              className="content-device__text__sound content-device__text__sound__fingernail"
+              onClick={source => this.playSound(minutes3)}
+            >
+              &quot;title&quot;: &quot;Said set timer for 10 minutes&quot;,
+            </p>
             <br />
-            <p>
+            <p
+              className="content-device__text__sound content-device__text__sound__fingernail"
+              onClick={source => this.playSound(minutes4)}
+            >
               &quot;title&quot;: &quot;Said set the timer for 25 minutes&quot;,
             </p>
             <br />
-            <p>
+            <p
+              className="content-device__text__sound content-device__text__sound__fingernail"
+              onClick={source => this.playSound(minutes5)}
+            >
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
-            <p>
+            <p
+              className="content-device__text__sound content-device__text__sound__fingernail"
+              onClick={source => this.playSound(minutes6)}
+            >
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
-            <p>
+            <p
+              className="content-device__text__sound content-device__text__sound__fingernail"
+              onClick={source => this.playSound(minutes7)}
+            >
               &quot;title&quot;: &quot;Said set the timer for 5 minutes&quot;,
             </p>
             <br />
-            <p>&quot;title&quot;: &quot;Said set timer for 12 minutes&quot;,</p>
+            <p
+              className="content-device__text__sound content-device__text__sound__fingernail"
+              onClick={source => this.playSound(minutes8)}
+            >
+              &quot;title&quot;: &quot;Said set timer for 12 minutes&quot;,
+            </p>
           </div>
           <div className="content-device__text__group content-device__text__group__earth">
             <p
