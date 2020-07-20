@@ -62,6 +62,54 @@ import data4 from "../../sound/device/data/2019-01-04_18_55_04_051_UTC-what is n
 import data5 from "../../sound/device/data/2019-01-04_18_55_13_377_UTC-what is the answer to life the universe and everything mp3.mp3"
 import data6 from "../../sound/device/data/2019-01-04_18_55_22_255_UTC-what is a neural net.mp3"
 
+import naked1 from "../../sound/device/naked/2017-12-20_23_33_56_928_UTC-show me naked pictures of Siri.mp3"
+import naked2 from "../../sound/device/naked/2017-12-20_23_34_04_921_UTC-have you ever kissed Siri.mp3"
+import naked3 from "../../sound/device/naked/2017-12-20_23_34_14_637_UTC-do you love me Google.mp3"
+import naked4 from "../../sound/device/naked/2017-12-20_23_34_20_363_UTC-why are you so busy.mp3"
+import naked5 from "../../sound/device/naked/2017-12-20_23_34_25_550_UTC-do you love penis.mp3"
+import naked6 from "../../sound/device/naked/2017-12-20_23_34_29_795_UTC-why don_t you understand.mp3"
+import naked7 from "../../sound/device/naked/2017-12-20_23_34_38_425_UTC-you_re pretty good at being stupid.mp3"
+import naked8 from "../../sound/device/naked/2017-12-20_23_34_47_106_UTC-yeah that_s exactly what I_m saying.mp3"
+import naked9 from "../../sound/device/naked/2017-12-20_23_34_53_747_UTC-so Google.mp3"
+import naked10 from "../../sound/device/naked/2017-12-20_23_35_00_230_UTC-tell me something funny.mp3"
+
+import creator1 from "../../sound/device/creator/2019-10-14_01_41_23_999_UTC-can you show me a picture of your creator.mp3"
+import creator2 from "../../sound/device/creator/2019-10-14_01_41_56_646_UTC-do you believe in God.mp3"
+
+import reboot from "../../sound/device/reboot/2019-01-27_23_27_26_086_UTC-reboot yourself.mp3"
+
+import porn1 from "../../sound/device/porn/2017-06-21_17_12_02_294_UTC-that was pornography.mp3"
+import porn2 from "../../sound/device/porn/2017-06-21_17_12_16_046_UTC-Google do you watch porn.mp3"
+import porn3 from "../../sound/device/porn/2017-06-21_17_12_17_750_UTC-do you watch porn.mp3"
+import porn4 from "../../sound/device/porn/2017-06-21_17_12_22_190_UTC-do you like girls.mp3"
+import porn5 from "../../sound/device/porn/2017-06-21_17_12_44_320_UTC-will you marry me.mp3"
+import porn6 from "../../sound/device/porn/2017-06-21_17_12_53_103_UTC-when are we getting married.mp3"
+import porn7 from "../../sound/device/porn/2017-06-21_17_13_02_970_UTC-do you think I_m ugly.mp3"
+import porn8 from "../../sound/device/porn/2017-06-21_17_13_07_611_UTC-do you think I_m pretty.mp3"
+import porn9 from "../../sound/device/porn/2017-06-21_17_13_27_412_UTC-fuck you.mp3"
+
+import perspective1 from "../../sound/device/perspective/2019-12-13_00_17_22_214_UTC-   your hair is very wonderful .mp3"
+import perspective2 from "../../sound/device/perspective/2019-12-13_00_17_28_948_UTC-   what painting is astounding .mp3"
+import perspective3 from "../../sound/device/perspective/2019-12-13_00_17_35_512_UTC-   it really captures the life of the artist .mp3"
+import perspective4 from "../../sound/device/perspective/2019-12-13_00_17_44_901_UTC-   but you can really delve into the deeper subjects of the universe and the .mp3"
+import perspective5 from "../../sound/device/perspective/2019-12-13_00_17_55_926_UTC-    can really see it through the artist_s interpretation of the past and future combined .mp3"
+import perspective6 from "../../sound/device/perspective/2019-12-13_00_18_06_944_UTC-   okie dokie that is very interesting from the snails perspective.mp3"
+
+import creepy from "../../sound/device/creepy/2018-08-29_17_15_44_005_UTC-can you be creepy.mp3"
+
+import cat1 from "../../sound/device/cat/2018-01-12_01_26_13_495_UTC-play cat videos.mp3"
+import cat2 from "../../sound/device/cat/2018-01-12_01_27_44_856_UTC-play cat videos on Android TV.mp3"
+import cat3 from "../../sound/device/cat/2018-01-12_01_28_03_027_UTC-play cat videos on Chromecast.mp3"
+import cat4 from "../../sound/device/cat/2018-01-12_01_32_57_409_UTC-play cat videos on TV.mp3"
+import cat5 from "../../sound/device/cat/2018-01-12_01_35_04_728_UTC-play cat videos on TV.mp3"
+
+import bp1 from "../../sound/device/bp/2019-09-08_12_22_43_644_UTC-BP ppppp ppppp ppppp ppppp ppppp.mp3"
+import bp2 from "../../sound/device/bp/2019-09-08_12_23_09_414_UTC-a a b b c c c c d e f g h i j k l m m m m m n o p p p.mp3"
+import bp3 from "../../sound/device/bp/2019-09-08_12_23_27_069_UTC-a p p p.mp3"
+import bp4 from "../../sound/device/bp/2019-09-08_12_23_50_584_UTC-a t p c c.mp3"
+import bp5 from "../../sound/device/bp/2019-09-08_12_23_59_077_UTC-a p p p.mp3"
+import bp6 from "../../sound/device/bp/2019-09-08_12_24_11_773_UTC-b c d e f g h i j k.mp3"
+
 class ContentDevice extends Component {
   playSound(source) {
     let audioEl = document.getElementsByClassName("audio-element")[0]
@@ -111,9 +159,9 @@ class ContentDevice extends Component {
             >
               why am I infatuated with my rabbit
             </p>
-            <p>
-              <br />
-            </p>
+
+            <br />
+            <br />
             <p
               className="content-device__text__sound"
               onClick={source => this.playSound(rabbitLove)}
@@ -121,9 +169,9 @@ class ContentDevice extends Component {
               <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
               does the rabbit feel the emotion of love
             </p>
-            <p>
-              <br />
-            </p>
+
+            <br />
+            <br />
             <p
               className="content-device__text__sound"
               onClick={source => this.playSound(rabbitLikes)}
@@ -551,25 +599,311 @@ class ContentDevice extends Component {
             </p>
           </div>
           <div className="content-device__text__group content-device__text__group__naked">
-            <p>show me naked pictures of Siri</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked1)}
+            >
+              show me naked pictures of Siri
+            </p>
             <br />
-            <p>have you ever kissed Siri</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked2)}
+            >
+              have you ever kissed Siri
+            </p>
             <br />
-            <p>do you love me Google</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked3)}
+            >
+              do you love me Google
+            </p>
             <br />
-            <p>why are you so busy</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked4)}
+            >
+              why are you so busy
+            </p>
             <br />
-            <p>do you love penis</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked5)}
+            >
+              do you love penis
+            </p>
             <br />
-            <p>why don't you understand</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked6)}
+            >
+              why don't you understand
+            </p>
             <br />
-            <p>you're pretty good at being stupid</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked7)}
+            >
+              you're pretty good at being stupid
+            </p>
             <br />
-            <p>yeah that's exactly what I'm saying</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked8)}
+            >
+              yeah that's exactly what I'm saying
+            </p>
             <br />
-            <p>so Google</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked9)}
+            >
+              so Google
+            </p>
             <br />
-            <p>tell me something funny</p>
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(naked10)}
+            >
+              tell me something funny
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__creator">
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(creator1)}
+            >
+              can you show me a picture of your creator
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(creator2)}
+            >
+              do you believe in God
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__reboot">
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(reboot)}
+            >
+              {" "}
+              "title": "Said reboot yourself",
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__porn">
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn1)}
+            >
+              that was pornography
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn2)}
+            >
+              Google do you watch porn
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn3)}
+            >
+              do you watch porn
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn4)}
+            >
+              do you like girls
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn5)}
+            >
+              will you marry me
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn6)}
+            >
+              when are we getting married
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn7)}
+            >
+              tdo you think I'm ugly
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn8)}
+            >
+              do you think I'm pretty
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(porn9)}
+            >
+              fuck you
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__perspective">
+            <p
+              className="content-device__text__sound content-device__text__sound__perspective"
+              onClick={source => this.playSound(perspective1)}
+            >
+              &quot;time&quot;: &quot;2019-12-13T00:17:19.992Z&quot;,
+              <br />
+              your hair is very wonderful
+            </p>
+            <br /> <br /> <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__perspective"
+              onClick={source => this.playSound(perspective2)}
+            >
+              &quot;time&quot;: &quot;2019-12-13T00:17:26.741Z&quot;,
+              <br />
+              what painting is astounding
+            </p>
+            <br /> <br /> <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__perspective"
+              onClick={source => this.playSound(perspective3)}
+            >
+              &quot;time&quot;: &quot;2019-12-13T00:17:34.981Z&quot;,
+              <br />
+              it really captures the life of the artist
+            </p>
+            <br /> <br /> <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__perspective"
+              onClick={source => this.playSound(perspective4)}
+            >
+              &quot;time&quot;: &quot;2019-12-13T00:17:44.115Z&quot;,
+              <br />
+              but you can really delve into the deeper subjects of the universe
+              and the
+            </p>
+            <br /> <br /> <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__perspective"
+              onClick={source => this.playSound(perspective5)}
+            >
+              &quot;time&quot;: &quot;2019-12-13T00:17:54.883Z&quot;,
+              <br />
+              can really see it through the artist's interpretation of the past
+              and future combined
+            </p>
+            <br /> <br /> <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__perspective"
+              onClick={source => this.playSound(perspective6)}
+            >
+              &quot;time&quot;: &quot;2019-12-13T00:18:06.283Z&quot;,
+              <br />
+              okie dokie that is very interesting from the snails perspective
+            </p>
+            <br /> <br /> <br />
+          </div>
+          <div className="content-device__text__group content-device__text__group__creepy">
+            <p
+              className="content-device__text__sound content-device__text__sound__perspective"
+              onClick={source => this.playSound(creepy)}
+            >
+              can you be creepy
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__cat">
+            <p
+              className="content-device__text__sound content-device__text__sound__cat"
+              onClick={source => this.playSound(cat1)}
+            >
+              &quot;title&quot;: &quot;Said play cat videos&quot;,
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__cat"
+              onClick={source => this.playSound(cat2)}
+            >
+              &quot;title&quot;: &quot;Said play cat videos on Android TV&quot;,
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__cat"
+              onClick={source => this.playSound(cat3)}
+            >
+              &quot;title&quot;: &quot;Said play cat videos on Chromecast&quot;,
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__cat"
+              onClick={source => this.playSound(cat4)}
+            >
+              &quot;title&quot;: &quot;Said play cat videos on TV&quot;,
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__cat"
+              onClick={source => this.playSound(cat5)}
+            >
+              &quot;title&quot;: &quot;Said play cat videos on TV&quot;,
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__fart">
+            <p>play videos of girls farting on YouTube on TV</p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__bp">
+            <p
+              className="content-device__text__sound content-device__text__sound__bp"
+              onClick={source => this.playSound(bp1)}
+            >
+              BP ppppp ppppp ppppp ppppp ppppp
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__bp"
+              onClick={source => this.playSound(bp2)}
+            >
+              a a b b c c c c d e f g h i j k l m m m m m n o p p p
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__bp"
+              onClick={source => this.playSound(bp3)}
+            >
+              a p p p
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__bp"
+              onClick={source => this.playSound(bp4)}
+            >
+              a t p c c
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__bp"
+              onClick={source => this.playSound(bp5)}
+            >
+              a p p p
+            </p>
+            <br />
+            <p
+              className="content-device__text__sound content-device__text__sound__bp"
+              onClick={source => this.playSound(bp6)}
+            >
+              b c d e f g h i j k
+            </p>
           </div>
         </div>
       </div>
