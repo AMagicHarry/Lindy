@@ -112,6 +112,8 @@ import cat3 from "../../sound/device/cat/2018-01-12_01_28_03_027_UTC-play cat vi
 import cat4 from "../../sound/device/cat/2018-01-12_01_32_57_409_UTC-play cat videos on TV.mp3"
 import cat5 from "../../sound/device/cat/2018-01-12_01_35_04_728_UTC-play cat videos on TV.mp3"
 
+import fart from "../../sound/device/fart/2018-02-02_02_11_00_650_UTC-play videos of girls farting on YouTube on TV.mp3"
+
 import bp1 from "../../sound/device/bp/2019-09-08_12_22_43_644_UTC-BP ppppp ppppp ppppp ppppp ppppp.mp3"
 import bp2 from "../../sound/device/bp/2019-09-08_12_23_09_414_UTC-a a b b c c c c d e f g h i j k l m m m m m n o p p p.mp3"
 import bp3 from "../../sound/device/bp/2019-09-08_12_23_27_069_UTC-a p p p.mp3"
@@ -121,16 +123,12 @@ import bp6 from "../../sound/device/bp/2019-09-08_12_24_11_773_UTC-b c d e f g h
 
 class ContentDevice extends Component {
   playSound(source) {
-    let audioEl = document.getElementsByClassName("audio-element")[0]
-    audioEl.muted = false
-    audioEl.src = source
-    if (audioEl.paused) {
-      audioEl.play()
-    } else {
-      audioEl.pause()
-      audioEl.currentTime = 0
-      audioEl.play()
-    }
+    let sound = document.createElement("audio")
+    sound.className = "audio-player"
+    sound.src = source
+    sound.type = "audio/mpeg"
+    document.getElementById("song").appendChild(sound)
+    sound.play()
   }
 
   render() {
@@ -158,9 +156,10 @@ class ContentDevice extends Component {
           />
         </svg> */}
         <div className="content-device__text">
-          <audio className="audio-element" muted>
+          <div id="song"></div>
+          {/* <audio className="audio-element" muted>
             <source></source>
-          </audio>
+          </audio> */}
           <div className="content-device__text__group content-device__text__group__rabbit">
             <p
               className="content-device__text__sound"
@@ -897,7 +896,12 @@ class ContentDevice extends Component {
             </p>
           </div>
           <div className="content-device__text__group content-device__text__group__fart">
-            <p>play videos of girls farting on YouTube on TV</p>
+            <p
+              className="content-device__text__sound content-device__text__sound__bp"
+              onClick={source => this.playSound(fart)}
+            >
+              play videos of girls farting on YouTube on TV
+            </p>
           </div>
           <div className="content-device__text__group content-device__text__group__bp">
             <p
