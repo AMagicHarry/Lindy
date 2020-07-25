@@ -342,3 +342,21 @@ bp
   font-size: 36px;
   line-height: 43px;
 }
+
+/*--------------------- 
+baby
+----------------------*/
+
+.content-device__text__group__baby {
+  top: 3826px;
+  left: 42vw;
+  width: 300vw;
+}
+
+.content-device__text__group__baby > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}

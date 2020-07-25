@@ -121,6 +121,11 @@ import bp4 from "../../sound/device/bp/2019-09-08_12_23_50_584_UTC-a t p c c.mp3
 import bp5 from "../../sound/device/bp/2019-09-08_12_23_59_077_UTC-a p p p.mp3"
 import bp6 from "../../sound/device/bp/2019-09-08_12_24_11_773_UTC-b c d e f g h i j k.mp3"
 
+import baby1 from "../../sound/device/baby/2019-09-06_02_27_40_949_UTC-electronic baby bouncer near me.mp3"
+import baby2 from "../../sound/device/baby/2019-09-06_02_30_11_955_UTC-automatic baby bouncer near me.mp3"
+import baby3 from "../../sound/device/baby/2019-09-06_02_44_16_958_UTC-Automatic Bouncer with vibration.mp3"
+import baby4 from "../../sound/device/baby/2019-09-06_18_03_50_530_UTC-how to give a baby castor oil.mp3"
+
 class ContentDevice extends Component {
   playSound(source) {
     let sound = document.createElement("audio")
@@ -510,10 +515,11 @@ class ContentDevice extends Component {
               className="content-device__text__sound"
               onClick={source => this.playSound(silly1)}
             >
-              &quot;title&quot;: &quot;Said you are silly night Google
-              assistant&quot;, <br />
-              &quot;time&quot;: &quot;2018-11-21T17:31:56.905Z&quot;, <br />
-              &quot;audioFiles&quot;:
+              &nbsp; &nbsp; &quot;title&quot;: &quot;Said you are silly night
+              Google assistant&quot;, <br />
+              &nbsp; &nbsp; &quot;time&quot;:
+              &quot;2018-11-21T17:31:56.905Z&quot;, <br />
+              &nbsp; &nbsp; &quot;audioFiles&quot;:
               [&quot;2018-11-21_17_31_56_905_UTC.mp3&quot;],
             </p>
             <br />
@@ -523,10 +529,11 @@ class ContentDevice extends Component {
               className="content-device__text__sound"
               onClick={source => this.playSound(silly2)}
             >
-              &quot;title&quot;: &quot;Said are you running&quot;,
+              &nbsp; &nbsp; &quot;title&quot;: &quot;Said are you running&quot;,
               <br />
-              &quot;time&quot;: &quot;2018-11-21T17:32:05.601Z&quot;, <br />
-              &quot;audioFiles&quot;:
+              &nbsp; &nbsp; &quot;time&quot;:
+              &quot;2018-11-21T17:32:05.601Z&quot;, <br />
+              &nbsp; &nbsp; &quot;audioFiles&quot;:
               [&quot;2018-11-21_17_32_05_601_UTC.mp3&quot;],
             </p>
             <br />
@@ -536,11 +543,11 @@ class ContentDevice extends Component {
               className="content-device__text__sound"
               onClick={source => this.playSound(silly3)}
             >
-              &quot;title&quot;: &quot;Said I like to kill no no no no no no no{" "}
-              <br />
-              &quot;time&quot;: &quot;2018-11-21T17:32:16.648Z&quot;, no&quot;,{" "}
-              <br />
-              &quot;audioFiles&quot;:
+              &nbsp; &nbsp; &quot;title&quot;: &quot;Said I like to kill no no
+              no no no no no <br />
+              &nbsp; &nbsp; &quot;time&quot;:
+              &quot;2018-11-21T17:32:16.648Z&quot;, no&quot;, <br />
+              &nbsp; &nbsp; &quot;audioFiles&quot;:
               [&quot;2018-11-21_17_32_16_648_UTC.mp3&quot;],
             </p>
             <br />
@@ -550,12 +557,12 @@ class ContentDevice extends Component {
               className="content-device__text__sound"
               onClick={source => this.playSound(silly4)}
             >
-              &quot;title&quot;: &quot;Said I\u0027m so hungry not restaurant in{" "}
+              &nbsp; &nbsp; &quot;title&quot;: &quot;Said I\u0027m so hungry not
+              restaurant in <br />
+              &nbsp; &nbsp; &quot;time&quot;:
+              &quot;2018-11-21T17:32:30.234Z&quot;, a restaurant why&quot;,
               <br />
-              &quot;time&quot;: &quot;2018-11-21T17:32:30.234Z&quot;, a
-              restaurant why&quot;,
-              <br />
-              &quot;audioFiles&quot;:
+              &nbsp; &nbsp; &quot;audioFiles&quot;:
               [&quot;2018-11-21_17_32_30_234_UTC.mp3&quot;],
             </p>
             <br />
@@ -565,12 +572,13 @@ class ContentDevice extends Component {
               className="content-device__text__sound"
               onClick={source => this.playSound(silly5)}
             >
-              &quot;title&quot;: &quot;Said are you hungry I\u0027m going to
-              make your mac and cheese&quot;,
+              &nbsp; &nbsp; &quot;title&quot;: &quot;Said are you hungry
+              I\u0027m going to make your mac and cheese&quot;,
               <br />
-              &quot;time&quot;: &quot;2018-11-21T17:32:39.409Z&quot;,
+              &nbsp; &nbsp; &quot;time&quot;:
+              &quot;2018-11-21T17:32:39.409Z&quot;,
               <br />
-              &quot;audioFiles&quot;:
+              &nbsp; &nbsp; &quot;audioFiles&quot;:
               [&quot;2018-11-21_17_32_39_409_UTC.mp3&quot;],
             </p>
             <br />
@@ -581,9 +589,11 @@ class ContentDevice extends Component {
               className="content-device__text__sound"
               onClick={source => this.playSound(silly6)}
             >
-              &quot;title&quot;: &quot;Said I\u0027m a chef good&quot;, <br />
-              &quot;time&quot;: &quot;2018-11-21T17:32:47.037Z&quot;, <br />
-              &quot;audioFiles&quot;:
+              &nbsp; &nbsp; &quot;title&quot;: &quot;Said I\u0027m a chef
+              good&quot;, <br />
+              &nbsp; &nbsp; &quot;time&quot;:
+              &quot;2018-11-21T17:32:47.037Z&quot;, <br />
+              &nbsp; &nbsp; &quot;audioFiles&quot;:
               [&quot;2018-11-21_17_32_47_037_UTC.mp3&quot;],
             </p>
 
@@ -944,6 +954,94 @@ class ContentDevice extends Component {
               onClick={source => this.playSound(bp6)}
             >
               b c d e f g h i j k
+            </p>
+          </div>
+          <div className="content-device__text__group content-device__text__group__baby">
+            <p>{"},{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(baby1)}
+            >
+              &nbsp; &nbsp; &nbsp;"header": "Google App",
+              <br />
+              &nbsp; &nbsp; &nbsp;"title": "Said electronic baby bouncer near
+              me",
+              <br />
+              &nbsp; &nbsp; &nbsp;"titleUrl":
+              "https://www.google.com/search?q\u003delectronic+baby+bouncer+near+me",
+              <br />
+              &nbsp; &nbsp; &nbsp;"time": "2019-09-06T02:27:40.949",
+              <br />
+              &nbsp; &nbsp; &nbsp;"audioFiles":
+              ["2019-09-06_02_27_40_949_UTC.mp3"],
+              <br />
+              &nbsp; &nbsp; &nbsp;"products": ["Voice and Audio"]
+            </p>
+            <br />
+            <p>{"},{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(baby2)}
+            >
+              &nbsp; &nbsp; &nbsp;"header": "Google App",
+              <br />
+              &nbsp; &nbsp; &nbsp;"title": "Said automatic baby bouncer near
+              me",
+              <br />
+              &nbsp; &nbsp; &nbsp;"titleUrl":
+              "https://www.google.com/search?q\u003dautomatic+baby+bouncer+near+me",
+              <br />
+              &nbsp; &nbsp; &nbsp;"time": "2019-09-06T02:30:11.955Z",
+              <br />
+              &nbsp; &nbsp; &nbsp;"audioFiles":
+              ["2019-09-06_02_30_11_955_UTC.mp3"],
+              <br />
+              &nbsp; &nbsp; &nbsp;"products": ["Voice and Audio"]
+            </p>
+            <br />
+            <p>{"},{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(baby3)}
+            >
+              &nbsp; &nbsp; &nbsp;"header": "Google App",
+              <br />
+              &nbsp; &nbsp; &nbsp;"title": "Said Automatic Bouncer with
+              vibration",
+              <br />
+              &nbsp; &nbsp; &nbsp;"titleUrl":
+              "https://www.google.com/search?q\u003dAutomatic+Bouncer+with+vibration",
+              <br />
+              &nbsp; &nbsp; &nbsp;"time": "2019-09-06T02:44:16.958Z",
+              <br />
+              &nbsp; &nbsp; &nbsp;"audioFiles":
+              ["2019-09-06_02_44_16_958_UTC.mp3"],
+              <br />
+              &nbsp; &nbsp; &nbsp;"products": ["Voice and Audio"]
+            </p>
+            <br />
+            <p>{"},{"}</p>
+            <br />
+            <p
+              className="content-device__text__sound"
+              onClick={source => this.playSound(baby4)}
+            >
+              &nbsp; &nbsp; &nbsp;"header": "Google App",
+              <br />
+              &nbsp; &nbsp; &nbsp;"title": "Said how to give a baby castor oil",
+              <br />
+              &nbsp; &nbsp; &nbsp;"titleUrl":
+              "https://www.google.com/search?q\u003dhow+to+give+a+baby+castor+oil",
+              <br />
+              &nbsp; &nbsp; &nbsp;"time": "2019-09-06T18:03:50.530Z",
+              <br />
+              &nbsp; &nbsp; &nbsp;"audioFiles":
+              ["2019-09-06_18_03_50_530_UTC.mp3"],
+              <br />
+              &nbsp; &nbsp; &nbsp;"products": ["Voice and Audio"]
             </p>
           </div>
         </div>
