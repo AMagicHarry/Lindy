@@ -1,0 +1,26 @@
+.content-chit-chat__volume-svg {
+  position: fixed;
+  left: 2vw;
+  top: 2vw;
+}
+.content-chit-chat__text {
+  width: 41em;
+  margin-top: 25em;
+  margin-left: 6em;
+}
+
+.content-chit-chat__text p {
+  font-family: IBM Plex Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8em;
+  color: var(--red);
+}
+
+.content-chit-chat__img {
+  position: absolute;
+  width: 95vw;
+  top: 67em;
+  left: 2vw;
+  z-index: -1;
+}

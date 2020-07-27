@@ -309,8 +309,9 @@ class ContentHome extends Component {
           </Link>
         </div>
 
+        <a id="garden-of-pot"></a>
         <div className="home-content__10">
-          <Link to="/">
+          <Link to="/garden-of-pots">
             <div className="home-content__10__img">
               <img
                 src={clayPot}
