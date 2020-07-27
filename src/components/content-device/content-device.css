@@ -24,7 +24,7 @@
 
 .content-device__text {
   position: relative;
-  height: 400vw;
+  height: 7950px;
 }
 
 /*--------------------- 
@@ -37,9 +37,10 @@ Rabbit
 
 .content-device__text__group__rabbit > p {
   font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
   font-weight: bold;
-  font-size: 2em;
-  line-height: 200%;
+  font-size: 36px;
+  line-height: 47px;
 }
 
 /*--------------------- 
@@ -55,8 +56,8 @@ heart rate
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.6em;
-  line-height: 140%;
+  font-size: 28px;
+  line-height: 36px;
 }
 
 /*--------------------- 
@@ -73,8 +74,8 @@ fingernail
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.2em;
-  line-height: 150%;
+  font-size: 28px;
+  line-height: 36px;
 }
 
 /*--------------------- 
@@ -91,8 +92,8 @@ Snail
   font-family: "Playfair Display", serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 4.5vw;
-  line-height: 150%;
+  font-size: 64px;
+  line-height: 77px;
 }
 
 /*--------------------- 
@@ -109,8 +110,8 @@ Minutes
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.1em;
-  line-height: 130%;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 /*--------------------- 
@@ -125,9 +126,10 @@ Earth
 
 .content-device__text__group__earth > p {
   font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
   font-weight: bold;
-  font-size: 2.2em;
-  line-height: 130%;
+  font-size: 36px;
+  line-height: 47px;
 }
 
 /*--------------------- 
@@ -142,9 +144,10 @@ Tech
 
 .content-device__text__group__tech > p {
   font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
   font-weight: bold;
-  font-size: 1.8em;
-  line-height: 150%;
+  font-size: 30px;
+  line-height: 39px;
 }
 
 /*--------------------- 
@@ -162,8 +165,8 @@ Silly
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 1em;
-  line-height: 130%;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 /*--------------------- 
@@ -351,9 +354,226 @@ baby
   top: 3826px;
   left: 42vw;
   width: 300vw;
+  z-index: 1;
 }
 
 .content-device__text__group__baby > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/*--------------------- 
+christmas
+----------------------*/
+
+.content-device__text__group__christmas {
+  top: 4212px;
+  left: 10vw;
+  width: 300vw;
+}
+
+.content-device__text__group__christmas > p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+}
+
+/*--------------------- 
+bear
+----------------------*/
+
+.content-device__text__group__bear {
+  top: 4365px;
+  left: 1vw;
+  width: 300vw;
+}
+
+.content-device__text__group__bear > p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+/*--------------------- 
+love
+----------------------*/
+
+.content-device__text__group__love {
+  top: 4588px;
+  left: 12vw;
+  width: 300vw;
+}
+
+.content-device__text__group__love > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+/*--------------------- 
+love small
+----------------------*/
+
+.content-device__text__group__love-small {
+  top: 4913px;
+  left: 67vw;
+  background-color: black;
+}
+
+.content-device__text__group__love-small > p {
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 37px 85px;
+}
+
+/*--------------------- 
+michael
+----------------------*/
+
+.content-device__text__group__michael {
+  top: 5066px;
+  left: 46vw;
+}
+
+.content-device__text__group__michael > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+/*--------------------- 
+pepper
+----------------------*/
+
+.content-device__text__group__pepper {
+  top: 5519px;
+  left: -3.7vw;
+}
+
+.content-device__text__group__pepper > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+/*--------------------- 
+rain
+----------------------*/
+
+.content-device__text__group__rain {
+  top: 5380px;
+  left: 50vw;
+  width: 200vw;
+}
+
+.content-device__text__group__rain > p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 86px;
+}
+
+/*--------------------- 
+white
+----------------------*/
+
+.content-device__text__group__white {
+  top: 5846px;
+  left: 65vw;
+  width: 200vw;
+}
+
+.content-device__text__group__white > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/*--------------------- 
+limp
+----------------------*/
+
+.content-device__text__group__limp {
+  top: 6422px;
+  left: 19vw;
+  width: 200vw;
+}
+
+.content-device__text__group__limp > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+/*--------------------- 
+dead
+----------------------*/
+
+.content-device__text__group__dead {
+  top: 7135px;
+  left: 30vw;
+  width: 200vw;
+}
+
+.content-device__text__group__dead > p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+/*--------------------- 
+aio
+----------------------*/
+
+.content-device__text__group__aio {
+  top: 7339px;
+  left: -2vw;
+  width: 200vw;
+}
+
+.content-device__text__group__aio > p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 96px;
+}
+
+/*--------------------- 
+religion
+----------------------*/
+
+.content-device__text__group__religion {
+  top: 7240px;
+  left: 52vw;
+  width: 200vw;
+}
+
+.content-device__text__group__religion > p {
   font-family: "IBM Plex Mono", monospace;
   font-style: normal;
   font-weight: bold;
