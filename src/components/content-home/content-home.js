@@ -101,6 +101,7 @@ class ContentHome extends Component {
             </Link>
           </div>
         </div>
+        <a id="from-your-device"></a>
         <div className="home-content__2">
           <Link
             to="/from-your-device"

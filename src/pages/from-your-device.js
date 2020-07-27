@@ -22,7 +22,7 @@ function FromYourDevice(props) {
         }
       />
       <ContentDevice />
-      <Back homeSection="#play-the-Earth" />
+      <Back homeSection="#from-your-device" />
     </div>
   )
 }
