@@ -1,26 +1,68 @@
-.content-chit-chat__volume-svg {
-  position: fixed;
-  left: 2vw;
-  top: 2vw;
+.content__pot {
+  height: 3800px;
 }
-.content-chit-chat__text {
-  width: 41em;
-  margin-top: 25em;
-  margin-left: 6em;
-}
-
-.content-chit-chat__text p {
-  font-family: IBM Plex Mono;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.8em;
-  color: var(--red);
-}
-
-.content-chit-chat__img {
+.content__pot__img {
   position: absolute;
-  width: 95vw;
-  top: 67em;
-  left: 2vw;
-  z-index: -1;
+  width: 30vw;
+  /* width: 436px; */
+}
+
+.content__pot__img-1 {
+  left: 20vw;
+  top: 529px;
+}
+
+.content__pot__img-2 {
+  left: 60vw;
+  top: 986px;
+}
+
+.content__pot__img-3 {
+  left: 22vw;
+  top: 1247px;
+}
+
+.content__pot__img-4 {
+  left: -8vw;
+  top: 1676px;
+}
+
+.content__pot__img-5 {
+  left: 75vw;
+  top: 1791px;
+}
+
+.content__pot__img-6 {
+  left: 49vw;
+  top: 2069px;
+}
+
+.content__pot__img-7 {
+  left: 10vw;
+  top: 2396px;
+}
+
+.content__pot__img-8 {
+  left: 38vw;
+  top: 2498px;
+}
+
+.content__pot__img-9 {
+  left: 29vw;
+  top: 2927px;
+}
+
+.content__pot__img-10 {
+  left: -17vw;
+  top: 3058px;
+}
+
+.content__pot__img-11 {
+  left: 65vw;
+  top: 3353px;
+}
+
+.content__pot__img-12 {
+  left: 40vw;
+  top: 3599px;
 }

@@ -482,6 +482,7 @@ rain
   top: 5380px;
   left: 50vw;
   width: 200vw;
+  z-index: 1;
 }
 
 .content-device__text__group__rain > p {

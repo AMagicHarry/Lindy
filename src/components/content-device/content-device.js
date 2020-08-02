@@ -195,7 +195,6 @@ class ContentDevice extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      pageClick: 0,
       muted: false,
     }
   }
