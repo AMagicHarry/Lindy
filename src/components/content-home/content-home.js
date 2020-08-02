@@ -93,7 +93,7 @@ class ContentHome extends Component {
           </Link>
 
           <div className="home-content__1__text">
-            <Link to="/j-story" className="text-link__italics">
+            <Link to="/j__s-story" className="text-link__italics">
               What time is it what time is it what time is it what time is it
               what time is it what time is it what time is it what time is it
               what time is it what time is it what time is it what time is it
