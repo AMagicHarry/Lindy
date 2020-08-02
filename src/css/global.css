@@ -17,11 +17,13 @@
 
 .invisible {
   opacity: 0;
+  visibility: hidden;
   transition-duration: 0.2s;
 }
 
 .invisible > * {
   opacity: 0;
+  visibility: hidden;
   transition-duration: 0.2s;
 }
 

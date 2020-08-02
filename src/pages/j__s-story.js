@@ -13,12 +13,12 @@ import Back from "../components/back-nav/back-nav"
 function JStory(props) {
   return (
     <div className="black-background">
-      <SEO title="J's Story" />
+      <SEO title="J__'s Story" />
 
       <SmallHeader
         colorMode={"small-header__on-dark"}
-        headerTitle={"J’s story"}
-        infoTitle={"J’s story"}
+        headerTitle={"J__'s story"}
+        infoTitle={"J__'s story"}
         infoContent={[
           "This piece uses voice interaction data from one user’s Google Assistant, with short, unedited excerpts that span four years.",
           <br />,
@@ -36,7 +36,7 @@ function JStory(props) {
         title="J's Story"
       />
 
-      <Back colorMode={"on-dark"} homeSection="#j-story" />
+      <Back colorMode={"on-dark"} homeSection="#j__s-story" />
     </div>
   )
 }

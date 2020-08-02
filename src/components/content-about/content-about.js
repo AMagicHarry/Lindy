@@ -134,7 +134,11 @@ class ContentAbout extends Component {
           <p className="content-about__credits-category extra-bold">
             Sound recording and editing
           </p>
-          <p className="content-about__credits__name">Cameron Fraser</p>
+          <p className="content-about__credits__name">
+            <a href="http://www.cameronperryfraser.com/" target="_blank">
+              Cameron Fraser
+            </a>
+          </p>
         </div>
 
         <div className="  content-about__credits__lead ">

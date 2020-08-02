@@ -23,6 +23,8 @@
   font-weight: normal;
   transition-duration: 0.5s;
   text-align: center;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .content-training__temperature-05 {

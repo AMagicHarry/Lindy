@@ -1,11 +1,15 @@
-.content-chit-chat__volume-svg {
+.content-chit-chat-control {
   position: fixed;
-  left: 2vw;
+  left: 6em;
   top: 2vw;
+  cursor: pointer;
+  transition-duration: 0.6s;
 }
+
 .content-chit-chat__text {
-  width: 41em;
+  margin-left: 6em;
   margin-top: 25em;
+  width: 41em;
   margin-left: 6em;
 }
 

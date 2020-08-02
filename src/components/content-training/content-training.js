@@ -182,44 +182,87 @@ class ContentTraining extends Component {
     this.state = {
       pageClick: 0,
       volume: false,
+      muted: false,
     }
   }
 
+  // changeVolume(e) {
+  //   let audioEl = document.getElementsByClassName("audio-element")[0]
+  //   if (this.state.volume == true) {
+  //     this.setState({
+  //       volume: false,
+  //     })
+  //     document
+  //       .getElementsByClassName("content-training__volume-svg__muted")[0]
+  //       .classList.add("invisible")
+  //     document
+  //       .getElementsByClassName("content-training__volume-svg__muted")[0]
+  //       .classList.remove("visible")
+  //     document
+  //       .getElementsByClassName("content-training__volume-svg__unmuted")[0]
+  //       .classList.add("visible")
+  //     document
+  //       .getElementsByClassName("content-training__volume-svg__unmuted")[0]
+  //       .classList.remove("invisible")
+  //   } else if (this.state.volume == false) {
+  //     this.setState({
+  //       volume: true,
+  //     })
+  //     console.log(this.state.volume)
+  //     document
+  //       .getElementsByClassName("content-training__volume-svg__muted")[0]
+  //       .classList.add("visible")
+  //     document
+  //       .getElementsByClassName("content-training__volume-svg__muted")[0]
+  //       .classList.remove("invisible")
+  //     document
+  //       .getElementsByClassName("content-training__volume-svg__unmuted")[0]
+  //       .classList.add("invisible")
+  //     document
+  //       .getElementsByClassName("content-training__volume-svg__unmuted")[0]
+  //       .classList.remove("visible")
+  //   }
+  // }
+
   changeVolume(e) {
-    let audioEl = document.getElementsByClassName("audio-element")[0]
-    if (this.state.volume == true) {
+    let sound = document.getElementsByClassName("audio-element")
+    if (this.state.muted == true) {
       this.setState({
-        volume: false,
+        muted: false,
       })
       document
-        .getElementsByClassName("content-training__volume-svg__muted")[0]
+        .getElementsByClassName("volume-svg__muted")[0]
         .classList.add("invisible")
       document
-        .getElementsByClassName("content-training__volume-svg__muted")[0]
+        .getElementsByClassName("volume-svg__muted")[0]
         .classList.remove("visible")
       document
-        .getElementsByClassName("content-training__volume-svg__unmuted")[0]
+        .getElementsByClassName("volume-svg__unmuted")[0]
         .classList.add("visible")
       document
-        .getElementsByClassName("content-training__volume-svg__unmuted")[0]
+        .getElementsByClassName("volume-svg__unmuted")[0]
         .classList.remove("invisible")
-    } else if (this.state.volume == false) {
+    } else if (this.state.muted == false) {
       this.setState({
-        volume: true,
+        muted: true,
       })
-      console.log(this.state.volume)
       document
-        .getElementsByClassName("content-training__volume-svg__muted")[0]
+        .getElementsByClassName("volume-svg__muted")[0]
         .classList.add("visible")
       document
-        .getElementsByClassName("content-training__volume-svg__muted")[0]
+        .getElementsByClassName("volume-svg__muted")[0]
         .classList.remove("invisible")
       document
-        .getElementsByClassName("content-training__volume-svg__unmuted")[0]
+        .getElementsByClassName("volume-svg__unmuted")[0]
         .classList.add("invisible")
       document
-        .getElementsByClassName("content-training__volume-svg__unmuted")[0]
+        .getElementsByClassName("volume-svg__unmuted")[0]
         .classList.remove("visible")
+    }
+    for (let i = 0; i <= sound.length; i++) {
+      if (sound[i] != undefined) {
+        sound[i].muted = !this.state.muted
+      }
     }
   }
 
@@ -243,7 +286,7 @@ class ContentTraining extends Component {
       document.getElementsByClassName("audio-element")[0].src =
         audio[currentWord]
 
-      audioEl.muted = this.state.volume
+      audioEl.muted = this.state.muted
       console.log(this.state.volume)
 
       if (audioEl.paused) {
@@ -342,7 +385,16 @@ class ContentTraining extends Component {
       }
     }
     //add back button
-    if (this.state.pageClick >= 52) {
+    if (this.state.pageClick <= 6) {
+      return (
+        <Back
+          positionMode={"absolute"}
+          colorMode={"on-light"}
+          className="visible content-training__back"
+          homeSection="#training-session"
+        />
+      )
+    } else {
       return (
         <Back
           positionMode={"absolute"}
@@ -365,7 +417,7 @@ class ContentTraining extends Component {
       <div>
         <svg
           onClick={e => this.changeVolume(e)}
-          className="content-training__volume-svg"
+          className="content-training__volume-svg "
           role="button"
           aria-label="mute or unmute"
           xmlns="http://www.w3.org/2000/svg"
@@ -376,22 +428,24 @@ class ContentTraining extends Component {
         >
           <path d="M0 0h24v24H0z" fill="none" />
           <path
-            className="content-training__volume-svg-path content-training__volume-svg__unmuted"
+            className="content-training__volume-svg-path content-training__volume-svg__unmuted volume-svg__unmuted"
             d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"
           />
           <path
-            className="content-training__volume-svg-path content-training__volume-svg__muted invisible"
+            className="content-training__volume-svg-path content-training__volume-svg__muted volume-svg__muted invisible"
             d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"
           />
         </svg>
 
-        <div
-          className="content-training"
-          onClick={e => this.incrementClicks(e)}
-          onFocus={e => this.incrementClicks(e)}
-          tabIndex="0"
-        >
-          <p className="content-training__text">eee</p>
+        <div className="content-training">
+          <p
+            className="content-training__text"
+            onClick={e => this.incrementClicks(e)}
+            onFocus={e => this.incrementClicks(e)}
+            tabIndex="0"
+          >
+            eee
+          </p>
           <audio className="audio-element" muted>
             <source src={eee}></source>
           </audio>

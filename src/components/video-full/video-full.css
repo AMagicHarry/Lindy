@@ -1,7 +1,9 @@
 .video-full {
   width: 100vw;
+  overflow-y: hidden;
 }
 .video-full__vimeo {
   width: 100vw;
   height: 56vw;
+  overflow-y: hidden;
 }

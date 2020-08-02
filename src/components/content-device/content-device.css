@@ -4,6 +4,10 @@
   top: 2vw;
 }
 
+.content-device * {
+  overflow-y: hidden;
+}
+
 .content-device__text * {
   overflow: hidden;
   display: inline-block;
@@ -20,11 +24,13 @@
 .content-device__text__group {
   position: absolute;
   display: inline-block;
+  overflow-y: hidden;
 }
 
 .content-device__text {
   position: relative;
   height: 7950px;
+  overflow-y: hidden;
 }
 
 /*--------------------- 
@@ -501,6 +507,7 @@ white
   top: 5846px;
   left: 65vw;
   width: 200vw;
+  z-index: 1;
 }
 
 .content-device__text__group__white > p {

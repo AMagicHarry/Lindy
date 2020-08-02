@@ -67,17 +67,12 @@ class ContentPott extends Component {
       }
       function switchImg(currentClass) {
         document.getElementsByClassName(currentClass)[0].src = still
-        // document.getElementsByClassName(currentClass).src = still
-        // console.log(document.getElementsByClassName(currentClass).src)
-        // document.getElementsByClassName(currentClass).src = still
-        // console.log(document.getElementsByClassName(currentClass).src)
       }
     }
   }
 
   changeVolume(e) {
     let sound = document.getElementsByClassName("audio-player")
-    console.log(sound)
     if (this.state.muted == true) {
       this.setState({
         muted: false,
@@ -98,7 +93,6 @@ class ContentPott extends Component {
       this.setState({
         muted: true,
       })
-      console.log(this.state.volume)
       document
         .getElementsByClassName("volume-svg__muted")[0]
         .classList.add("visible")

@@ -76,15 +76,15 @@ class ContentHome extends Component {
           </Link>
         </div>
         <div className="home-content__1">
-          <a id="j-story"></a>
-          <Link to="/j-story">
+          <a id="j__s-story"></a>
+          <Link to="/j__s-story">
             <img
               src={timeline}
               alt="animated timeline for j story"
               className="home-content__1__timeline-img"
             />
           </Link>
-          <Link to="/j-story">
+          <Link to="/j__s-story">
             <img
               src={bonnie}
               alt="bonnie in red shirt hitting the snare"

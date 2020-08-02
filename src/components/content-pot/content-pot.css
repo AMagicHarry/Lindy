@@ -4,6 +4,7 @@
 .content__pot__img {
   position: absolute;
   width: 30vw;
+  cursor: pointer;
   /* width: 436px; */
 }
 

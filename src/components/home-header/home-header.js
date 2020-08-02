@@ -17,7 +17,6 @@ class HomeHeader extends Component {
   }
 
   removeAbout() {
-    console.log("leave")
     document.getElementsByClassName("home-header__title")[0].innerHTML =
       "Voices + voids"
     document

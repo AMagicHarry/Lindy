@@ -3,6 +3,14 @@
   height: 500px;
 }
 
+.back-nav * {
+  overflow-y: hidden;
+}
+
+.back-nav__absolute * {
+  overflow-y: hidden;
+}
+
 .back-nav__absolute {
   position: absolute;
   bottom: 0px;
@@ -11,6 +19,7 @@
 }
 
 .back-nav__img {
+  overflow-y: hidden;
   margin-left: 8vw;
   margin-top: 300px;
   stroke: var(--white);
