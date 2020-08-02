@@ -164,6 +164,10 @@ Home content 2: voice assistant snippets
   overflow: hidden;
 }
 
+.home-content__2 *:hover {
+  color: var(--red);
+}
+
 .home-content___2__text-1 {
   left: 2vw;
 }
