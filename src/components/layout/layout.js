@@ -12,9 +12,7 @@ class Layout extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      windowWidth: null,
-
-      // width: window.innerWidth,
+      width: null,
       mobileWidth: 700,
     }
   }
@@ -26,15 +24,13 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    this.setState({ windowWidth: window.innerWidth })
-  }
-  componentWillMount() {
-    window.addEventListener("resize", this.handleWindowSizeChange)
+    console.log("mount")
+    this.setState({ width: window.innerWidth })
   }
 
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.handleWindowSizeChange)
-  }
+  // componentWillUnmount() {
+  //   window.removeEventListener("resize", this.handleWindowSizeChange)
+  // }
 
   handleWindowSizeChange = () => {
     this.setState({ width: window.innerWidth })
