@@ -5,6 +5,7 @@ import "../css/global.css"
 import "../css/reset.css"
 import "../css/type.css"
 
+import Layout from "../components/layout/layout"
 import SmallHeader from "../components/small-header/small-header"
 import VideoFull from "../components/video-full/video-full"
 
@@ -12,33 +13,36 @@ import Back from "../components/back-nav/back-nav"
 
 function Improv(props) {
   return (
-    <div className="black-background">
+    <div>
       <SEO title="Play feeling good music" />
+      <Layout>
+        <div className="black-background">
+          <SmallHeader
+            colorMode={"small-header__on-dark"}
+            headerTitle={"Play feeling good music"}
+            infoTitle={"Play feeling good music"}
+            infoContent={[
+              "Improvisation combining percussion, spoken word, voice assistant speaking, curated Google assistant data sourced from Amazon Mechanical Turk workers, bespoke GUI, and wearable voice assistant with handmade actuators.",
+              <br />,
+              <br />,
+              "Collaborator:",
+              <br />,
+              "James Wenlock",
+              <br />,
+              "Esteban Yosef Agosin",
+              <br />,
+              "Alexa",
+            ]}
+          />
 
-      <SmallHeader
-        colorMode={"small-header__on-dark"}
-        headerTitle={"Play feeling good music"}
-        infoTitle={"Play feeling good music"}
-        infoContent={[
-          "Improvisation combining percussion, spoken word, voice assistant speaking, curated Google assistant data sourced from Amazon Mechanical Turk workers, bespoke GUI, and wearable voice assistant with handmade actuators.",
-          <br />,
-          <br />,
-          "Collaborator:",
-          <br />,
-          "James Wenlock",
-          <br />,
-          "Esteban Yosef Agosin",
-          <br />,
-          "Alexa",
-        ]}
-      />
+          <VideoFull
+            videoSrc="https://player.vimeo.com/video/424518472?title=0&byline=0&portrait=0"
+            title="Improv - wearable"
+          />
 
-      <VideoFull
-        videoSrc="https://player.vimeo.com/video/424518472?title=0&byline=0&portrait=0"
-        title="Improv - wearable"
-      />
-
-      <Back colorMode={"on-dark"} homeSection="#play-feeling-good-music" />
+          <Back colorMode={"on-dark"} homeSection="#play-feeling-good-music" />
+        </div>
+      </Layout>
     </div>
   )
 }

@@ -8,6 +8,8 @@ import "../../css/global.css"
 import "../../css/reset.css"
 import "../../css/type.css"
 
+import sliding from "../../images/index/sliding.gif"
+
 class Layout extends Component {
   constructor(props) {
     super(props)
@@ -24,7 +26,6 @@ class Layout extends Component {
   }
 
   componentDidMount() {
-    console.log("mount")
     this.setState({ width: window.innerWidth })
   }
 
@@ -39,12 +40,15 @@ class Layout extends Component {
   render() {
     const { width } = this.state
     const isMobile = width <= this.state.mobileWidth
-    console.log("isMobile")
-    console.log(isMobile)
 
     if (isMobile) {
       return (
         <div className="layout__mobile">
+          <img
+            src={sliding}
+            alt="Alexas sliding out of a tube"
+            className="layout__mobile__img"
+          />
           <h3 className="layout__mobile__title"> VOICES + VOIDS </h3>
           <p className="layout__mobile__description">
             Voices + Voids features interactive vignettes best experienced on a

@@ -4,6 +4,13 @@
   padding-right: 30px;
 }
 
+.layout__mobile__img {
+  position: absolute;
+  width: 100vw;
+  left: 0vw;
+  z-index: -1;
+}
+
 .layout__mobile__title {
   margin-top: 40vh;
 }

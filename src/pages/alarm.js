@@ -6,7 +6,6 @@ import "../css/reset.css"
 import "../css/type.css"
 
 import Layout from "../components/layout/layout"
-
 import SmallHeader from "../components/small-header/small-header"
 import VideoFull from "../components/video-full/video-full"
 
