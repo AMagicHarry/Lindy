@@ -6,8 +6,6 @@ import "../../css/global.css"
 import "../../css/reset.css"
 import "../../css/type.css"
 
-import silence from "../../sound/silence.mp3"
-
 import amazonAudio from "../../sound/Mellon_pres_noClap.pt1.mp3"
 
 import chitChat from "../../images/chit-chat/echos appearing with chit chat text.gif"

@@ -1,0 +1,23 @@
+.layout__mobile {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.layout__mobile__title {
+  margin-top: 40vh;
+}
+
+.layout__mobile__description {
+  margin-top: 7vh;
+}
+
+.layout__mobile__email {
+  margin-top: 7vh;
+}
+
+.layout__mobile__enter {
+  margin-top: 7vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}

@@ -16,6 +16,15 @@ h1 {
   line-height: 140%;
 }
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 2em;
+  color: var(--black);
+  line-height: 140%;
+}
+
 h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -51,4 +60,16 @@ p {
 
 .text-link__italics:hover {
   font-style: oblique;
+}
+
+.text-link__underline {
+  color: var(--black);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.text-link__underline:active {
+  color: var(--red);
+  cursor: pointer;
+  text-decoration: underline;
 }

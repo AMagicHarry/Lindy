@@ -30,7 +30,9 @@ class ContentAbout extends Component {
           this data through an interdisciplinary performance project, by
           developing embodied experiments using a combination of design,
           data-driven art, cyber crafts, found-object and traditional percussion
-          instruments, spoken word, and movement.
+          instruments, spoken word, and movement. Initially conceived as a live
+          performance and installation event, our changed environment during the
+          COVID-19 pandemic inspired us to pivot to the medium of net art.
         </p>
         <p className="content-about__intro-2">
           For more about our process, take a look at our blog at
