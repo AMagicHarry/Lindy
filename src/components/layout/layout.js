@@ -12,7 +12,9 @@ class Layout extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      width: window.innerWidth,
+      windowWidth: null,
+
+      // width: window.innerWidth,
       mobileWidth: 700,
     }
   }
@@ -23,6 +25,9 @@ class Layout extends Component {
     })
   }
 
+  componentDidMount() {
+    this.setState({ windowWidth: window.innerWidth })
+  }
   componentWillMount() {
     window.addEventListener("resize", this.handleWindowSizeChange)
   }
