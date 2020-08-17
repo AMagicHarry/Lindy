@@ -35,9 +35,15 @@ class ContentAbout extends Component {
           COVID-19 pandemic inspired us to pivot to the medium of net art.
         </p>
         <p className="content-about__intro-2">
-          For more about our process, take a look at our blog at
-          blog.voicesandvoids.net
+          For more about our process, take a look at our blog at{" "}
+          <a
+            href="https://voicesandvoids.net/"
+            className="text-link__underline"
+          >
+            blog.voicesandvoids.net
+          </a>
         </p>
+
         <div className="content-about__credits content-about__credits__lead">
           <p className="content-about__credits-category extra-bold">
             Project by:
