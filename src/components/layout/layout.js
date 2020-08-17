@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import ScrollTrigger from "react-scroll-trigger"
 import Fade from "react-reveal/Fade"
+import { reactLocalStorage } from "reactjs-localstorage"
 
 import "./layout.css"
 import "../../css/global.css"
@@ -14,27 +15,36 @@ class Layout extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      width: null,
+      width: 0,
       mobileWidth: 700,
     }
   }
 
-  changeWidth() {
+  changeWidth(mobileWidth) {
+    reactLocalStorage.set("enterSite", true)
+
     this.setState({
       mobileWidth: 0,
     })
   }
 
-  componentDidMount() {
+  updateDimensions = () => {
     this.setState({ width: window.innerWidth })
   }
 
-  // componentWillUnmount() {
-  //   window.removeEventListener("resize", this.handleWindowSizeChange)
-  // }
-
-  handleWindowSizeChange = () => {
+  componentDidMount(mobileWidth) {
+    window.addEventListener("resize", this.updateDimensions)
     this.setState({ width: window.innerWidth })
+
+    if (reactLocalStorage.getObject("enterSite") == true) {
+      this.setState({
+        mobileWidth: 0,
+      })
+    }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateDimensions)
   }
 
   render() {

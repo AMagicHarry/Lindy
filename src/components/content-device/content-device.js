@@ -211,7 +211,6 @@ class ContentDevice extends Component {
 
   changeVolume(e) {
     let sound = document.getElementsByClassName("audio-player")
-    console.log(sound)
     for (let i = 0; i <= sound.length; i++) {
       if (sound[i] != undefined) {
         sound[i].muted = !this.state.muted
@@ -238,7 +237,6 @@ class ContentDevice extends Component {
       this.setState({
         muted: true,
       })
-      console.log(this.state.volume)
       document
         .getElementsByClassName("volume-svg__muted")[0]
         .classList.add("visible")

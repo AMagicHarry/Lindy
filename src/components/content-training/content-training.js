@@ -287,7 +287,6 @@ class ContentTraining extends Component {
         audio[currentWord]
 
       audioEl.muted = this.state.muted
-      console.log(this.state.volume)
 
       if (audioEl.paused) {
         audioEl.play()
@@ -408,7 +407,6 @@ class ContentTraining extends Component {
 
   handleKeyPress = event => {
     if (event.key === "Enter") {
-      console.log("enter press here!")
     }
   }
 
