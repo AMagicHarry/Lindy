@@ -37,7 +37,7 @@ class ContentAbout extends Component {
         <p className="content-about__intro-2">
           For more about our process, take a look at our blog at{" "}
           <a
-            href="https://blog.voicesandvoids.net/"
+            href="https://voicesandvoids.wordpress.com/"
             className="text-link__underline"
           >
             blog.voicesandvoids.net
