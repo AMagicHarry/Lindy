@@ -28,7 +28,7 @@ function GardenOfPots(props) {
           ]}
         />
         <ContentPot />
-        <Back homeSection="#garden of pots" />
+        <Back homeSection="#garden-of-pots" />
       </Layout>
     </div>
   )

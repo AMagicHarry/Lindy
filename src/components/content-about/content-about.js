@@ -37,7 +37,7 @@ class ContentAbout extends Component {
         <p className="content-about__intro-2">
           For more about our process, take a look at our blog at{" "}
           <a
-            href="https://voicesandvoids.net/"
+            href="https://blog.voicesandvoids.net/"
             className="text-link__underline"
           >
             blog.voicesandvoids.net
@@ -99,7 +99,7 @@ class ContentAbout extends Component {
           </p>
           <p className="content-about__credits__name">
             <a href="https://www.yvonnewu.com/" target="_blank">
-              Yvonne Wu
+              Yiheng Yvonne Wu
             </a>
           </p>
         </div>

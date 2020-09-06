@@ -186,44 +186,6 @@ class ContentTraining extends Component {
     }
   }
 
-  // changeVolume(e) {
-  //   let audioEl = document.getElementsByClassName("audio-element")[0]
-  //   if (this.state.volume == true) {
-  //     this.setState({
-  //       volume: false,
-  //     })
-  //     document
-  //       .getElementsByClassName("content-training__volume-svg__muted")[0]
-  //       .classList.add("invisible")
-  //     document
-  //       .getElementsByClassName("content-training__volume-svg__muted")[0]
-  //       .classList.remove("visible")
-  //     document
-  //       .getElementsByClassName("content-training__volume-svg__unmuted")[0]
-  //       .classList.add("visible")
-  //     document
-  //       .getElementsByClassName("content-training__volume-svg__unmuted")[0]
-  //       .classList.remove("invisible")
-  //   } else if (this.state.volume == false) {
-  //     this.setState({
-  //       volume: true,
-  //     })
-  //     console.log(this.state.volume)
-  //     document
-  //       .getElementsByClassName("content-training__volume-svg__muted")[0]
-  //       .classList.add("visible")
-  //     document
-  //       .getElementsByClassName("content-training__volume-svg__muted")[0]
-  //       .classList.remove("invisible")
-  //     document
-  //       .getElementsByClassName("content-training__volume-svg__unmuted")[0]
-  //       .classList.add("invisible")
-  //     document
-  //       .getElementsByClassName("content-training__volume-svg__unmuted")[0]
-  //       .classList.remove("visible")
-  //   }
-  // }
-
   changeVolume(e) {
     let sound = document.getElementsByClassName("audio-element")
     if (this.state.muted == true) {
@@ -270,6 +232,24 @@ class ContentTraining extends Component {
     this.setState({
       pageClick: this.state.pageClick + 1,
     })
+  }
+
+  showInfo(e) {
+    document
+      .getElementsByClassName("small-header__info-2")[0]
+      .classList.remove("invisible")
+    document
+      .getElementsByClassName("small-header__info-2")[0]
+      .classList.add("visible")
+  }
+
+  hideInfo(e) {
+    document
+      .getElementsByClassName("small-header__info-2")[0]
+      .classList.remove("visible")
+    document
+      .getElementsByClassName("small-header__info-2")[0]
+      .classList.add("invisible")
   }
 
   fillPage() {
@@ -376,12 +356,14 @@ class ContentTraining extends Component {
 
       //remove small heading
       if (
-        currentWord == 1 &&
+        currentWord == 6 &&
         document.getElementsByClassName("small-header")[0] != undefined
       ) {
         document.getElementsByClassName("small-header")[0].remove()
         document.getElementsByClassName("small-header__info")[0].remove()
       }
+
+      //add small info card
     }
     //add back button
     if (this.state.pageClick <= 6) {
@@ -448,7 +430,37 @@ class ContentTraining extends Component {
             <source src={eee}></source>
           </audio>
         </div>
-        <p className="content-training__temp__title invisible "></p>
+
+        <div className="content-training__temp__block "></div>
+        <p
+          className="content-training__temp__title invisible "
+          onMouseOver={e => this.showInfo(e)}
+          onMouseLeave={e => this.hideInfo(e)}
+        ></p>
+
+        <div className="small-header__info-2 small-header__info-2__light invisible">
+          <p className="small-header__info-2__title small-header__info-2__title__light semi-bold">
+            Training session
+          </p>
+          <p className="content-training__info-2__content  small-header__info-2__title__light">
+            Performers read utterances on screen without practice or preparation
+            as if training a voice assistant to understand human speech
+            patterns. These utterances were created using the neural net trained
+            on real voice assistant data, at different temperatures (leading to
+            more or less non-sensical utterances).
+            <br />
+            <br />
+            Collaborators
+            <br />
+            Danny Clay
+            <br />
+            Gabrielle Benabdallah
+            <br />
+            Beckett Crouse
+            <br />
+            Amazon Mechanical Turker workers
+          </p>
+        </div>
 
         {this.fillPage()}
       </div>

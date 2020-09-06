@@ -2,8 +2,6 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
 
-import ScrollTrigger from "react-scroll-trigger"
-
 import "./content-home.css"
 import "../../css/global.css"
 import "../../css/reset.css"

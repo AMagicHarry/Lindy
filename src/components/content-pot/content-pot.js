@@ -143,7 +143,7 @@ class ContentPott extends Component {
         <img
           src={still}
           alt="Alexa underneath a pot"
-          className="content__pot__img content__pot__img-1"
+          className="content__pot__img content__pot__img-1 content__pot__img__sound"
           id="ambience1"
           onClick={e => this.playSound(ambience1, e)}
         />
@@ -155,13 +155,13 @@ class ContentPott extends Component {
         <img
           src={still}
           alt="Alexa underneath a pot"
-          className="content__pot__img content__pot__img-3"
+          className="content__pot__img content__pot__img-3 content__pot__img__sound"
           onClick={e => this.playSound(ambience2, e)}
         />
         <img
           src={still}
           alt="Alexa underneath a pot"
-          className="content__pot__img content__pot__img-4"
+          className="content__pot__img content__pot__img-4 content__pot__img__sound"
           onClick={e => this.playSound(ambience3, e)}
         />
         <img
@@ -172,13 +172,13 @@ class ContentPott extends Component {
         <img
           src={still}
           alt="Alexa underneath a pot"
-          className="content__pot__img content__pot__img-6"
+          className="content__pot__img content__pot__img-6 content__pot__img__sound"
           onClick={e => this.playSound(ambience4, e)}
         />
         <img
           src={still}
           alt="Alexa underneath a pot"
-          className="content__pot__img content__pot__img-7"
+          className="content__pot__img content__pot__img-7 content__pot__img__sound"
           onClick={e => this.playSound(ambience5, e)}
         />
         <img
@@ -189,7 +189,7 @@ class ContentPott extends Component {
         <img
           src={still}
           alt="Alexa underneath a pot"
-          className="content__pot__img content__pot__img-9"
+          className="content__pot__img content__pot__img-9 content__pot__img__sound"
           onClick={e => this.playSound(ambience6, e)}
         />
         <img
@@ -200,13 +200,13 @@ class ContentPott extends Component {
         <img
           src={still}
           alt="Alexa underneath a pot"
-          className="content__pot__img content__pot__img-11"
+          className="content__pot__img content__pot__img-11 content__pot__img__sound"
           onClick={e => this.playSound(ambience7, e)}
         />
         <img
           src={still}
           alt="Alexa underneath a pot"
-          className="content__pot__img content__pot__img-12"
+          className="content__pot__img content__pot__img-12 content__pot__img__sound"
           onClick={e => this.playSound(ambience8, e)}
         />
       </div>
