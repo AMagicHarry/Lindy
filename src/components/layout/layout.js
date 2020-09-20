@@ -66,7 +66,7 @@ class Layout extends Component {
           </p>
           <div className="layout__mobile__email text-link__underline">
             <p>
-              <a href="mailto: ?subject=Voices + Voides&body=https://amandayehh.github.io/voices-and-voids/">
+              <a href="mailto: ?subject=Voices + Voids&body=https://amandayehh.github.io/voices-and-voids/">
                 Email myself the link
               </a>
             </p>
