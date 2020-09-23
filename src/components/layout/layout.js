@@ -48,39 +48,44 @@ class Layout extends Component {
   }
 
   render() {
-    const { width } = this.state
-    const isMobile = width <= this.state.mobileWidth
+    const isMobile = this.state.width <= 700
+    console.log(this.state.width <= 700)
 
-    if (!isMobile) {
-      return <div>{this.props.children}</div>
-    } else {
+    if (isMobile) {
+      console.log("mobile")
       return (
-        <div className="layout__mobile">
-          <img
-            src={sliding}
-            alt="Alexas sliding out of a tube"
-            className="layout__mobile__img"
-          />
-          <h3 className="layout__mobile__title"> VOICES + VOIDS </h3>
-          <p className="layout__mobile__description">
-            Voices + Voids features interactive vignettes best experienced on a
-            computer
-          </p>
-          <div className="layout__mobile__email text-link__underline">
-            <p>
-              <a href="mailto: ?subject=Voices + Voids&body=https://amandayehh.github.io/voices-and-voids/">
-                Email myself the link
-              </a>
+        <Fade delay={600}>
+          <div className="layout__mobile">
+            <img
+              src={sliding}
+              alt="Alexas sliding out of a tube"
+              className="layout__mobile__img"
+            />
+            <h3 className="layout__mobile__title"> VOICES + VOIDS </h3>
+            <p className="layout__mobile__description">
+              Voices + Voids features interactive vignettes best experienced on
+              a computer
             </p>
+            <div className="layout__mobile__email text-link__underline">
+              <p>
+                <a href="mailto: ?subject=Voices + Voids&body=https://amandayehh.github.io/voices-and-voids/">
+                  Email myself the link
+                </a>
+              </p>
+            </div>
+            <div
+              className="layout__mobile__enter text-link__underline"
+              onClick={() => this.changeWidth()}
+            >
+              <p>Continue to site, but expect quirky layout bugs</p>
+            </div>
           </div>
-          <div
-            className="layout__mobile__enter text-link__underline"
-            onClick={() => this.changeWidth()}
-          >
-            <p>Continue to site, but expect quirky layout bugs</p>
-          </div>
-        </div>
+        </Fade>
       )
+      //    return
+    } else {
+      console.log("not mobile")
+      return <div>{this.props.children}</div>
     }
   }
 }
