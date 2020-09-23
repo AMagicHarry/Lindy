@@ -14,8 +14,8 @@ import sliding from "../../images/index/sliding.gif"
 class Mobile extends Component {
   render() {
     return (
-      <Fade>
-        <div className="layout__mobile">
+      <div className="layout__mobile">
+        <Fade>
           <img
             src={sliding}
             alt="Alexas sliding out of a tube"
@@ -39,8 +39,8 @@ class Mobile extends Component {
           >
             <p>Continue to site, but expect quirky layout bugs</p>
           </div>
-        </div>
-      </Fade>
+        </Fade>
+      </div>
     )
   }
 }

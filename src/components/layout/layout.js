@@ -52,10 +52,10 @@ class Layout extends Component {
   render() {
     const isMobile = this.state.width <= 700
 
-    if (isMobile) {
-      return <Mobile />
-    } else {
+    if (!isMobile) {
       return <div>{this.props.children}</div>
+    } else {
+      return <Mobile />
     }
   }
 }
