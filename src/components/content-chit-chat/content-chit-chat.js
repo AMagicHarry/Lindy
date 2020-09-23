@@ -158,7 +158,7 @@ class ContentChitChat extends Component {
           <audio
             ref={this.audioRef}
             className="audio-element"
-            autoPlay={true}
+            autoPlay={false}
             allow="autoplay"
             muted="muted"
           >
