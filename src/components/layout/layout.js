@@ -54,7 +54,7 @@ class Layout extends Component {
     if (isMobile) {
       console.log("mobile")
       return (
-        <Fade delay={600}>
+        <Fade delay={1000}>
           <div className="layout__mobile">
             <img
               src={sliding}
