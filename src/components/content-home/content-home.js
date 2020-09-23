@@ -73,6 +73,18 @@ class ContentHome extends Component {
             />
           </Link>
         </div>
+
+        <div className="home-content__4">
+          <a id="your-hair-is-very-wonderful"></a>
+          <Link to="/your-hair-is-very-wonderful">
+            <img
+              src={hairWonder}
+              alt="white text on black - your hair is very wonderful - that painting is astounding"
+              className="home-content__4__img"
+            />
+          </Link>
+        </div>
+
         <div className="home-content__1">
           <a id="j__s-story"></a>
           <Link to="/j__s-story">
@@ -197,16 +209,6 @@ class ContentHome extends Component {
               src={ursonate}
               alt="bonnie performing ursonate"
               className="home-content__3__img"
-            />
-          </Link>
-        </div>
-        <div className="home-content__4">
-          <a id="your-hair-is-very-wonderful"></a>
-          <Link to="/your-hair-is-very-wonderful">
-            <img
-              src={hairWonder}
-              alt="white text on black - your hair is very wonderful - that painting is astounding"
-              className="home-content__4__img"
             />
           </Link>
         </div>

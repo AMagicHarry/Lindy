@@ -51,7 +51,9 @@ class Layout extends Component {
     const { width } = this.state
     const isMobile = width <= this.state.mobileWidth
 
-    if (isMobile) {
+    if (!isMobile) {
+      return <div>{this.props.children}</div>
+    } else {
       return (
         <div className="layout__mobile">
           <img
@@ -79,8 +81,6 @@ class Layout extends Component {
           </div>
         </div>
       )
-    } else {
-      return <div>{this.props.children}</div>
     }
   }
 }

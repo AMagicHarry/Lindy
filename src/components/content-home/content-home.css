@@ -330,10 +330,10 @@ Home content 7: set alarm: arms moving
 }
 
 /*--------------------- 
-Home content 8: set alarm: arms moving
+Home content 8: homebodies
 ----------------------*/
 .home-content__8 {
-  height: 60vw;
+  height: 40vw;
   overflow: hidden;
 }
 
@@ -351,7 +351,7 @@ Home content 8: set alarm: arms moving
 Home content 9: wearable
 ----------------------*/
 .home-content__9 {
-  height: 80vw;
+  height: 70vw;
   overflow: hidden;
 }
 
