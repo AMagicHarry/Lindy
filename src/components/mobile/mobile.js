@@ -15,31 +15,29 @@ class Mobile extends Component {
   render() {
     return (
       <div className="layout__mobile">
-        <Fade>
-          <img
-            src={sliding}
-            alt="Alexas sliding out of a tube"
-            className="layout__mobile__img"
-          />
-          <h3 className="layout__mobile__title"> VOICES + VOIDS </h3>
-          <p className="layout__mobile__description">
-            Voices + Voids features interactive vignettes best experienced on a
-            computer
+        <img
+          src={sliding}
+          alt="Alexas sliding out of a tube"
+          className="layout__mobile__img"
+        />
+        <h3 className="layout__mobile__title"> VOICES + VOIDS </h3>
+        <p className="layout__mobile__description">
+          Voices + Voids features interactive vignettes best experienced on a
+          computer
+        </p>
+        <div className="layout__mobile__email text-link__underline">
+          <p>
+            <a href="mailto: ?subject=Voices + Voids&body=https://amandayehh.github.io/voices-and-voids/">
+              Email myself the link
+            </a>
           </p>
-          <div className="layout__mobile__email text-link__underline">
-            <p>
-              <a href="mailto: ?subject=Voices + Voids&body=https://amandayehh.github.io/voices-and-voids/">
-                Email myself the link
-              </a>
-            </p>
-          </div>
-          <div
-            className="layout__mobile__enter text-link__underline"
-            onClick={() => this.changeWidth()}
-          >
-            <p>Continue to site, but expect quirky layout bugs</p>
-          </div>
-        </Fade>
+        </div>
+        <div
+          className="layout__mobile__enter text-link__underline"
+          onClick={() => this.changeWidth()}
+        >
+          <p>Continue to site, but expect quirky layout bugs</p>
+        </div>
       </div>
     )
   }
