@@ -31,7 +31,7 @@
 }
 
 .layout__mobile {
-  animation: fadeIn 2s ease-in;
+  animation: fadeIn 10s ease-in;
 }
 
 @keyframes fadeIn {
