@@ -24,27 +24,22 @@ For more about our process, take a look at our blog at <a href="https://voicesan
 ## Credits
 
 **Project leads:**
-Audrey Desjardins
-Afroditi Psarra
-Bonnie Whiting
+<br/>
+Audrey Desjardins, Afroditi Psarra, Bonnie Whiting
 
 **Artists in residence**
-Danny Clay
-Laura Devendorf
-Kate Sicchio
-Jordan Wirfs Brock
-Yvonne Wu
+<br/>
+
+Danny Clay, Laura Devendorf, Kate Sicchio, Jordan Wirfs Brock, Yvonne Wu
 
 **Web development:**
+<br/>
 Amanda Yeh
 
 **Collaborators:**
-Esteban Yosef Agosin
-Gabrielle Benabdallah
-Darcy Copeland
-Jonathan Rodriguez
-James Wenlock
+<br/>
+Esteban Yosef Agosin, Gabrielle Benabdallah, Darcy Copeland, Jonathan Rodriguez, James Wenlock
 
 **Funded by:**
-Mellon Foundation
-College of Arts and Sciences - University of Washington
+<br/>
+Mellon Foundation, College of Arts and Sciences - University of Washington
