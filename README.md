@@ -1,5 +1,5 @@
 
-<h1 align="center">Voices and Voids</h1>
+<h1 align="center">Lindy</h1>
 
 <a href="https://amandayehh.github.io/voices-and-voids/" >
  <p align="center">
